@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kokosmaronen</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="backen.css">  
+    <link rel="stylesheet" href="backen.css">
+       
+    <script src="accord1.js" defer></script>
+    <script src="accord2.js" defer></script>
+    <script src="navbar.js" defer></script>
+    <script src="backtop.js" defer></script>
+    <script src="suche.js" defer></script> 
+    <script src="toggle" defer></script>
 
     
 
@@ -91,9 +95,6 @@
 
         </header>
 
-        <script src="suche.js"></script>
-
-        <script src="navbar.js"></script>
 
 <div class="grid">
 
@@ -172,9 +173,7 @@
 
                 </div>
                 
-                <script src="toggle.js"></script>
-
-        
+             
             
             </div>
 
@@ -249,16 +248,7 @@
                     
                 </div>
 
-                <script>
-                    document.querySelector(".accordion-button-2").addEventListener("click", function() {
-                    this.classList.toggle("active"); 
-                    let content = document.querySelector(".accordion-content-2");
-                    content.style.display = content.style.display === "block" ? "none" : "block";
-
-                    let arrow = this.querySelector(".arrow-2");
-                    arrow.style.transform = arrow.style.transform === "rotate(180deg)" ? "rotate(0deg)" : "rotate(180deg)";
-                });
-                </script>
+            
             
             </div>
 
@@ -276,20 +266,7 @@
 
         </button>  
 
-        <script>
-            window.onscroll = function() {
-                var button = document.getElementById("backToTop");
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    button.style.display = "block";
-                } else {
-                    button.style.display = "none";
-                }
-            };
-        
-            document.getElementById("backToTop").onclick = function() {
-                window.scrollTo({top: 0, behavior: 'smooth'});
-            };
-        </script>
+       
         
     </div>
 
