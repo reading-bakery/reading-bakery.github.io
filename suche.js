@@ -1,4 +1,3 @@
-
 const toggleButton = document.getElementById('toggle-button');
 const navLinks = document.getElementById('nav-links');
 const menuIcon = document.getElementById('menu-icon');
