@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backen Übersicht</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+       
+
+    <style>
+
+        .amatic-sc-regular {
+            font-family: "Amatic SC", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .amatic-sc-bold {
+            font-family: "Amatic SC", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .roboto-sc-regular {
+            font-family: "Roboto", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .julius-sans-one-regular {
+            font-family: "Julius Sans One", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Roboto", serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .toggle-button {
+            cursor: pointer;
+            font-size: 24px;
+            display: none;
+            float: right;
+            margin-left: auto;
+        }
+
+       
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 20px;
+        }
+       
+       
+        .logohome {
+            color: black;
+            text-decoration: none;
+            font-family: "Amatic SC", serif;
+            font-weight: bolder;
+            font-size: 27pt; 
+            display: flex;
+            height: 100%;
+        }
+
+        .navbar {
+            background-color: whitesmoke;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 0;
+            height: 50px;
+            transition: height 0.1s ease-in-out;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            position: relative; 
+            padding: 0 20px;
+            font-size: 13pt;
+            text-align: left;
+            font-family: "Roboto", serif;
+            white-space: nowrap;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+        }
+          
+        .cook-item {
+            display: none;  
+            position: absolute;
+            background-color: whitesmoke;
+            z-index: 10; 
+            left: 0;
+            width: 150px;
+            max-height: max-content;
+        }
+
+        .navbar-expanded {
+            height: 150px;
+        }
+        
+        .dropdown {
+            position: relative;
+            background-color: whitesmoke;
+        }      
+
+        .dropdown-menu {
+            position: absolute;
+            display: block;
+            padding: 0;
+            list-style: none;
+            top: 150%;
+            left: 0;
+            width: 150px; 
+        }
+
+        .dropdown-menu li {
+            font-size: 11.5pt;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .nav-links .dropdown-menu li a {
+            color: grey; 
+            font-weight: 400; 
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            display: block;
+            width: max-content;
+            font-size: 11.5pt;
+        }
+
+        .nav-links .dropdown-menu li a:hover {
+            color: rgb(111, 180, 180);
+            font-weight: bold;
+        }
+
+        .nav-links .dropdown:hover .dropdown-menu {
+            display: block; 
+        }
+
+        .nav-links a:hover {
+            color: steelblue;
+            font-weight: bold;
+        }
+
+        .divider {
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        .subtitle {
+            font-family: "Julius Sans One", serif;
+            text-align: left;
+            padding: 3px;
+            padding-top: 0;
+            font-weight: bolder;
+            font-size: 12pt;
+            border-radius: 8px;       
+            margin-top: 0;
+            display: block;
+        }
+
+        .top-button {
+            display: flex;
+        }
+
+        #backToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            padding: 10px;
+            background-color: rgb(224, 224, 87);
+            color: black;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            height: auto; 
+        }
+
+        .logohome {
+            color: black;
+            text-decoration: none;
+            font-family: "Amatic SC", serif;
+            font-weight: bolder;
+            font-size: 27pt; 
+            display: flex;
+            height: 100%;
+        }
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            border-radius: 8px;
+            background-color: whitesmoke;
+        }
+
+       
+        .card-text {
+            font-family: "Roboto", serif;
+            font-weight: 400;
+            font-size: 9pt;
+            color: darkslategray;
+            text-align: left;
+            margin: 3px;
+            padding-left: 2px;
+            padding-top: 0;
+            padding-bottom: 3px;
+            line-height: 135%;
+        }
+
+        .cardimg {
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .part-search-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px; 
+            margin: 0;
+            padding: 0;
+        }
+
+        .part-name {
+            text-align: center;
+            padding: 0em;
+            font-family: "Julius Sans One", serif;
+            font-weight: bolder;
+            font-size: 30pt;
+            cursor: text;
+            color: rgb(224, 224, 87);
+        }
+
+        .search-field {
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-color: black;
+                font-size: 15pt;
+                justify-items: center;
+                font-family: "Roboto", serif;
+                cursor: pointer;
+                padding-left: 10px;
+                width: max-content;       
+        }  
+
+        .search-button {
+            border: none;
+            background-color: white;
+            cursor: pointer;
+            margin-left: -30px;
+        }
+
+           
+        @media (max-width: 1180px) {
+            
+            .grid {
+                grid-template-columns: repeat(3, 1fr);
+            }  
+        }
+        
+        @media (max-width: 1024px) {
+            
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }  
+        }
+        
+        @media (max-width: 768px) {
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }  
+
+            .navbar {
+                margin: 0;
+                padding: 1vh;
+                height: 50px;
+            }
+
+            .navbar.expanded {
+                height: auto; 
+                transition: height 0.1s ease-in-out;
+            }
+
+           
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding-left: 50px;
+                width: 100%;
+                font-family: "Amatic SC", serif;
+            }
+
+            .nav-links li {
+                padding: 0;
+                font-size: 13pt;
+                margin: 0;
+            }
+
+            .dropdown-menu {
+                position: absolute;
+                display: block;
+                padding: 0;
+                list-style: none;
+                top: 100%;
+                left: 0;
+                width: max-content;
+            }
+
+            .dropdown-menu li {
+                font-size: 13pt;
+                width: max-content; 
+                }            
+
+          
+            .toggle-button {
+                display: flex;
+            }
+
+            .nav-links.active {
+                display: flex;
+                background-color: whitesmoke;
+            }
+
+            .nav-links .dropdown-menu li a {
+                font-size: 13pt;
+            }
+
+            .cook-item {
+                font-size: 13pt;
+            }
+
+            .search-field {
+                font-size: 12pt;
+            }
+
+            .search-button {
+                font-size: 10pt;
+            }
+
+            .part-search-container {
+                flex-direction: column;  
+                align-items: center;
+            }
+
+            .part-name {
+                font-size: 30pt;
+                font-weight: bolder;
+            }
+
+            
+            .logohome {
+                color: black;
+                text-decoration: none;
+                font-family: "Amatic SC", serif;
+                font-weight: bolder;
+                font-size: 16pt; 
+                display: flex;
+                height: auto;
+            }
+
+        }
+            
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <header>
+            
+            <nav class="navbar"> 
+                
+                <div class="box1">
+                    <a href="index.html" class="logohome">Reading Bakery</a>
+                </div>
+
+                <ul class="nav-links" id="nav-links">
+                        
+                    
+                    <li class="dropdown"><a href="kochen.html">Kochen</a>
+
+                        <ul class="dropdown-menu">
+
+                            <li class="cook-item"><a href="suppe_eintopf.html">Suppe & Eintopf</a></li>
+                            <li class="cook-item"><a href="Ofen.html">Aus dem Ofen</a></li>
+                            <li class="cook-item"><a href="pasta_reis.html">Pasta, Reis & Co.</a></li>                
+
+                        </ul>
+                        
+                    </li>
+                    
+                    <li><a href="salat.html">Salat</a></li>
+                    <li><a href="backen.html">Backen</a></li>
+                    <li><a href="dessert.html">Dessert</a></li>
+
+                </ul>
+
+                <div class="toggle-button" id="toggle-button">
+                    <span id="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                    </span>
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16" style="display: none;">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                    </svg>
+                </div>
+
+            </nav>
+                     
+            <div class="part-search-container">
+
+                <h1 class="part-name">Backen</h1>
+
+                <form action="/search" method="get">
+
+                    <input class="search-field" type="text" name="query" placeholder="Rezept suchen">
+
+                    <button class="search-button" type="submit">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+            
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const searchField = document.querySelector(".search-field");
+                    const searchButton = document.querySelector(".search-button");
+                    const cards = document.querySelectorAll(".card");
+            
+                    function filterRecipes() {
+                        const searchQuery = searchField.value.toLowerCase().trim();
+                        const searchTerms = searchQuery.split(/\s+/); 
+            
+                        cards.forEach(card => {
+                            const subtitle = card.querySelector(".subtitle").textContent.toLowerCase();
+                            const cardText = card.querySelector(".card-text").textContent.toLowerCase();
+            
+                            
+                            const matchesAllTerms = searchTerms.every(term => 
+                                subtitle.includes(term) || cardText.includes(term)
+                            );
+            
+                            if (matchesAllTerms) {
+                                card.style.display = "block"; 
+                            } else {
+                                card.style.display = "none"; 
+                            }
+                        });
+                    }
+            
+                    searchButton.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        filterRecipes();
+                    });
+            
+                    searchField.addEventListener("keypress", function (event) {
+                        if (event.key === "Enter") {
+                            event.preventDefault();
+                            filterRecipes();
+                        }
+                    });
+                });
+            </script>
+
+            <br>
+ 
+            <hr class="divider">
+            
+            <br>
+            
+
+        </header>
+
+        <script>
+            const toggleButton = document.getElementById('toggle-button');
+            const navLinks = document.getElementById('nav-links');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+            const navbar = document.querySelector('.navbar');
+        
+            toggleButton.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                navbar.classList.toggle('expanded');
+        
+                if (navLinks.classList.contains('active')) {
+                    menuIcon.style.display = 'none';
+                    closeIcon.style.display = 'inline';
+                } else {
+                    menuIcon.style.display = 'inline';
+                    closeIcon.style.display = 'none';
+                }
+            });
+        </script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const kochenLink = document.querySelector('.dropdown > a');
+                const cookItems = document.querySelectorAll('.cook-item');
+                const navbar = document.querySelector('.navbar');
+
+                kochenLink.addEventListener('click', function (event) {
+                    event.preventDefault(); 
+
+                    let isVisible = false; 
+
+                    cookItems.forEach(item => {
+                        if (item.style.display === "block") {
+                            item.style.display = "none";
+                        } else {
+                            item.style.display = "block";
+                            isVisible = true; 
+                        }
+                    });
+
+                    if (isVisible) {
+                        navbar.classList.add('navbar-expanded');
+                    } else {
+                        navbar.classList.remove('navbar-expanded');
+                    }
+                });
+            });
+        </script>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <div class="card">
+                    <a href="kaesekuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1218391227356456/bilder/1501842/crop-642x428/der-beste-kaesekuchen-der-welt.jpg" alt="Käsekuchen">
+                    </a>    
+                
+                    <p class="subtitle">Käsekuchen</p> 
+                
+                    <div class="card-body">
+                        <p class="card-text">Klassiker • Rund • Leicht • 1 Std. 30 Min.</p>         
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="donauwelle.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/563541154614076/bilder/1126700/crop-642x428/donauwelle-super-easy.jpg" alt="Donauwelle">
+                </a>
+
+                <p class="subtitle">Donauwelle</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 35 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="moehrenkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2654951416926884/bilder/1563689/crop-642x428/karottenkuchen-rueblikuchen-oder-moehrenkuchen.jpg" alt="Möhrenkuchen">
+                </a>
+
+                <p class="subtitle">Möhrenkuchen</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 15 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="bienenstich.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2052861331893835/bilder/1502477/crop-642x428/schneller-bienenstich.jpg" alt="Bienenstich">
+                </a>
+
+                <p class="subtitle">Bienenstich</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 5 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="rhababerkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/198191083776312/bilder/1502501/crop-642x428/rhabarberkuchen-mit-vanillecreme-und-streuseln.jpg" alt="Rhababerkuchen">
+                </a>       
+                <p class="subtitle">Rhababerkuchen</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 20 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="streuselkirschkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/600821159858417/bilder/1104084/crop-642x428/kirsch-streuselkuchen.jpg" alt="Streuselkirschkuchen">
+                </a>        
+                <p class="subtitle">Kirschkuchen mit Streuseln</p>
+
+                <div class="card-body">
+
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 30 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zimtschnecken.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2287701364848460/bilder/952364/crop-642x428/zimtschnecken-cinnabon-style.jpg" alt="Zimtschnecken">
+                </a>        
+                <p class="subtitle">Zimtschnecken</p>
+
+                <div class="card-body">
+
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 30 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="klassischschokokuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1609441268234831/bilder/1369598/crop-642x428/schokokuchen.jpg" alt="Klassischer Schokokuchen">
+                </a>        
+                <p class="subtitle">Schokokuchen</p>
+
+                <div class="card-body">
+
+                    <p class="card-text">Klassiker • Rund • Leicht • 0 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="apfelkuchenstreusel.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2204031353338061/bilder/1325918/crop-642x428/apfelkuchen-mit-streuseln.jpg" alt="Apfelkuchen mit Streuseln">
+                </a>        
+                <p class="subtitle">Apfelkuchen mit Streuseln</p>
+
+                <div class="card-body">
+
+                    <p class="card-text">Klassiker • Blech • Leicht • 1 Std. 25 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zupfkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/856988205496/bilder/1510658/crop-642x428/russischer-zupfkuchen.jpg" alt="Russischer Zupfkuchen">
+                </a>    
+                <p class="subtitle">Russischer Zupfkuchen</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Leicht • 1 Std. 35 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="windbeuteltorte.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/618041161869951/bilder/809212/crop-960x640/windbeutel-torte.jpg" alt="Windbeuteltorte">
+                </a>    
+                <p class="subtitle">Windbeutel-Torte</p>
+
+                <div class="card-body">
+                    <p class="card-text">Modern • Rund • Schwer • 1 Std. 35 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="kuerbiskuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/324521114564533/bilder/668309/crop-642x428/pumpkin-pie.jpg" alt="Kürbiskuchen">
+                </a>    
+                <p class="subtitle">Kürbiskuchen / Pumpkin Pie</p>
+
+                <div class="card-body">
+                    <p class="card-text">Modern • Rund • Mittel • 2 Std. 30 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="apfelkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1140221220253617/bilder/1508412/crop-642x428/supersaftiger-apfelkuchen.jpg" alt="Saftiger Apfelkuchen">
+                </a>
+                <p class="subtitle">Saftiger Apfelkuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Rund • Leicht • 1 Std. 35 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="schwarzwaelderkirschtorte.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/463131139405875/bilder/1369608/crop-642x428/schwarzwaelder-kirschtorte-super-easy.jpg" alt="Schwarzwälder Kirschtorte">
+                </a>  
+                <p class="subtitle">Schwarzwälder Kirschtorte</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Rund • Schwer • 1 Std. 35 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zitronenkuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/820481186558221/bilder/1501771/crop-642x428/zitronenkuchen.jpg" alt="Zitronenkuchen">
+                </a>   
+                <p class="subtitle">Zitronenkuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Blech • Leicht • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="giottotorte.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1938391315551630/bilder/966469/crop-960x640/giotto-torte.jpg" alt="Giotto Torte">
+                </a>   
+                <p class="subtitle">Giotto Torte</p>
+                <div class="card-body">
+
+                  
+                    <p class="card-text">Modern • Rund • Leicht • 0 Std. 30 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="yogurettetorte.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1145731220941934/bilder/1500947/crop-960x640/yogurette-torte.jpg" alt="Yogurette Torte">
+                </a>   
+                <p class="subtitle">Yogurette Torte</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Modern • Rund • Schwer • 1 Std. 0 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zimtschneckenkekse.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1298801234972769/bilder/1518878/crop-642x428/zimtschnecken-plaetzchen.jpg" alt="Zimtschnecken Kekse">
+                </a>   
+                <p class="subtitle">Zimtschnecken Kekse</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="schokokuchensaftig.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2742441426332010/bilder/1499771/crop-642x428/saftiger-schokokuchen.jpg" alt="Saftiger Schokokuchen">
+                </a>   
+                <p class="subtitle">Saftiger Schokokuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Rund • Leicht • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="fantakuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/351351120485193/bilder/1499755/crop-642x428/fantakuchen-mit-mandarinen-schmand.jpgg" alt="Fantakuchen">
+                </a>   
+                <p class="subtitle">Fantakuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Modern • Blech • Leicht • 1 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="erdbeermascarpone.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/69361025707124/bilder/1235386/crop-642x428/erdbeer-mascarpone-torte.jpg" alt="Erdbeer-Mascarpone Torte">
+                </a>   
+                <p class="subtitle">Erdbeer-Mascarpone Torte</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Modern • Rund • Mittel • 1 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="philadelphiatorte.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/348111119685721/bilder/590941/crop-960x640/philadelphia-torte.jpg" alt="Philadelphia Torte">
+                </a>   
+                <p class="subtitle">Philadelphia Torte</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Modern • Rund • Mittel • 1 Std. 15 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zwetschgenkuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/584841157633103/bilder/1369611/crop-642x428/hildes-zwetschgenkuchen-mit-zimtstreuseln.jpg" alt="Zwetschgenkuchen">
+                </a>   
+                <p class="subtitle">Zwetschgenkuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 15 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="vanillekipferl.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/29321007560010/bilder/1518860/crop-642x428/vanillekipferl.jpg" alt="Vanillekipferl">
+                </a>   
+                <p class="subtitle">Vanillekipferl</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zitronentorte.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1102941216217501/bilder/1227486/crop-960x640/zitronentorte.jpg" alt="Zitronentorte">
+                </a>   
+                <p class="subtitle">Zitronentorte</p>
+                <div class="card-body">
+
+                  
+                    <p class="card-text">Modern • Rund • Schwer • 1 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="redvelvet.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2383091377637193/bilder/608954/crop-960x640/red-velvet-cake.jpgrr" alt="Red Velvet">
+                </a>   
+                <p class="subtitle">Red Velvet Kuchen</p>
+                <div class="card-body">
+
+                  
+                    <p class="card-text">Modern • Rund • Schwer • 1 Std. 15 Min.</p>
+
+                </div>
+
+            </div>
+
+           
+
+            <div class="card">
+
+                <a href="schmandmandarine.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/851061190552476/bilder/1325923/crop-642x428/streuselkuchen-mit-mandarinen-und-schmand.jpg" alt="Schmandkuchen mit Mandarinen">
+                </a>   
+                <p class="subtitle">Mandarinen-Schmandkuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 30 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="kokosmaronen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/475821141478226/bilder/1518851/crop-642x428/omas-kokosmakronen.jpg" alt="Kokosmaronen">
+                </a>   
+                <p class="subtitle">Kokosmaronen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 20 Min.</p>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="card">
+
+                <a href="apfelstrudel.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1550611262213964/bilder/668473/crop-642x428/alt-wiener-apfelstrudel.jpg" alt="Apfelstrudel">
+                </a>   
+                <p class="subtitle">Apfelstrudel</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Blech • Mittel • 2 Std. 5 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="tarteauchocolat.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/820931186577689/bilder/965164/crop-642x428/tarte-au-chocolat.jpg" alt="Tarte au Chocolat">
+                </a>   
+                <p class="subtitle">Tarte au Chokolat / Schokokuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Rund • Leicht • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+            
+            <div class="card">
+
+                <a href="schokobirne.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1198191225708136/bilder/884864/crop-642x428/birnen-schokolade-kuchen.jpg" alt="Schoko-Birnen-Kuchen">
+                </a>   
+                <p class="subtitle">Schoko-Birnen-Kuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Rund • Mittel • 2 Std. 10 Min.</p>
+
+                </div>
+
+            </div>
+
+            
+            <div class="card">
+
+                <a href="blinis.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/3186721474288999/bilder/947417/crop-642x428/blini-russischer-art.jpg" alt="Blinis">
+                </a>   
+                <p class="subtitle">Blinis</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Pfanne • Leicht • 0 Std. 30 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="waffeln.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/448991137121794/bilder/1486243/crop-642x428/waffeln.jpg" alt="Waffeln">
+                </a>   
+                <p class="subtitle">Waffeln</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Waffeleisen • Leicht • 0 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="waffelnglutenfrei.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/3047371457355309/bilder/1464429/crop-642x428/glutenfreie-waffeln.jpg" alt="Glutenfreie Waffeln">
+                </a>   
+                <p class="subtitle">Glutenfreie Waffeln</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Waffeleisen • Leicht • 0 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="waffelnvegan.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/676211169974674/bilder/971653/crop-642x428/vegane-waffeln.jpg" alt="Vegane Waffeln">
+                </a>   
+                <p class="subtitle">Vegane Waffeln</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Waffeleisen • Leicht • 0 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+
+            
+
+            <div class="card">
+
+                <a href="feiner_apfelkuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/466941140119069/bilder/729515/crop-642x428/apfelkuchen-schnell-und-fein.jpg" alt="Feiner Apfelkuchen">
+                </a>   
+                <p class="subtitle">Feiner Apfelkuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Blech • Leicht • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="quarkstreusel.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/844191189672411/bilder/1563715/crop-642x428/schneller-quark-streuselkuchen-mit-obst.jpg" alt="Quark Streuselkuchen">
+                </a>   
+                <p class="subtitle">Quark-Streuselkuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Blech • Mittel • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="buttermilchkokos.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/139531060260015/bilder/731653/crop-642x428/buttermilch-kokos-kuchen.jpg" alt="Buttermilch-Kokos">
+                </a>   
+                <p class="subtitle">Buttermilch-Kokos Kuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Modern • Blech • Leicht • 0 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="Kirschschmand.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/210291087994148/bilder/566547/crop-642x428/kirsch-schmand-blechkuchen.jpg" alt="Kirsch-Schmand-Kuchen">
+                </a>   
+                <p class="subtitle">Kirsch-Schmand-Kuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 0 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="maulwurfkuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1124841218815439/bilder/1304896/crop-960x640/maulwurfkuchen.jpg" alt="Maulwurfkuchen">
+                </a>   
+                <p class="subtitle">Maulwurfkuchen</p>
+                <div class="card-body">
+                    <p class="card-text">Modern • Rund • Mittel • 1 Std. 15 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="bananenbrot.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1383051243462081/bilder/1325919/crop-642x428/bananenbrot.jpg" alt="Bananenbrot">
+                </a>   
+                <p class="subtitle">Bananenbrot</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Kasten • Mittel • 1 Std. 5 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="heidesand.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/511411146815382/bilder/751009/crop-642x428/heidesand-schwarz-weiss.jpg" alt="Heidesand">
+                </a>   
+                <p class="subtitle">Heidesand</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="engelsaugen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/160601070188995/bilder/1518844/crop-642x428/engelsaugen.jpg" alt="Engelsaugen">
+                </a>   
+                <p class="subtitle">Engelsaugen</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="top-button">
+
+            <button id="backToTop">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+                    
+                    <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"/>
+                
+                </svg>
+
+            </button>  
+
+            <script>
+                window.onscroll = function() {
+                    var button = document.getElementById("backToTop");
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        button.style.display = "block";
+                    } else {
+                        button.style.display = "none";
+                    }
+                };
+            
+                document.getElementById("backToTop").onclick = function() {
+                    window.scrollTo({top: 0, behavior: 'smooth'});
+                };
+            </script>
+
+            
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
