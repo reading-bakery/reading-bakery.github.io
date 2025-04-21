@@ -71,13 +71,15 @@ body {
 }
 
 .card {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
     border-radius: 8px;
     background-color: whitesmoke;
 }
+
+
 
 .card-text {
     font-family: "Roboto", serif;
