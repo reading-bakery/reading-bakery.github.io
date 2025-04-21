@@ -532,55 +532,9 @@
 
         </header>
 
-        <script>
-            const toggleButton = document.getElementById('toggle-button');
-            const navLinks = document.getElementById('nav-links');
-            const menuIcon = document.getElementById('menu-icon');
-            const closeIcon = document.getElementById('close-icon');
-            const navbar = document.querySelector('.navbar');
-        
-            toggleButton.addEventListener('click', () => {
-                navLinks.classList.toggle('active');
-                navbar.classList.toggle('expanded');
-        
-                if (navLinks.classList.contains('active')) {
-                    menuIcon.style.display = 'none';
-                    closeIcon.style.display = 'inline';
-                } else {
-                    menuIcon.style.display = 'inline';
-                    closeIcon.style.display = 'none';
-                }
-            });
-        </script>
+        <script src="suche.js"></script>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const kochenLink = document.querySelector('.dropdown > a');
-                const cookItems = document.querySelectorAll('.cook-item');
-                const navbar = document.querySelector('.navbar');
-
-                kochenLink.addEventListener('click', function (event) {
-                    event.preventDefault(); 
-
-                    let isVisible = false; 
-
-                    cookItems.forEach(item => {
-                        if (item.style.display === "block") {
-                            item.style.display = "none";
-                        } else {
-                            item.style.display = "block";
-                            isVisible = true; 
-                        }
-                    });
-
-                    if (isVisible) {
-                        navbar.classList.add('navbar-expanded');
-                    } else {
-                        navbar.classList.remove('navbar-expanded');
-                    }
-                });
-            });
-        </script>
+        <script src="navbar.js"></script>
 
         <div class="grid">
 
