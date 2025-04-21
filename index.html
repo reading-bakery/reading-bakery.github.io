@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="index.css">
    
     <script src="accord1.js" defer></script>
     <script src="accord2.js" defer></script>
@@ -17,335 +18,7 @@
     <script src="toggle.js" defer></script>
        
 
-    <style>
-
-        .amatic-sc-regular {
-            font-family: "Amatic SC", serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        .amatic-sc-bold {
-            font-family: "Amatic SC", serif;
-            font-weight: 700;
-            font-style: normal;
-        }
-
-        .roboto-sc-regular {
-            font-family: "Roboto", serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        .julius-sans-one-regular {
-            font-family: "Julius Sans One", serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        body {
-            font-family: "Roboto", serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .toggle-button {
-            cursor: pointer;
-            display: none;
-            float: right;
-            margin-left: auto;
-        }
-
-       
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr); 
-            gap: 20px;
-        }
-       
-       
-        .logohome {
-            color: black;
-            text-decoration: none;
-            font-family: "Amatic SC", serif;
-            font-weight: bolder;
-            font-size: 27pt; 
-            display: flex;
-            height: 100%;
-        }
-
-        .navbar {
-            background-color: whitesmoke;
-            color: black;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            border-radius: 8px;
-            margin: 0;
-            height: 50px;
-            transition: height 0.1s ease-in-out;
-        }
-
-        .nav-links {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .nav-links li {
-            position: relative; 
-            padding: 0 20px;
-            font-size: 13pt;
-            text-align: left;
-            font-family: "Roboto", serif;
-            white-space: nowrap;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: black;
-            font-weight: 400;
-        }
-          
-        .cook-item {
-            display: none;  
-            position: absolute;
-            background-color: whitesmoke;
-            z-index: 10; 
-            left: 0;
-            width: 150px;
-            max-height: max-content;
-        }
-
-        .navbar-expanded {
-            height: 150px;
-        }
-        
-        .dropdown {
-            position: relative;
-            background-color: whitesmoke;
-
-        }      
-
-        .dropdown-menu {
-            position: absolute;
-            display: block;
-            padding: 0;
-            list-style: none;
-            top: 150%;
-            left: 0;
-            width: 150px; 
-        }
-
-        .dropdown-menu li {
-            font-size: 11.5pt;
-        }
-
-        .dropdown:hover .dropdown-menu {
-            display: block;
-        }
-
-        .nav-links .dropdown-menu li a {
-            color: grey; 
-            font-weight: 400; 
-            padding: 0;
-            margin: 0;
-            text-decoration: none;
-            display: block;
-            width: max-content;
-            font-size: 11.5pt;
-        }
-
-        .nav-links .dropdown-menu li a:hover {
-            color: rgb(111, 180, 180);
-            font-weight: bold;
-        }
-
-        .nav-links .dropdown:hover .dropdown-menu {
-            display: block; 
-        }
-
-        .nav-links a:hover {
-            color: steelblue;
-            font-weight: bold;
-        }
-
-        .navbar.expanded {
-            height: 100px; 
-            transition: height 0.1s ease-in-out;
-        }
-
-        a {
-            text-decoration: none;
-            color: black;
-        }
-        
-        h1 {
-            text-align: center;
-            padding: 0em;
-            font-family: "Amatic SC", serif;
-            font-weight: bolder;
-            font-size: 50pt;
-        }
-
-        p {
-            padding: 0em;
-            font-family: "Roboto", serif;
-            font-weight: 400;
-            font-size: 18pt;
-        }
-
-        .search-button {
-            border: none;
-            background-color: white;
-            cursor: pointer;
-            margin-left: -30px;
-        }
-
-        .search-field {
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                border-color: black;
-                font-size: 15pt;
-                justify-items: center;
-                font-family: "Roboto", serif;
-                cursor: pointer;
-                padding-left: 10px;
-                width: max-content;       
-        }  
-
-        .box1 {
-            padding: 20px;
-            background: rgb(111, 180, 180);
-            border-radius: 8px;
-            font-size: 20px;
-        }
-
-        .box2 {
-            padding: 20px;
-            background: rgb(224, 224, 87);
-            border-radius: 8px;
-            font-size: 20px;
-        }
-
-        .box3 {
-            padding: 20px;
-            background: rgb(234, 145, 145);
-            border-radius: 8px;
-            font-size: 20px;
-        }
-
-        .box4 {
-            padding: 20px;
-            background: rgb(185, 128, 185);
-            border-radius: 8px;
-            font-size: 20px;
-        }
-
-        @media (max-width: 1024px) {
-            .grid {
-                grid-template-columns: 1fr; 
-            }
-        }
-           
-        @media (max-width: 768px) {
-            
-            .grid {
-                grid-template-columns: 1fr;
-            }  
-
-            .navbar {
-                margin: 0;
-                padding: 1vh;
-                height: 50px;
-            }
-
-            .navbar.expanded {
-                height: auto; 
-                transition: height 0.1s ease-in-out;
-            }
-
-           
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-start;
-                padding-left: 90px;
-                width: 100%;
-                font-family: "Amatic SC", serif;
-            }
-
-            .nav-links li {
-                padding: 0;
-                font-size: 13pt;
-                margin: 0;
-            }
-
-            .dropdown-menu {
-                position: absolute;
-                display: block;
-                padding: 0;
-                list-style: none;
-                top: 100%;
-                left: 0;
-                width: max-content;
-            }
-
-            .dropdown-menu li {
-                font-size: 13pt;
-                width: max-content; 
-                }            
-
-          
-            .toggle-button {
-                display: flex;
-            }
-
-            .nav-links.active {
-                display: flex;
-                background-color: whitesmoke;
-            }
-
-            .nav-links .dropdown-menu li a {
-                font-size: 13pt;
-            }
-
-            .cook-item {
-                font-size: 13pt;
-            }
-
-            
-            .logohome {
-                color: black;
-                text-decoration: none;
-                font-family: "Amatic SC", serif;
-                font-weight: bolder;
-                font-size: 16pt; 
-                display: flex;
-                height: auto;
-            }
-
-        }
-            
-
-    </style>
+   
 
 </head>
 
@@ -401,6 +74,1418 @@
             </div>
             
         </div>
+
+        <br>
+
+        <hr class="divider"> 
+        <br>
+
+        <div class="grid2">
+
+            <div class="card">
+
+                <a href="brokkolisuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/642141165243156/bilder/1334973/crop-642x428/brokkolisuppe.jpg" alt="Brokkolisuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Brokkolisuppe</p>
+                    <p class="card-text"> Suppe & Eintopf <br>  Veggie • Leicht <br>   45 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="thaisuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://c.rewe-static.de/38937282/2/38937282.png?impolicy=rds&im=Resize,width=2048" alt="Thaisuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Thai Curry Suppe</p>
+                    <p class="card-text">Suppe & Eintopf <br>  Veggie • Leicht <br>   30 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+    
+                <div class="card">
+    
+                    <a href="toskana.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1597871267020573/bilder/764398/crop-642x428/hackbaellchen-toscana.jpg" alt="Fleischbällchen Toskana">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Fleischbällchen Toskana</p>
+                        <p class="card-text">Aus dem Ofen <br>Veggie/Fleisch • Leicht <br> 55 Min. • 3 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="gefuelltepaprikahack.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/226491093168336/bilder/1435435/crop-642x428/gefuellte-paprika-nach-uroma-susanne.jpg" alt="Gefüllte Paprika mit Hack">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Gefüllte Paprika mit Hack</p>
+                        <p class="card-text">Aus dem Ofen <br>Veggie/Fleisch • Mittel <br> 1 Std. 15 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+
+                <div class="card">
+
+                    <a href="tortelliniauflauf.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/139061060089204/bilder/1502245/crop-642x428/tortellini-auflauf-a-la-sanne.jpg" alt="Tortellini-Auflauf">
+                    </a>    
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Tortellini-Auflauf</p>
+                        <p class="card-text">Pasta, Reis & Co. • Aus dem Ofen <br>Veggie/Fleisch • Mittel <br> 50 Min. • 4 Personen</p>         
+    
+                    </div>
+                
+                </div>
+    
+                <div class="card">
+
+                    <a href="kartoffelgulasch_mit_wuerstchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2878641440150236/bilder/1581048/crop-642x428/kartoffelgulasch-mit-wiener-wuerstchen.jpg" alt="Kartoffelgulasch mit Würstchen">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Kartoffelgulasch mit Würstchen</p>
+                        <p class="card-text">Pasta, Reis & Co. <br> Veggie/Fleisch • Mittel <br> 25 Min. • 2 Personen</p>
+    
+                    </div>
+    
+                </div>
+
+                <div class="card">
+
+                    <a href="wuerstchengulasch.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/940221199634595/bilder/1349127/crop-642x428/wuerstchengulasch.jpg" alt="Würstchengulasch">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Würstchengulasch</p>
+                        <p class="card-text">Pasta, Reis & Co. <br> Fleisch • Leicht<br> 20 Min. • 3 Personen</p> 
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="reispfanne.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1810471293281955/bilder/1312964/crop-642x428/paprika-reispfanne-mit-joghurtsauce.jpg" alt="Reispfanne">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Paprika-Reispfanne mit Joghurtsauce</p>
+                        <p class="card-text">Pasta, Reis & Co.<br>Veggie/Fleisch • Mittel  <br>45 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+
+                <div class="card">
+
+                    <a href="currysuppe.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/740201176708835/bilder/794296/crop-642x428/currysuppe.jpg" alt="Currysuppe">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Currysuppe</p>
+                        <p class="card-text">Suppe & Eintopf <br> Veggie • Leicht<br> 15 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+
+                <div class="card">
+
+                    <a href="zitronenrisotto.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1171461223223492/bilder/1071495/crop-642x428/zitronenrisotto.jpg" alt="Zitronenrisotto">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Zitronenrisotto</p>
+                        <p class="card-text">Pasta, Reis & Co. <br> Veggie • Mittel <br> 20 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+
+                <div class="card">
+
+                    <a href="gnocchiauflauf.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1044541209388802/bilder/1373544/crop-960x640/gnocchi-aus-dem-ofen-in-paprika-tomaten-sauce.jpg" alt="Gnocchi-Auflauf">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Gnocchi-Auflauf</p>
+                        <p class="card-text">Aus dem Ofen <br> Veggie/Fleisch • Mittel <br> 35 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+
+
+                
+
+            <div class="card">
+
+                <a href="portobello.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/3578041537427274/bilder/1565533/crop-642x428/portobello-caprese.jpg" alt="Portobello-Caprese">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Portobello Caprese</p>
+                    <p class="card-text">Aus dem Ofen <br> Veggie • Leicht<br> 20 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <a href="ofengemuesemediteran.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/901131195473455/bilder/1432138/crop-642x428/mediterranes-ofengemuese.jpg" alt="Mediterranes Ofengemüse">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Mediterranes Ofengemüse</p>
+                    <p class="card-text">Aus dem Ofen <br> Veggie • Leicht<br> 30 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="bandnudelnlachsspinat.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1677441275813669/bilder/698987/crop-642x428/bandnudeln-mit-frischem-spinat-und-lachs.jpg" alt="Bandnudeln mit frischem Spinat und Lachs">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Bandnudeln mit Spinat und Lachs</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Fisch • Leicht<br> 20 Min. • 3 Personen</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <a href="spaghettigarnelen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1116601217773858/bilder/668443/crop-642x428/spaghetti-mit-kirschtomaten-und-garnelen.jpg" alt="Spaghetti mit Kirschtomaten und Garnelen">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Spaghetti mit Kirschtomaten und Garnelen</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Fisch • Leicht<br> 30 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="wirsingroulade.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1911611311591269/bilder/727479/crop-642x428/wirsingroulade-mit-bulgur.jpg" alt="Wirsingroulade mit Bulgur">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Wirsingrouladen mit Bulgur</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Mittel <br> 55 Min. • 3 Personen</p>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="card">
+
+                <a href="spitzkohlcurry.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2033501329494843/bilder/1192894/crop-642x428/spitzkohl-curry.jpg" alt="Spitzkohlcurry">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Spitzkohlcurry</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Leicht<br> 25 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="cannellonispargel.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1089051214839180/bilder/1020062/crop-642x428/spargel-cannelloni.jpg" alt="Cannelloni Spargel">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Cannelloni mit Spargel</p>
+                    <p class="card-text">Aus dem Ofen <br> Veggie/Fleisch • Leicht<br> 30 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="wirsingpasta.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/4141581658686626/bilder/1481855/crop-642x428/pasta-mit-wirsing-haselnuessen-und-parmesan-thymian-sauce.jpg" alt="Wirsing Pasta">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Pasta mit Wirsing</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Leicht <br> 30 Min. • 3 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="tomatensuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1373751242290581/bilder/1499747/crop-642x428/frische-tomatensuppe.jpg" alt="Tomatensuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Tomatensuppe</p>
+                    <p class="card-text">Suppe & Eintopf<br> Veggie • Leicht <br> 20 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="albondigas.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/610031160921903/bilder/1235132/crop-642x428/albondigas-in-tomatensauce.jpg" alt="Albondigas">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Albondigas</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Fleisch/Veggie • Leicht <br> 30 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="pilzrisotto.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/92011036083345/bilder/1365534/crop-642x428/pilzrisotto.jpg" alt="Pilzrisotto">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Pilzrisotto</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Mittel <br> 20 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="gnocchitomatemozarella.html" class="cardlink">
+                    <img class="cardimg" src="https://eat.de/wp-content/uploads/2022/04/gnocchi-in-tomatensauce-7111.jpg.webp" alt="Gnocchi Tomate Mozzarella">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Tomate Mozzarella Gnocchi</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Leicht<br> 20 Min. • 3 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="fenchelnepalesisch.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1161651222264003/bilder/1501858/crop-642x428/fenchel-nepalesisch.jpg" alt="Fenchel Nepalesisch">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Fenchel Nepalesisch</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Leicht<br> 20 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <a href="spargelkaesesauce.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1655211273329269/bilder/1391853/crop-642x428/spargel-in-rosa-basilikum-kaese-sauce-mit-filet-vom-schwein-huhn-oder-pute.jpg" alt="Spargel Käsesauce">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Spargel in rosa Basilikum-Käsesauce</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie/Fleisch • Leicht <br> 30 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="auberginencurry.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2797841431897294/bilder/899273/crop-642x428/auberginen-curry-mit-joghurtsauce.jpg" alt="Auberginencurry">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Auberginen-Curry mit Joghurtsauce</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Leicht <br> 20 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <a href="couscouspfanne.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2671121419265443/bilder/1337778/crop-642x428/couscous-gemuese-curry.jpg" alt="Couscouspfanne">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Couscouspfanne</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Leicht<br> 25 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="borsch.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1689761277236546/bilder/1026093/crop-642x428/vegetarischer-borschtsch.jpg" alt="Borsch">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Borsch</p>
+                    <p class="card-text">Suppe & Eintopf <br> Veggie/Fleisch • Mittel <br> 35 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="kohlgemuese.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/513871147148871/bilder/1364403/crop-642x428/kohlrabigemuese-klassisch.jpg" alt="Kohlrabi">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Kohlrabi mit Sahnesauce</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Leicht<br> 40 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <a href="ratatouille.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1639971271583788/bilder/932217/crop-642x428/ratatouille.jpg" alt="Ratatouille">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Ratatouille</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Mittel<br> 30 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="reibekuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/230461094561030/bilder/668323/crop-642x428/grossmutters-reibekuchen.jpg" alt="Reibekuchen">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Reibekuchen / Kartoffelpuffer</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Veggie • Leicht<br> 30 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="frikadellen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/819141186405890/bilder/764351/crop-642x428/omas-beste-frikadellen.jpg" alt="Frikadelle">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Frikadellen</p>
+                    <p class="card-text">Pasta, Reis & Co. <br> Fleisch • Leicht <br> 25 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="spargelcremesuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1148331221133495/bilder/1013854/crop-642x428/spargelcremesuppe.jpg" alt="Spargelcremesuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Spargelcremesuppe</p>
+                    <p class="card-text">Suppe & Eintopf <br> Veggie • Mittel<br> 30 Min. • 6 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="linsensuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/386231125240691/bilder/669473/crop-642x428/feine-linsensuppe.jpg" alt="Linsensuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Feine Linsensuppe</p>
+                    <p class="card-text">Suppe & Eintopf <br> Fleisch • Mittel <br> 50 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="enchiladas.html" class="cardlink">
+                    <img class="cardimg" src="images/enchiladas.png" alt="Enchiladas">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Enchiladas</p>
+                    <p class="card-text">Aus dem Ofen <br> Veggie/Fleisch • Mittel<br> 1 Std. 15. Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card">
+                    <a href="kaesekuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1218391227356456/bilder/1501842/crop-642x428/der-beste-kaesekuchen-der-welt.jpg" alt="Käsekuchen">
+                    </a>    
+                
+                    <p class="subtitle">Käsekuchen</p> 
+                
+                    <div class="card-body">
+                        <p class="card-text">Klassiker • Rund • Leicht • 1 Std. 30 Min.</p>         
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="donauwelle.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/563541154614076/bilder/1126700/crop-642x428/donauwelle-super-easy.jpg" alt="Donauwelle">
+                </a>
+
+                <p class="subtitle">Donauwelle</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 35 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="moehrenkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2654951416926884/bilder/1563689/crop-642x428/karottenkuchen-rueblikuchen-oder-moehrenkuchen.jpg" alt="Möhrenkuchen">
+                </a>
+
+                <p class="subtitle">Möhrenkuchen</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 15 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="bienenstich.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2052861331893835/bilder/1502477/crop-642x428/schneller-bienenstich.jpg" alt="Bienenstich">
+                </a>
+
+                <p class="subtitle">Bienenstich</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 5 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="rhababerkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/198191083776312/bilder/1502501/crop-642x428/rhabarberkuchen-mit-vanillecreme-und-streuseln.jpg" alt="Rhababerkuchen">
+                </a>       
+                <p class="subtitle">Rhababerkuchen</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 20 Min.</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <a href="rhababerkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/198191083776312/bilder/1502501/crop-642x428/rhabarberkuchen-mit-vanillecreme-und-streuseln.jpg" alt="Rhababerkuchen">
+                </a>       
+                <p class="subtitle">Rhababerkuchen</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 20 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="streuselkirschkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/600821159858417/bilder/1104084/crop-642x428/kirsch-streuselkuchen.jpg" alt="Streuselkirschkuchen">
+                </a>        
+                <p class="subtitle">Kirschkuchen mit Streuseln</p>
+
+                <div class="card-body">
+
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 30 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zimtschnecken.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2287701364848460/bilder/952364/crop-642x428/zimtschnecken-cinnabon-style.jpg" alt="Zimtschnecken">
+                </a>        
+                <p class="subtitle">Zimtschnecken</p>
+
+                <div class="card-body">
+
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 30 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="klassischschokokuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1609441268234831/bilder/1369598/crop-642x428/schokokuchen.jpg" alt="Klassischer Schokokuchen">
+                </a>        
+                <p class="subtitle">Schokokuchen</p>
+
+                <div class="card-body">
+
+                    <p class="card-text">Klassiker • Rund • Leicht • 0 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="apfelkuchenstreusel.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2204031353338061/bilder/1325918/crop-642x428/apfelkuchen-mit-streuseln.jpg" alt="Apfelkuchen mit Streuseln">
+                </a>        
+                <p class="subtitle">Apfelkuchen mit Streuseln</p>
+
+                <div class="card-body">
+
+                    <p class="card-text">Klassiker • Blech • Leicht • 1 Std. 25 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zupfkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/856988205496/bilder/1510658/crop-642x428/russischer-zupfkuchen.jpg" alt="Russischer Zupfkuchen">
+                </a>    
+                <p class="subtitle">Russischer Zupfkuchen</p>
+
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Rund • Leicht • 1 Std. 35 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="windbeuteltorte.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/618041161869951/bilder/809212/crop-960x640/windbeutel-torte.jpg" alt="Windbeuteltorte">
+                </a>    
+                <p class="subtitle">Windbeutel-Torte</p>
+
+                <div class="card-body">
+                    <p class="card-text">Modern • Rund • Schwer • 1 Std. 35 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="kuerbiskuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/324521114564533/bilder/668309/crop-642x428/pumpkin-pie.jpg" alt="Kürbiskuchen">
+                </a>    
+                <p class="subtitle">Kürbiskuchen / Pumpkin Pie</p>
+
+                <div class="card-body">
+                    <p class="card-text">Modern • Rund • Mittel • 2 Std. 30 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="apfelkuchen.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1140221220253617/bilder/1508412/crop-642x428/supersaftiger-apfelkuchen.jpg" alt="Saftiger Apfelkuchen">
+                </a>
+                <p class="subtitle">Saftiger Apfelkuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Rund • Leicht • 1 Std. 35 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="schwarzwaelderkirschtorte.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/463131139405875/bilder/1369608/crop-642x428/schwarzwaelder-kirschtorte-super-easy.jpg" alt="Schwarzwälder Kirschtorte">
+                </a>  
+                <p class="subtitle">Schwarzwälder Kirschtorte</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Rund • Schwer • 1 Std. 35 Min.</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <a href="zitronenkuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/820481186558221/bilder/1501771/crop-642x428/zitronenkuchen.jpg" alt="Zitronenkuchen">
+                </a>   
+                <p class="subtitle">Zitronenkuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Blech • Leicht • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="giottotorte.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1938391315551630/bilder/966469/crop-960x640/giotto-torte.jpg" alt="Giotto Torte">
+                </a>   
+                <p class="subtitle">Giotto Torte</p>
+                <div class="card-body">
+
+                  
+                    <p class="card-text">Modern • Rund • Leicht • 0 Std. 30 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="yogurettetorte.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1145731220941934/bilder/1500947/crop-960x640/yogurette-torte.jpg" alt="Yogurette Torte">
+                </a>   
+                <p class="subtitle">Yogurette Torte</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Modern • Rund • Schwer • 1 Std. 0 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zimtschneckenkekse.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1298801234972769/bilder/1518878/crop-642x428/zimtschnecken-plaetzchen.jpg" alt="Zimtschnecken Kekse">
+                </a>   
+                <p class="subtitle">Zimtschnecken Kekse</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="schokokuchensaftig.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2742441426332010/bilder/1499771/crop-642x428/saftiger-schokokuchen.jpg" alt="Saftiger Schokokuchen">
+                </a>   
+                <p class="subtitle">Saftiger Schokokuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Rund • Leicht • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="fantakuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/351351120485193/bilder/1499755/crop-642x428/fantakuchen-mit-mandarinen-schmand.jpgg" alt="Fantakuchen">
+                </a>   
+                <p class="subtitle">Fantakuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Modern • Blech • Leicht • 1 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="erdbeermascarpone.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/69361025707124/bilder/1235386/crop-642x428/erdbeer-mascarpone-torte.jpg" alt="Erdbeer-Mascarpone Torte">
+                </a>   
+                <p class="subtitle">Erdbeer-Mascarpone Torte</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Modern • Rund • Mittel • 1 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="philadelphiatorte.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/348111119685721/bilder/590941/crop-960x640/philadelphia-torte.jpg" alt="Philadelphia Torte">
+                </a>   
+                <p class="subtitle">Philadelphia Torte</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Modern • Rund • Mittel • 1 Std. 15 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zwetschgenkuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/584841157633103/bilder/1369611/crop-642x428/hildes-zwetschgenkuchen-mit-zimtstreuseln.jpg" alt="Zwetschgenkuchen">
+                </a>   
+                <p class="subtitle">Zwetschgenkuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Rund • Mittel • 1 Std. 15 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="vanillekipferl.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/29321007560010/bilder/1518860/crop-642x428/vanillekipferl.jpg" alt="Vanillekipferl">
+                </a>   
+                <p class="subtitle">Vanillekipferl</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="zitronentorte.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1102941216217501/bilder/1227486/crop-960x640/zitronentorte.jpg" alt="Zitronentorte">
+                </a>   
+                <p class="subtitle">Zitronentorte</p>
+                <div class="card-body">
+
+                  
+                    <p class="card-text">Modern • Rund • Schwer • 1 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="redvelvet.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2383091377637193/bilder/608954/crop-960x640/red-velvet-cake.jpgrr" alt="Red Velvet">
+                </a>   
+                <p class="subtitle">Red Velvet Kuchen</p>
+                <div class="card-body">
+
+                  
+                    <p class="card-text">Modern • Rund • Schwer • 1 Std. 15 Min.</p>
+
+                </div>
+
+            </div>
+
+           
+
+            <div class="card">
+
+                <a href="schmandmandarine.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/851061190552476/bilder/1325923/crop-642x428/streuselkuchen-mit-mandarinen-und-schmand.jpg" alt="Schmandkuchen mit Mandarinen">
+                </a>   
+                <p class="subtitle">Mandarinen-Schmandkuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 30 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="kokosmaronen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/475821141478226/bilder/1518851/crop-642x428/omas-kokosmakronen.jpg" alt="Kokosmaronen">
+                </a>   
+                <p class="subtitle">Kokosmaronen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 20 Min.</p>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="card">
+
+                <a href="apfelstrudel.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1550611262213964/bilder/668473/crop-642x428/alt-wiener-apfelstrudel.jpg" alt="Apfelstrudel">
+                </a>   
+                <p class="subtitle">Apfelstrudel</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Blech • Mittel • 2 Std. 5 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="tarteauchocolat.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/820931186577689/bilder/965164/crop-642x428/tarte-au-chocolat.jpg" alt="Tarte au Chocolat">
+                </a>   
+                <p class="subtitle">Tarte au Chokolat / Schokokuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Rund • Leicht • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+            
+            <div class="card">
+
+                <a href="schokobirne.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1198191225708136/bilder/884864/crop-642x428/birnen-schokolade-kuchen.jpg" alt="Schoko-Birnen-Kuchen">
+                </a>   
+                <p class="subtitle">Schoko-Birnen-Kuchen</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Rund • Mittel • 2 Std. 10 Min.</p>
+
+                </div>
+
+            </div>
+
+            
+            <div class="card">
+
+                <a href="blinis.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/3186721474288999/bilder/947417/crop-642x428/blini-russischer-art.jpg" alt="Blinis">
+                </a>   
+                <p class="subtitle">Blinis</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Pfanne • Leicht • 0 Std. 30 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="waffeln.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/448991137121794/bilder/1486243/crop-642x428/waffeln.jpg" alt="Waffeln">
+                </a>   
+                <p class="subtitle">Waffeln</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Waffeleisen • Leicht • 0 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="waffelnglutenfrei.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/3047371457355309/bilder/1464429/crop-642x428/glutenfreie-waffeln.jpg" alt="Glutenfreie Waffeln">
+                </a>   
+                <p class="subtitle">Glutenfreie Waffeln</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Waffeleisen • Leicht • 0 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="waffelnvegan.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/676211169974674/bilder/971653/crop-642x428/vegane-waffeln.jpg" alt="Vegane Waffeln">
+                </a>   
+                <p class="subtitle">Vegane Waffeln</p>
+                <div class="card-body">
+
+                   
+                    <p class="card-text">Klassiker • Waffeleisen • Leicht • 0 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+
+            
+
+            <div class="card">
+
+                <a href="feiner_apfelkuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/466941140119069/bilder/729515/crop-642x428/apfelkuchen-schnell-und-fein.jpg" alt="Feiner Apfelkuchen">
+                </a>   
+                <p class="subtitle">Feiner Apfelkuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Blech • Leicht • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="quarkstreusel.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/844191189672411/bilder/1563715/crop-642x428/schneller-quark-streuselkuchen-mit-obst.jpg" alt="Quark Streuselkuchen">
+                </a>   
+                <p class="subtitle">Quark-Streuselkuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Blech • Mittel • 0 Std. 55 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="buttermilchkokos.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/139531060260015/bilder/731653/crop-642x428/buttermilch-kokos-kuchen.jpg" alt="Buttermilch-Kokos">
+                </a>   
+                <p class="subtitle">Buttermilch-Kokos Kuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Modern • Blech • Leicht • 0 Std. 45 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="kirschschmand.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/210291087994148/bilder/566547/crop-642x428/kirsch-schmand-blechkuchen.jpg" alt="Kirsch-Schmand-Kuchen">
+                </a>   
+                <p class="subtitle">Kirsch-Schmand-Kuchen</p>
+                <div class="card-body">
+
+                    
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 0 Min.</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="maulwurfkuchen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1124841218815439/bilder/1304896/crop-960x640/maulwurfkuchen.jpg" alt="Maulwurfkuchen">
+                </a>   
+                <p class="subtitle">Maulwurfkuchen</p>
+                <div class="card-body">
+                    <p class="card-text">Modern • Rund • Mittel • 1 Std. 15 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="bananenbrot.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1383051243462081/bilder/1325919/crop-642x428/bananenbrot.jpg" alt="Bananenbrot">
+                </a>   
+                <p class="subtitle">Bananenbrot</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Kasten • Mittel • 1 Std. 5 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="heidesand.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/511411146815382/bilder/751009/crop-642x428/heidesand-schwarz-weiss.jpg" alt="Heidesand">
+                </a>   
+                <p class="subtitle">Heidesand</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="engelsaugen.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/160601070188995/bilder/1518844/crop-642x428/engelsaugen.jpg" alt="Engelsaugen">
+                </a>   
+                <p class="subtitle">Engelsaugen</p>
+                <div class="card-body">
+                    <p class="card-text">Klassiker • Blech • Mittel • 1 Std. 50 Min.</p>
+                </div>
+
+            </div>
+
+
+            
+
+                <div class="card">
+    
+                    <a href="couscoussalat.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/562321154438233/bilder/1509397/crop-642x428/couscous-salat-lecker-wuerzig.jpg" alt="Würziger Couscoussalat">
+                    </a>    
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Würziger Couscoussalat</p>
+                        <p class="card-text">Veggie • Leicht • 35 Min. • 4 Personen</p>         
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="inkasalat.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2935291445873579/bilder/1344066/crop-642x428/inkasalat-wuerziger-quinoasalat-mit-avocado-und-rucola.jpg" alt="Quinoasalat">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Inkasalat mit Avocado und Quinoa</p>
+                        <p class="card-text">Veggie • Mittel • 35 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="kichererbsensalat.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1000411205330174/bilder/1194869/crop-642x428/mediterraner-kichererbsensalat.jpg" alt="Kichererbsensalat">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Mediterraner Kichererbsensalat</p>
+                        <p class="card-text">Veggie • Mittel • 20 Min. • 2 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="card">
+    
+                    <a href="tortellinisalat.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/620981162378686/bilder/984251/crop-642x428/tortellinisalat-italienische-art.jpg" alt="Tortellinisalat">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Tortellinisalat</p>
+                        <p class="card-text">Veggie/Fleisch • Mittel • 30 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="bulgursalat.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2204011353337710/bilder/1470400/crop-642x428/bulgursalat.jpg" alt="Bulgursalat">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Bulgursalat</p>
+                        <p class="card-text">Veggie • Leicht • 1 Std. 30 Min. • 3 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="guacamole.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/876081193044684/bilder/1513762/crop-642x428/1a-guacamole-dip.jpg" alt="Guacamole">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Guacamole</p>
+                        <p class="card-text">Veggie • Leicht • 15 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="rotebeteschafskaese.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/444771136600764/bilder/1026123/crop-642x428/rote-bete-salat-mit-schafskaese.jpg" alt="Rote Bete">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Rote Bete mit Schafskäse</p>
+                        <p class="card-text">Veggie • Leicht • 15 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="card">
+    
+                    <a href="kartoffelsalat.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1231931228220006/bilder/971522/crop-642x428/omas-echter-berliner-kartoffelsalat.jpg" alt="Kartoffelsalat">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Kartoffelsalat</p>
+                        <p class="card-text">Veggie • Mittel • 40 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="tzatziki.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/315051113008494/bilder/1526573/crop-642x428/tzatziki.jpg" alt="Tzatziki">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Tzatziki</p>
+                        <p class="card-text">Veggie • Leicht • 10 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+              
+    
+                <div class="card">
+
+                    <a href="raffaellocreme.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1320901236931593/bilder/967323/crop-642x428/raffaello-creme.jpg" alt="Raffaello-Creme">
+                    </a>    
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Raffaello-Creme</p>
+                        <p class="card-text">Leicht • 30 Min. • 4 Personen </p>         
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="card">
+    
+                    <a href="rhabarberkompott.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1731381282223663/bilder/1324492/crop-642x428/rhabarberkompott.jpg" alt="Rhabarberkompott">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Rhabarberkompott</p>
+                        <p class="card-text">Leicht • 20 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="gebackenebanane.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/2020521327524916/bilder/764364/crop-642x428/gebackene-banane-mit-honig.jpg" alt="Gebackene Banane">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Gebackene Banane</p>
+                        <p class="card-text">Leicht • 10 Min. • 2 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="applecrumble.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1159171222074763/bilder/1471869/crop-642x428/apple-crumble.jpg" alt="Apple Crumble">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Apple Crumble</p>
+                        <p class="card-text">Leicht • 20 Min. • 4 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="card">
+    
+                    <a href="spaghettieisdessert.html" class="cardlink">
+                        <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1152361221481605/bilder/1494776/crop-642x428/spaghetti-eis-dessert.jpg" alt="Spaghetti-Eis-Dessert">
+                    </a>
+    
+                    <div class="card-body">
+    
+                        <p class="subtitle">Spaghetti-Eis-Dessert</p>
+                        <p class="card-text">Leicht • 30 Min. • 8 Personen</p>
+    
+                    </div>
+    
+                </div>
+    
+            
+
+        </div>
+
+
+           
+
+        </div> 
+
     
     </div>
 
