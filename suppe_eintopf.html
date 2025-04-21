@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suppe & Eintopf Übersicht</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+       
+
+    <style>
+
+        .amatic-sc-regular {
+            font-family: "Amatic SC", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .amatic-sc-bold {
+            font-family: "Amatic SC", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .roboto-sc-regular {
+            font-family: "Roboto", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .julius-sans-one-regular {
+            font-family: "Julius Sans One", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Roboto", serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .toggle-button {
+            cursor: pointer;
+            font-size: 24px;
+            display: none;
+            float: right;
+            margin-left: auto;
+        }
+
+       
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 20px;
+        }
+       
+       
+        .logohome {
+            color: black;
+            text-decoration: none;
+            font-family: "Amatic SC", serif;
+            font-weight: bolder;
+            font-size: 27pt; 
+            display: flex;
+            height: 100%;
+        }
+
+        .navbar {
+            background-color: whitesmoke;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 0;
+            height: 50px;
+            transition: height 0.1s ease-in-out;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            position: relative; 
+            padding: 0 20px;
+            font-size: 13pt;
+            text-align: left;
+            font-family: "Roboto", serif;
+            white-space: nowrap;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+        }
+          
+        .cook-item {
+            display: none;  
+            position: absolute;
+            background-color: whitesmoke;
+            z-index: 10; 
+            left: 0;
+            width: 150px;
+            max-height: max-content;
+        }
+
+        .navbar-expanded {
+            height: 150px;
+        }
+        
+        .dropdown {
+            position: relative;
+            background-color: whitesmoke;
+        }      
+
+        .dropdown-menu {
+            position: absolute;
+            display: block;
+            padding: 0;
+            list-style: none;
+            top: 150%;
+            left: 0;
+            width: 150px; 
+        }
+
+        .dropdown-menu li {
+            font-size: 11.5pt;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .nav-links .dropdown-menu li a {
+            color: grey; 
+            font-weight: 400; 
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            display: block;
+            width: max-content;
+            font-size: 11.5pt;
+        }
+
+        .nav-links .dropdown-menu li a:hover {
+            color: rgb(111, 180, 180);
+            font-weight: bold;
+        }
+
+        .nav-links .dropdown:hover .dropdown-menu {
+            display: block; 
+        }
+
+        .nav-links a:hover {
+            color: steelblue;
+            font-weight: bold;
+        }
+
+        .divider {
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        .subtitle {
+            font-family: "Julius Sans One", serif;
+            text-align: left;
+            padding: 3px;
+            padding-top: 0;
+            font-weight: bolder;
+            font-size: 12pt;
+            border-radius: 8px;       
+            margin-top: 5px;
+        }
+
+        .top-button {
+            display: flex;
+        }
+
+        #backToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            padding: 10px;
+            background-color: rgb(111, 180, 180);
+            color: black;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            height: auto; 
+        }
+
+        .logohome {
+            color: black;
+            text-decoration: none;
+            font-family: "Amatic SC", serif;
+            font-weight: bolder;
+            font-size: 27pt; 
+            display: flex;
+            height: 100%;
+        }
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            border-radius: 8px;
+            background-color: whitesmoke;
+        }
+
+        .card-text {
+            font-family: "Roboto", serif;
+            font-weight: 400;
+            font-size: 9pt;
+            color: darkslategray;
+            text-align: left;
+            margin: 3px;
+            padding-left: 2px;
+            padding-top: 0;
+            padding-bottom: 3px;
+            line-height: 135%;
+        }
+
+        .cardimg {
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+            width: 100%;
+            height: auto;
+        }
+
+        .part-search-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px; 
+            margin: 0;
+            padding: 0;
+        }
+
+        .part-name {
+            text-align: center;
+            padding: 0em;
+            font-family: "Julius Sans One", serif;
+            font-weight: bolder;
+            font-size: 30pt;
+            cursor: text;
+            color: rgb(111, 180, 180);
+        }
+
+        .search-field {
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-color: black;
+                font-size: 15pt;
+                justify-items: center;
+                font-family: "Roboto", serif;
+                cursor: pointer;
+                padding-left: 10px;
+                width: max-content;       
+        }  
+
+        .search-button {
+            border: none;
+            background-color: white;
+            cursor: pointer;
+            margin-left: -30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        
+           
+        @media (max-width: 1180px) {
+            
+            .grid {
+                grid-template-columns: repeat(3, 1fr);
+            }  
+        }
+        
+        @media (max-width: 1024px) {
+            
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }  
+        }
+        
+        @media (max-width: 768px) {
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }  
+
+            .navbar {
+                margin: 0;
+                padding: 1vh;
+                height: 50px;
+            }
+
+            .navbar.expanded {
+                height: auto; 
+                transition: height 0.1s ease-in-out;
+            }
+
+           
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding-left: 50px;
+                width: 100%;
+                font-family: "Amatic SC", serif;
+            }
+
+            .nav-links li {
+                padding: 0;
+                font-size: 13pt;
+                margin: 0;
+            }
+
+            .dropdown-menu {
+                position: absolute;
+                display: block;
+                padding: 0;
+                list-style: none;
+                top: 100%;
+                left: 0;
+                width: max-content;
+            }
+
+            .dropdown-menu li {
+                font-size: 13pt;
+                width: max-content; 
+                }            
+
+          
+            .toggle-button {
+                display: flex;
+            }
+
+            .nav-links.active {
+                display: flex;
+                background-color: whitesmoke;
+            }
+
+            .nav-links .dropdown-menu li a {
+                font-size: 13pt;
+            }
+
+            .cook-item {
+                font-size: 13pt;
+            }
+
+            .search-field {
+                font-size: 12pt;
+            }
+
+            .search-button {
+                font-size: 10pt;
+            }
+
+            .part-search-container {
+                flex-direction: column;  
+                align-items: center;
+            }
+
+            .part-name {
+                font-size: 30pt;
+                font-weight: bolder;
+            }
+
+            
+            .logohome {
+                color: black;
+                text-decoration: none;
+                font-family: "Amatic SC", serif;
+                font-weight: bolder;
+                font-size: 16pt; 
+                display: flex;
+                height: auto;
+            }
+
+        }
+            
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <header>
+            
+            <nav class="navbar"> 
+                
+                <div class="box1">
+                    <a href="home.html" class="logohome">Reading Bakery</a>
+                </div>
+
+                <ul class="nav-links" id="nav-links">
+                        
+                    
+                    <li class="dropdown"><a href="kochen.html">Kochen</a>
+
+                        <ul class="dropdown-menu">
+
+                            <li class="cook-item"><a href="suppe_eintopf.html">Suppe & Eintopf</a></li>
+                            <li class="cook-item"><a href="Ofen.html">Aus dem Ofen</a></li>
+                            <li class="cook-item"><a href="pasta_reis.html">Pasta, Reis & Co.</a></li>                
+
+                        </ul>
+                        
+                    </li>
+                    
+                    <li><a href="salat.html">Salat</a></li>
+                    <li><a href="backen.html">Backen</a></li>
+                    <li><a href="dessert.html">Dessert</a></li>
+
+                </ul>
+
+                <div class="toggle-button" id="toggle-button">
+                    <span id="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                    </span>
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16" style="display: none;">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                    </svg>
+                </div>
+
+            </nav>
+                     
+            <div class="part-search-container">
+
+                <h1 class="part-name">Suppe & Eintopf</h1>
+
+                <form action="/search" method="get">
+
+                    <input class="search-field" type="text" name="query" placeholder="Rezept suchen">
+
+                    <button class="search-button" type="submit">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+            
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const searchField = document.querySelector(".search-field");
+                    const searchButton = document.querySelector(".search-button");
+                    const cards = document.querySelectorAll(".card");
+            
+                    function filterRecipes() {
+                        const searchQuery = searchField.value.toLowerCase().trim();
+                        const searchTerms = searchQuery.split(/\s+/); 
+            
+                        cards.forEach(card => {
+                            const subtitle = card.querySelector(".subtitle").textContent.toLowerCase();
+                            const cardText = card.querySelector(".card-text").textContent.toLowerCase();
+            
+                            
+                            const matchesAllTerms = searchTerms.every(term => 
+                                subtitle.includes(term) || cardText.includes(term)
+                            );
+            
+                            if (matchesAllTerms) {
+                                card.style.display = "block"; 
+                            } else {
+                                card.style.display = "none"; 
+                            }
+                        });
+                    }
+            
+                    searchButton.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        filterRecipes();
+                    });
+            
+                    searchField.addEventListener("keypress", function (event) {
+                        if (event.key === "Enter") {
+                            event.preventDefault();
+                            filterRecipes();
+                        }
+                    });
+                });
+            </script>
+
+            <br>
+ 
+            <hr class="divider">
+            
+            <br>
+
+        </header>
+
+        <script>
+            const toggleButton = document.getElementById('toggle-button');
+            const navLinks = document.getElementById('nav-links');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+            const navbar = document.querySelector('.navbar');
+        
+            toggleButton.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                navbar.classList.toggle('expanded');
+        
+                if (navLinks.classList.contains('active')) {
+                    menuIcon.style.display = 'none';
+                    closeIcon.style.display = 'inline';
+                } else {
+                    menuIcon.style.display = 'inline';
+                    closeIcon.style.display = 'none';
+                }
+            });
+        </script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const kochenLink = document.querySelector('.dropdown > a');
+                const cookItems = document.querySelectorAll('.cook-item');
+                const navbar = document.querySelector('.navbar');
+
+                kochenLink.addEventListener('click', function (event) {
+                    event.preventDefault(); 
+
+                    let isVisible = false; 
+
+                    cookItems.forEach(item => {
+                        if (item.style.display === "block") {
+                            item.style.display = "none";
+                        } else {
+                            item.style.display = "block";
+                            isVisible = true; 
+                        }
+                    });
+
+                    if (isVisible) {
+                        navbar.classList.add('navbar-expanded');
+                    } else {
+                        navbar.classList.remove('navbar-expanded');
+                    }
+                });
+            });
+        </script>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <a href="thaisuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://c.rewe-static.de/38937282/2/38937282.png?impolicy=rds&im=Resize,width=2048" alt="Thaisuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Thai Curry Suppe</p>
+                    <p class="card-text">Suppe & Eintopf <br>  Veggie • Leicht <br>   30 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="brokkolisuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/642141165243156/bilder/1334973/crop-642x428/brokkolisuppe.jpg" alt="Brokkolisuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Brokkolisuppe</p>
+                    <p class="card-text"> Suppe & Eintopf <br>  Veggie • Leicht <br>   45 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="borsch.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1689761277236546/bilder/1026093/crop-642x428/vegetarischer-borschtsch.jpg" alt="???">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Borsch</p>
+                    <p class="card-text">Suppe & Eintopf <br> Veggie/Fleisch • Mittel <br> 35 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="tomatensuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1373751242290581/bilder/1499747/crop-642x428/frische-tomatensuppe.jpg" alt="Tomatensuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Tomatensuppe</p>
+                    <p class="card-text">Suppe & Eintopf<br> Veggie • Leicht <br> 20 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="linsensuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/386231125240691/bilder/669473/crop-642x428/feine-linsensuppe.jpg" alt="Linsensuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Feine Linsensuppe</p>
+                    <p class="card-text">Suppe & Eintopf <br> Fleisch • Mittel <br> 50 Min. • 2 Personen</p>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <a href="spargelcremesuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/1148331221133495/bilder/1013854/crop-642x428/spargelcremesuppe.jpg" alt="Spargelcremesuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Spargelcremesuppe</p>
+                    <p class="card-text">Suppe & Eintopf <br> Veggie • Mittel<br> 30 Min. • 6 Personen</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <a href="currysuppe.html" class="cardlink">
+                    <img class="cardimg" src="https://img.chefkoch-cdn.de/rezepte/740201176708835/bilder/794296/crop-642x428/currysuppe.jpg" alt="Currysuppe">
+                </a>
+
+                <div class="card-body">
+
+                    <p class="subtitle">Currysuppe</p>
+                    <p class="card-text">Suppe & Eintopf <br> Veggie • Leicht<br> 15 Min. • 4 Personen</p>
+
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+
+
+        </div>
+
+        <div class="top-button">
+
+            <button id="backToTop">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+                    
+                    <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"/>
+                
+                </svg>
+
+            </button>  
+
+            <script>
+                window.onscroll = function() {
+                    var button = document.getElementById("backToTop");
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        button.style.display = "block";
+                    } else {
+                        button.style.display = "none";
+                    }
+                };
+            
+                document.getElementById("backToTop").onclick = function() {
+                    window.scrollTo({top: 0, behavior: 'smooth'});
+                };
+            </script>
+
+            
+            
+        </div>
+
+    
+
+</body>
+</html>
