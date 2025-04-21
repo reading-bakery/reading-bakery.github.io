@@ -1,19 +1,38 @@
-const toggleButton = document.getElementById('toggle-button');
-const navLinks = document.getElementById('nav-links');
-const menuIcon = document.getElementById('menu-icon');
-const closeIcon = document.getElementById('close-icon');
-const navbar = document.querySelector('.navbar');
+document.addEventListener("DOMContentLoaded", function () {
+    const searchField = document.querySelector(".search-field");
+    const searchButton = document.querySelector(".search-button");
+    const cards = document.querySelectorAll(".card");
 
-toggleButton.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-    navbar.classList.toggle('expanded');
+    function filterRecipes() {
+        const searchQuery = searchField.value.toLowerCase().trim();
+        const searchTerms = searchQuery.split(/\s+/); 
 
-    if (navLinks.classList.contains('active')) {
-        menuIcon.style.display = 'none';
-        closeIcon.style.display = 'inline';
-    } else {
-        menuIcon.style.display = 'inline';
-        closeIcon.style.display = 'none';
+        cards.forEach(card => {
+            const subtitle = card.querySelector(".subtitle").textContent.toLowerCase();
+            const cardText = card.querySelector(".card-text").textContent.toLowerCase();
+
+            
+            const matchesAllTerms = searchTerms.every(term => 
+                subtitle.includes(term) || cardText.includes(term)
+            );
+
+            if (matchesAllTerms) {
+                card.style.display = "block"; 
+            } else {
+                card.style.display = "none"; 
+            }
+        });
     }
+
+    searchButton.addEventListener("click", function (event) {
+        event.preventDefault();
+        filterRecipes();
+    });
+
+    searchField.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            filterRecipes();
+        }
+    });
 });
-        
