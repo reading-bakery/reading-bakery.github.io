@@ -306,7 +306,7 @@ p {
 @media (max-width: 1180px) {
     
     .grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }  
 
     .grid2 {
