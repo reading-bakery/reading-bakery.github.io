@@ -248,6 +248,12 @@ h1 {
     font-size: 50pt;
 }
 
+footer {
+    text-align: center;
+    font-family: "Amatic SC", serif;
+    font-size: 10pt;
+}
+
 p {
     padding: 0em;
     font-family: "Roboto", serif;
