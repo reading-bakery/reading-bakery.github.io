@@ -248,11 +248,6 @@ h1 {
     font-size: 50pt;
 }
 
-footer {
-    text-align: center;
-    font-family: "Julius Sans One", serif;
-    font-size: 10pt;
-}
 
 p {
     padding: 0em;
@@ -308,6 +303,13 @@ p {
     border-radius: 8px;
     font-size: 20px;
 }
+
+footer {
+    text-align: center;
+    font-family: "Julius Sans One", serif;
+    font-size: 10pt;
+}
+
 
 @media (max-width: 1180px) {
     
