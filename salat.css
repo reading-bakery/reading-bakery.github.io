@@ -22,6 +22,12 @@
     font-style: normal;
 }
 
+footer {
+            text-align: center;
+            font-family: "Julius Sans One", serif;
+            font-size: 10pt;
+        }
+
 body {
     font-family: "Roboto", serif;
     margin: 0;

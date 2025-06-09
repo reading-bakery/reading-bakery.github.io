@@ -16,12 +16,19 @@
             font-style: normal;
         }
 
+
         .julius-sans-one-regular {
             font-family: "Julius Sans One", serif;
             font-weight: 400;
             font-style: normal;
         }
 
+       footer {
+            text-align: center;
+            font-family: "Julius Sans One", serif;
+            font-size: 10pt;
+        }
+       
         body {
             font-family: "Roboto", serif;
             margin: 0;
