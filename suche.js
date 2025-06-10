@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function renderCards(cardsArray) {
         if (cardsArray.length === 0) {
-            resultsContainer.innerHTML = "<p>Keine Rezepte gefunden.</p>";
+            resultsContainer.innerHTML = "<p>404 Rezept nicht gefunden. 👻</p>";
             return;
         }
         resultsContainer.innerHTML = cardsArray.map(card => `

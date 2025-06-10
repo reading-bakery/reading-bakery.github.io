@@ -23,7 +23,7 @@
             font-style: normal;
         }
 
-       footer {
+        footer {
             text-align: center;
             font-family: "Julius Sans One", serif;
             font-size: 10pt;
@@ -495,7 +495,15 @@
 
         .nav-links a:hover {
             color: steelblue;
+            font-weight: bolder;
+
+        }
+
+        #search-results {
+            font-family: "Julius Sans One", serif;
             font-weight: bold;
+            font-size: 18pt;
+
         }
 
 

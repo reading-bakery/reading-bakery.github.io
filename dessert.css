@@ -497,6 +497,13 @@ body {
     font-weight: bold;
 }
 
+#search-results {
+            font-family: "Julius Sans One", serif;
+            font-weight: bold;
+            font-size: 18pt;
+
+        }
+
 
 @media (max-width: 1180px) {
     
