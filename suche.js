@@ -1,36 +1,57 @@
 document.addEventListener("DOMContentLoaded", function () {
     const searchField = document.querySelector(".search-field");
-    const searchButton = document.querySelector(".search-button");
-    const cards = document.querySelectorAll(".card");
+    const resultsContainer = document.getElementById("search-results");
+
+    function renderCards(cardsArray) {
+        if (cardsArray.length === 0) {
+            resultsContainer.innerHTML = "<p>Keine Rezepte gefunden.</p>";
+            return;
+        }
+        resultsContainer.innerHTML = cardsArray.map(card => `
+            <a href="${card.url}" class="card" style="display: flex; gap: 10px; margin-bottom: 10px; text-decoration: none; color: inherit; border: 1px solid #ccc; padding: 10px; border-radius: 6px;">
+                <img src="${card.img}" alt="${card.title}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 6px;">
+                <div>
+                    <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
+                    <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
+                </div>
+            </a>
+        `).join('');
+    }
 
     function filterRecipes() {
         const searchQuery = searchField.value.toLowerCase().trim();
-        const searchTerms = searchQuery.split(/\s+/); 
 
-        cards.forEach(card => {
-            const subtitle = card.querySelector(".subtitle").textContent.toLowerCase();
-            const cardText = card.querySelector(".card-text").textContent.toLowerCase();
+        if (searchQuery === "") {
+            resultsContainer.style.display = "none";
+            resultsContainer.innerHTML = "";
+            return;
+        }
 
-            
-            const matchesAllTerms = searchTerms.every(term => 
-                subtitle.includes(term) || cardText.includes(term)
-            );
+        resultsContainer.style.display = "block";
 
-            if (matchesAllTerms) {
-                card.style.display = "block"; 
-            } else {
-                card.style.display = "none"; 
-            }
+        const searchTerms = searchQuery.split(/\s+/);
+
+        const filtered = recipes.filter(recipe => {
+            const title = recipe.title.toLowerCase();
+            const description = recipe.description.toLowerCase();
+            return searchTerms.every(term => title.includes(term) || description.includes(term));
+        });
+
+        renderCards(filtered);
+    }
+
+    searchField.addEventListener("input", filterRecipes);
+
+    const searchButton = document.querySelector(".search-button");
+    if (searchButton) {
+        searchButton.addEventListener("click", function(event) {
+            event.preventDefault();
+            filterRecipes();
         });
     }
 
-    searchButton.addEventListener("click", function (event) {
-        event.preventDefault();
-        filterRecipes();
-    });
-
-    searchField.addEventListener("keypress", function (event) {
-        if (event.key === "Enter") {
+    searchField.addEventListener("keypress", function(event) {
+        if(event.key === "Enter") {
             event.preventDefault();
             filterRecipes();
         }
