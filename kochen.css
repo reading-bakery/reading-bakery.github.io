@@ -497,7 +497,7 @@ body {
     font-weight: bold;
 }
 
-.search-results {
+#search-results {
         font-family: "Julius Sans One", serif;
         font-weight: bolder;
         font-size: 18pt;
