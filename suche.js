@@ -7,33 +7,27 @@ document.addEventListener("DOMContentLoaded", function () {
             resultsContainer.innerHTML = "<p>404 Rezept nicht gefunden. 👻</p>";
             return;
         }
-        
- resultsContainer.innerHTML = cardsArray.map(card => `
+        resultsContainer.innerHTML = cardsArray.map(card => `
   <a href="${card.url}" class="card" style="
     display: flex; 
-    gap: 15px; 
-    margin-bottom: 12px; 
+    gap: 10px; 
+    margin-bottom: 10px; 
     text-decoration: none; 
     color: inherit; 
     border: 1px solid #ccc; 
-    padding: 12px; 
+    padding: 10px; 
     border-radius: 6px; 
-    align-items: center; 
-    justify-content: flex-start;">
+    align-items: left;">
     <img src="${card.img}" alt="${card.title}" style="
-      width: 100px; 
-      height: 100px; 
+      width: 60px; 
+      height: 60px; 
       object-fit: cover; 
       border-radius: 6px; 
       flex-shrink: 0;">
-  <div style="
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: flex-start;">
-  <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
-  <p class="card-text" style="margin: 0; font-size: 0.95em; color: #555;">${card.description}</p>
-</div>
+    <div style="display: flex; flex-direction: column; justify-content: center;">
+      <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
+      <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
+    </div>
   </a>
 `).join('');
     }
