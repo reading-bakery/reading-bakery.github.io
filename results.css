@@ -8,6 +8,7 @@
   border-radius: 6px;
   margin-bottom: 12px;  
   transition: box-shadow 0.3s ease;
+  gap: 15px;
 }
 
 .card.result-item:hover {
