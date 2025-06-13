@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         resultsContainer.innerHTML = cardsArray.map(card => `
             <a href="${card.url}" class="card" style="
-                display: flex;
+                display: flex; 
                 gap: 10px;
                 margin-bottom: 10px;
                 text-decoration: none;
@@ -17,15 +17,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 border: 1px solid #ccc;
                 padding: 10px;
                 border-radius: 6px;
-                align-items: center;">
+                align-items: center; 
+            ">
                 <img src="${card.img}" alt="${card.title}" style="
-                    width: 100px;
-                    height: 100px;
+                    width: 100px; 
+                    height: 100px; 
                     object-fit: cover;
                     border-radius: 6px;
                     flex-shrink: 0;
                 ">
-                <div style="display: flex; flex-direction: column; justify-content: center;">
+                <div style="
+                    display: flex;
+                    flex-direction: column; 
+                    justify-content: center; 
+                    flex-grow: 1; 
+                ">
                     <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
                     <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
                 </div>
