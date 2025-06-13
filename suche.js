@@ -5,54 +5,20 @@ document.addEventListener("DOMContentLoaded", function () {
     function renderCards(cardsArray) {
         if (cardsArray.length === 0) {
             resultsContainer.innerHTML = `
-            <p style="
-                font-family: 'Julius Sans One', serif; 
-                font-size: 1.5em; 
-                text-align: center; 
-                margin: 20px 0;">
+            <p class="no-results-message">
                 404 Rezept nicht gefunden. 👻
             </p>`;
             return;
         }
         resultsContainer.innerHTML = cardsArray.map(card => `
-            <a href="${card.url}" class="card" style="
-                display: flex; 
-                gap: 10px;
-                margin-bottom: 10px;
-                text-decoration: none;
-                color: inherit;
-                border: 1px solid #ccc;
-                padding: 10px;
-                border-radius: 6px;
-                align-items: center; 
-            ">
-                <img src="${card.img}" alt="${card.title}" style="
-                    width: 125px; 
-                    height: 125px; 
-                    object-fit: cover;
-                    border-radius: 6px;
-                    flex-shrink: 0;
-                ">
-                <div style="
-                    display: flex;
-                    flex-direction: column; 
-                    justify-content: center; 
-                    flex-grow: 1; 
-                ">
-                     <h4 style="
-                        margin: 0;
-                        font-size: 1.1em;
-                        font-weight: bold;
-                        line-height: 1.3;
-                    ">${card.title}</h4>
-                    <p style="
-                        margin: 6px 0 0 0;
-                        font-size: 1em;
-                        color: #666;
-                    ">${card.description}</p>
+            <a href="${card.url}" class="card">
+                <img src="${card.img}" alt="${card.title}" class="card-img">
+                <div class="card-content">
+                    <h4 class="card-title">${card.title}</h4>
+                    <p class="card-description">${card.description}</p>
                 </div>
             </a>
-        ).join('');
+        `).join('');
     }
 
     function filterRecipes() {
