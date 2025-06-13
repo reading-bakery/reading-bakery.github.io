@@ -34,6 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
   <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
   <p class="card-text" style="margin: 0; font-size: 0.95em; color: #555;">${card.description}</p>
 </div>
+      <p class="card-text" style="margin: 0; font-size: 0.95em; color: #555;">${card.description}</p>
+    </div>
   </a>
 `).join('');
     }
