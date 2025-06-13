@@ -105,11 +105,17 @@ body {
 }
 
 
+
 .no-results-message {
-  font-family: 'Julius Sans One', serif; 
-  font-size: 1.5em; 
-  text-align: center; 
-  margin: 20px 0;
+    font-family: 'Julius Sans One', serif; 
+    font-size: 1.5em; 
+    text-align: center; 
+    margin: 20px 0;
+    background-color: #eee;       
+    border: 2px dotted #999;     
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: #555;             
 }
 
 
