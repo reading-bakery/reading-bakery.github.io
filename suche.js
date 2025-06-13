@@ -10,16 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
             </p>`;
             return;
         }
-        resultsContainer.innerHTML = cardsArray.map(card => `
-            <a href="${card.url}" class="card">
-                <img src="${card.img}" alt="${card.title}" class="cardimg">
-                <div class="card-content">
-                    <h4 class="card-title">${card.title}</h4>
-                    <p class="card-text">${card.description}</p>
-                </div>
-            </a>
-        `).join('');
-
+      resultsContainer.innerHTML = cardsArray.map(card => `
+        <a href="${card.url}" class="card result-item">
+            <img src="${card.img}" alt="${card.title}" class="card-img">
+            <div class="card-content">
+                <h4 class="card-title">${card.title}</h4>
+                <p class="card-description">${card.description}</p>
+            </div>
+        </a>
+    `).join('');
     }
 
     function filterRecipes() {
