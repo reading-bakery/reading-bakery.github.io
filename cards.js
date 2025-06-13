@@ -19,7 +19,7 @@ const recipes = [
   },
   {
     title: "Tomatensuppe",
-    description: "Tomatensuppe",
+    description: "Leicht • 20 Min. • 2 Personen",
     img: "/images/tomatensuppe.png",
     url: "tomatensuppe.html"
   },
