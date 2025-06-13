@@ -17,8 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 border: 1px solid #ccc;
                 padding: 10px;
                 border-radius: 6px;
-                align-items: center; /* Changed from 'left' to 'center' for vertical alignment */
-            ">
+                align-items: center;">
                 <img src="${card.img}" alt="${card.title}" style="
                     width: 100px;
                     height: 100px;
