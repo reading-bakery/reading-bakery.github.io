@@ -1,29 +1,24 @@
 const recipes = [
   {
     title: "Apfelstrudel",
-    description: "Klassischer Apfelstrudel mit Zimt und Zucker.",
+    description: "Mittel • 2 Std. 5 Min.",
     img: "/images/apfelstrudel.png",
     url: "apfelstrudel.html"
   },
   {
-    title: "Schoko-Kuchen",
-    description: "Leckerer Schokoladenkuchen für Schokofans.",
-    img: "/images/schokokuchen.png",
-    url: "schokokuchen.html"
-  },
-  {
     title: "Bananenbrot",
-    description: "Saftiges Bananenbrot mit Nüssen.",
+    description: "Mittel • 1 Std. 5 Min. ",
     img: "/images/bananenbrot.png",
     url: "bananenbrot.html"
   },
-    {
+  {
     title: "Brokkolisuppe",
     description: "Leicht • 45 Min. • 4 Personen",
     img: "/images/brokkolisuppe.png",
     url: "brokkolisuppe.html"
   },
-  {title: "Tomatensuppe",
+  {
+    title: "Tomatensuppe",
     description: "Tomatensuppe",
     img: "/images/tomatensuppe.png",
     url: "tomatensuppe.html"
@@ -237,6 +232,6 @@ const recipes = [
     description: "Leicht • 25 Min. • 2 Personen",
     img: "/images/pastaspargel.png",
     url: "spargelpasta.html"
-  }
+  },
 ];
  
