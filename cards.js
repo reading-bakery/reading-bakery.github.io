@@ -232,6 +232,6 @@ const recipes = [
     description: "Leicht • 25 Min. • 2 Personen",
     img: "/images/pastaspargel.png",
     url: "spargelpasta.html"
-  },
+  }
 ];
  
