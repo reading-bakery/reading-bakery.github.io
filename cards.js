@@ -248,8 +248,8 @@ const recipes = [
   {
     title: "Mediterraner Kichererbsensalat",
     description: "Mittel • 20 Min.",
-    img: "/images/kicherbsensalat.png",
-    url: "kicherbsensalat.html"
+    img: "/images/kichererbsensalat.png",
+    url: "kichererbsensalat.html"
   },
   {
     title: "Tortellinisalat",
