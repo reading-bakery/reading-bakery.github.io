@@ -59,6 +59,60 @@ body {
 }
 
 
+.card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  align-items: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.card-img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.card-description {
+  margin: 6px 0 0 0;
+  font-size: 1em;
+  color: #666;
+}
+
+
+.no-results-message {
+  font-family: 'Julius Sans One', serif; 
+  font-size: 1.5em; 
+  text-align: center; 
+  margin: 20px 0;
+}
+
+
 .divider {
     border: 1px solid grey;
     border-radius: 5px;
@@ -618,6 +672,16 @@ body {
         font-weight: bolder;
         font-size: 16pt; 
         display: flex;
+        height: auto;
+    }
+
+     .card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card-img {
+        width: 100%;
         height: auto;
     }
 
