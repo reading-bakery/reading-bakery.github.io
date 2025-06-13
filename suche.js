@@ -40,14 +40,26 @@ document.addEventListener("DOMContentLoaded", function () {
                 ">
                 <div style="
                     display: flex;
-                    flex-direction: column; 
-                    justify-content: flex-start; 
-                    flex-grow: 1; 
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    flex-grow: 1;
                     text-align: left;
-                    margin-left: 0;
                 ">
-                    <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
-                    <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
+                    <h4 style="
+                        margin: 0;
+                        padding: 0;
+                        font-size: 1em;
+                        font-weight: 600;
+                        line-height: 1.3;
+                    ">${card.title}</h4>
+                    <p style="
+                        margin: 0;
+                        padding: 0;
+                        margin-top: 4px;
+                        font-size: 1em;
+                        color: #555;
+                        line-height: 1.3;
+                    ">${card.description}</p>
                 </div>
             </a>
         `).join('');
