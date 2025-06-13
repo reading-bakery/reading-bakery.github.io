@@ -21,15 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         resultsContainer.innerHTML = cardsArray.map(card => `
             <a href="${card.url}" class="card" style="
-                display: flex; 
-                gap: 10px;
-                margin-bottom: 10px;
-                text-decoration: none;
-                color: inherit;
-                border: 1px solid #ccc;
-                padding: 10px;
-                border-radius: 6px;
-                align-items: center; 
+                  display: flex; 
+                    gap: 10px;
+                    text-decoration: none;
+                    color: inherit;
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    border-radius: 6px;
+                    align-items: center;
             ">
                 <img src="${card.img}" alt="${card.title}" style="
                     width: 120px; 
