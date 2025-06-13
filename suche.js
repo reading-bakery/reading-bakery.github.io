@@ -13,8 +13,8 @@ resultsContainer.innerHTML = cardsArray.map(card => `
         box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     ">
         <img src="${card.img}" alt="${card.title}" style="
-            width: 120px;
-            height: 120px;
+            width: 125px;
+            height: 125px;
             object-fit: cover;
             border-radius: 6px;
             flex-shrink: 0;
