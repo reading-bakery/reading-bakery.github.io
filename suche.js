@@ -7,30 +7,31 @@ document.addEventListener("DOMContentLoaded", function () {
             resultsContainer.innerHTML = "<p>404 Rezept nicht gefunden. 👻</p>";
             return;
         }
-        resultsContainer.innerHTML = cardsArray.map(card => `
+        
+ resultsContainer.innerHTML = cardsArray.map(card => `
   <a href="${card.url}" class="card" style="
     display: flex; 
-    gap: 10px; 
-    margin-bottom: 10px; 
+    gap: 15px; 
+    margin-bottom: 12px; 
     text-decoration: none; 
     color: inherit; 
     border: 1px solid #ccc; 
-    padding: 10px; 
+    padding: 12px; 
     border-radius: 6px; 
-    align-items: center;">
+    align-items: center; 
+    justify-content: flex-start;">
     <img src="${card.img}" alt="${card.title}" style="
-      width: 60px; 
-      height: 60px; 
+      width: 100px; 
+      height: 100px; 
       object-fit: cover; 
       border-radius: 6px; 
       flex-shrink: 0;">
     <div style="display: flex; flex-direction: column; justify-content: center;">
       <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
-      <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
+      <p class="card-text" style="margin: 0; font-size: 0.95em; color: #555;">${card.description}</p>
     </div>
   </a>
 `).join('');
-
     }
 
     function filterRecipes() {
