@@ -11,6 +11,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   font-family: "Julius Sans One", serif;
+  font-weight: bold;
 }
 
 
@@ -34,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
 .search-results .result-item:hover {
