@@ -8,28 +8,30 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
         resultsContainer.innerHTML = cardsArray.map(card => `
-  <a href="${card.url}" class="card" style="
-    display: flex; 
-    gap: 10px; 
-    margin-bottom: 10px; 
-    text-decoration: none; 
-    color: inherit; 
-    border: 1px solid #ccc; 
-    padding: 10px; 
-    border-radius: 6px; 
-    align-items: left;">
-    <img src="${card.img}" alt="${card.title}" style="
-      width: 60px; 
-      height: 60px; 
-      object-fit: cover; 
-      border-radius: 6px; 
-      flex-shrink: 0;">
-    <div style="display: flex; flex-direction: column; justify-content: center;">
-      <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
-      <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
-    </div>
-  </a>
-`).join('');
+            <a href="${card.url}" class="card" style="
+                display: flex;
+                gap: 10px;
+                margin-bottom: 10px;
+                text-decoration: none;
+                color: inherit;
+                border: 1px solid #ccc;
+                padding: 10px;
+                border-radius: 6px;
+                align-items: center; /* Changed from 'left' to 'center' for vertical alignment */
+            ">
+                <img src="${card.img}" alt="${card.title}" style="
+                    width: 60px;
+                    height: 60px;
+                    object-fit: cover;
+                    border-radius: 6px;
+                    flex-shrink: 0;
+                ">
+                <div style="display: flex; flex-direction: column; justify-content: center;">
+                    <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
+                    <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
+                </div>
+            </a>
+        `).join('');
     }
 
     function filterRecipes() {
