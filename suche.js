@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
             resultsContainer.innerHTML = `
                 <p style="
                     font-family: 'Julius Sans One', serif; 
-                    font-size: 1.5em; 
+                    font-size: 1.5em;
+                    text-align: center;
+                    margin: 20px 0;">
                     404 Rezept nicht gefunden. 👻
                 </p>`;
             return;
