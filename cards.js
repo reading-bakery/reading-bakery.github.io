@@ -103,7 +103,7 @@ const recipes = [
   },
   {
     title: "Wirsingrouladen",
-    description: "Miitel • 55 Min. • 3 Personen",
+    description: "Mitel • 55 Min. • 3 Personen",
     img: "/images/wirsingroulade.png",
     url: "wirsingroulade.html"
   },
@@ -228,7 +228,7 @@ const recipes = [
     url: "buntesofengemuese.html"
   },
   {
-    title: "Psta Spargel",
+    title: "Pasta Spargel",
     description: "Leicht • 25 Min. • 2 Personen",
     img: "/images/pastaspargel.png",
     url: "spargelpasta.html"
