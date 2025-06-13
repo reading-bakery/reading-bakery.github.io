@@ -232,6 +232,60 @@ const recipes = [
     description: "Leicht • 25 Min. • 2 Personen",
     img: "/images/pastaspargel.png",
     url: "spargelpasta.html"
+  },
+  {
+    title: "Würziger Couscoussalat",
+    description: "Leicht • 35 Min. • 4 Personen",
+    img: "/images/couscoussalat.png",
+    url: "couscoussalat.html"
+  },
+  {
+    title: "Inkasalat mit Avocado und Quinoa",
+    description: "Mittel • 35 Min. • 4 Personen",
+    img: "/images/nkasalat.png",
+    url: "inkasalat.html"
+  };
+  {
+    title: "Mediterraner Kichererbsensalat",
+    description: "Mittel • 20 Min. • 2 Personen",
+    img: "/images/kicherbsensalat.png",
+    url: "kicherbsensalat.html"
+  };
+  {
+    title: "Tortellinisalat",
+    description: "Mittel • 30 Min. • 4 Personen",
+    img: "/images/tortelonisalat.png",
+    url: "tortellinisalat.html"
+  };
+  {
+    title: "Bulgursalat",
+    description: "Leicht • 1 Std. 30 Min. • 3 Personen",
+    img: "/images/bulgursalat.png",
+    url: "bulgursalat.html"
+  };
+  {
+    title: "Guacamole",
+    description: "Leicht • 15 Min. • 4 Personen",
+    img: "/images/guacamole.png",
+    url: "guacamole.html"
+  };
+  {
+    title: "Rote Bete mit Schafskäse",
+    description: "Leicht • 15 Min. • 4 Personen",
+    img: "/images/rotebeteschafskaese.png",
+    url: "rotebeteschafskaese.html"
+  };
+  {
+    title: "Kartoffelsalat",
+    description: "Mittel • 40 Min. • 4 Personen",
+    img: "/images/kartoffelsalat.png",
+    url: "kartoffelsalat.html"
+  };
+  {
+    title: "Tzatziki",
+    description: "Leicht • 10 Min. • 4 Personen",
+    img: "/images/tzaziki.png",
+    url: "tzatziki.html"
   }
 ];
  
