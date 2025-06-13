@@ -158,7 +158,7 @@ const recipes = [
   {
     title: "Auberginen-Curry mit Joghurtsauce",
     description: "Leicht • 20 Min. • 2 Personen",
-    img: "/images/auberginencurry.png",
+    img: "/images/aubergerinencurry.png",
     url: "auberginencurry.html"
   },
   {
