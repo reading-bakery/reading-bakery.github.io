@@ -39,11 +39,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     justify-content: center; 
                     flex-grow: 1; 
                 ">
-                    <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
-                    <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
+                     <h4 style="
+                        margin: 0;
+                        font-size: 1.1em;
+                        font-weight: bold;
+                        line-height: 1.3;
+                    ">${card.title}</h4>
+                    <p style="
+                        margin: 6px 0 0 0;
+                        font-size: 1em;
+                        color: #666;
+                    ">${card.description}</p>
                 </div>
             </a>
-        `).join('');
+        ).join('');
     }
 
     function filterRecipes() {
