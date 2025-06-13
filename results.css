@@ -7,8 +7,12 @@
   overflow-y: auto;
   padding: 15px 20px;
   box-shadow: 0 4px 10px rgba(217, 79, 79, 0.15);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
   font-family: 'Roboto', sans-serif;
 }
+
 
 .search-results .grid3 {
   display: grid;
