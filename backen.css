@@ -499,13 +499,6 @@
 
         }
 
-        #search-results {
-            font-family: "Julius Sans One", serif;
-            font-weight: bolder;
-            font-size: 18pt;
-        }
-
-
         @media (max-width: 1180px) {
             
             .grid {
