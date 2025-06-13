@@ -1,14 +1,13 @@
 .card.result-item {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 10px;
-    background-color: whitesmoke;
-    border-radius: 8px;
-    text-decoration: none;
-    color: inherit;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: background-color 0.2s ease;
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 12px;  
+  transition: box-shadow 0.3s ease;
 }
 
 .card.result-item:hover {
