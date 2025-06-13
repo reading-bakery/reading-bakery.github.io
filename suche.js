@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 align-items: center; /* Changed from 'left' to 'center' for vertical alignment */
             ">
                 <img src="${card.img}" alt="${card.title}" style="
-                    width: 60px;
-                    height: 60px;
+                    width: 100px;
+                    height: 100px;
                     object-fit: cover;
                     border-radius: 6px;
                     flex-shrink: 0;
