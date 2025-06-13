@@ -5,13 +5,18 @@ document.addEventListener("DOMContentLoaded", function () {
     function renderCards(cardsArray) {
         if (cardsArray.length === 0) {
             resultsContainer.innerHTML = `
-                <p style="
-                    font-family: 'Julius Sans One', serif; 
-                    font-size: 1.5em;
-                    text-align: center;
-                    margin: 20px 0;">
-                    404 Rezept nicht gefunden. 👻
-                </p>`;
+            <p style="
+                font-family: 'Julius Sans One', serif;
+                font-size: 1.5em;
+                text-align: center;
+                margin: 20px 0;
+                padding: 10px;
+                background-color: #f9f9f9;
+                border: 1px dashed #ccc;
+                border-radius: 8px;">
+                404 Rezept nicht gefunden. 👻
+            </p>`;
+
             return;
         }
         resultsContainer.innerHTML = cardsArray.map(card => `
