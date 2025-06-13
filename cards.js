@@ -103,7 +103,7 @@ const recipes = [
   },
   {
     title: "Wirsingrouladen",
-    description: "Mitel • 55 Min. • 3 Personen",
+    description: "Mittel • 55 Min. • 3 Personen",
     img: "/images/wirsingroulade.png",
     url: "wirsingroulade.html"
   },
@@ -242,7 +242,7 @@ const recipes = [
   {
     title: "Inkasalat mit Avocado und Quinoa",
     description: "Mittel • 35 Min. • 4 Personen",
-    img: "/images/nkasalat.png",
+    img: "/images/inkasalat.png",
     url: "inkasalat.html"
   },
   {
