@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <h4 style="
                         margin: 0;
                         padding: 0;
-                        font-size: 1.1em;
+                        font-size: 1.3em;
                         font-weight: 600;
                         line-height: 1.3;
                     ">${card.title}</h4>
