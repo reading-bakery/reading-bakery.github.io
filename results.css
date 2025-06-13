@@ -1,3 +1,12 @@
+.search-results .card-img {
+  width: 100%;
+  max-width: 100px; 
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
 .search-results {
   margin-top: 1rem;
   background: #fff;
