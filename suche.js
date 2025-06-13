@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     justify-content: flex-start; 
                     flex-grow: 1; 
                     text-align: left;
+                    margin-left: 0;
                 ">
                     <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
                     <p class="card-text" style="margin: 0; font-size: 0.9em; color: #555;">${card.description}</p>
