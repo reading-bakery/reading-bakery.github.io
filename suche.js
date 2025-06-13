@@ -26,8 +26,14 @@ document.addEventListener("DOMContentLoaded", function () {
       object-fit: cover; 
       border-radius: 6px; 
       flex-shrink: 0;">
-    <div style="display: flex; flex-direction: column; justify-content: center;">
-      <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
+    <div style="
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start;">
+  <h4 class="subtitle" style="margin: 0;">${card.title}</h4>
+  <p class="card-text" style="margin: 0; font-size: 0.95em; color: #555;">${card.description}</p>
+</div>
       <p class="card-text" style="margin: 0; font-size: 0.95em; color: #555;">${card.description}</p>
     </div>
   </a>
