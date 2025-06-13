@@ -27,7 +27,7 @@ resultsContainer.innerHTML = cardsArray.map(card => `
         ">
             <h4 style="
                 margin: 0;
-                font-size: 1.2em;
+                font-size: 1.1em;
                 font-weight: bold;
                 line-height: 1.3;
             ">${card.title}</h4>
