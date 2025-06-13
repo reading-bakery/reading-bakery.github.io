@@ -286,6 +286,6 @@ const recipes = [
     description: "Leicht • 10 Min. • 4 Personen",
     img: "/images/tzaziki.png",
     url: "tzatziki.html"
-  }
+  },
 ];
  

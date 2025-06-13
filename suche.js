@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 align-items: center; 
             ">
                 <img src="${card.img}" alt="${card.title}" style="
-                    width: 125px; 
-                    height: 125px; 
+                    width: 120px; 
+                    height: 120px; 
                     object-fit: cover;
                     border-radius: 6px;
                     flex-shrink: 0;
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <h4 style="
                         margin: 0;
                         padding: 0;
-                        font-size: 1em;
+                        font-size: 1.1em;
                         font-weight: 600;
                         line-height: 1.3;
                     ">${card.title}</h4>
