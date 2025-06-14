@@ -296,19 +296,19 @@ const recipes = [
   {
     title: "Apple Crumble",
     description: "Leicht • 20 Min.",
-    img: "applecrumble.png",
+    img: "/images/applecrumble.png",
     url: "applecrumble.html"
   },
-    {
+  {
     title: "Spaghetti-Eis Dessert",
     description: "Leicht • 30 Min.",
-    img: "spaghettieisdessert.png",
+    img: "/images/spaghettieisdessert.png",
     url: "spaghettieisdessert.html"
   },
   {
     title: "Raffaello-Creme",
     description: "Leicht • 30 Min.",
-    img: "raffaellocreme.png",
+    img: "/images/raffaellocreme.png",
     url: "raffaellocreme.html"
   },
   {
@@ -548,8 +548,8 @@ const recipes = [
   {
     title: "Buttermilch-Kokos Kuchen",
     description: "Leicht • 45 Min.",
-    img: "/images/.png",
-    url: ".html"
+    img: "/images/kokosbuttermilch.png",
+    url: "buttermilchkokos.html"
   },
   {
     title: "",
