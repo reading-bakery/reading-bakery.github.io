@@ -14,9 +14,8 @@
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 6px;
-  margin-bottom: 12px;  
-  transition: box-shadow 0.3s ease;
-  gap: 15px;
+  margin-bottom: 16px;  
+  gap: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
