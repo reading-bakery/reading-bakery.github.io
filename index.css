@@ -53,6 +53,12 @@ body {
     gap: 20px;
 }
 
+.grid:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
 .grid2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
