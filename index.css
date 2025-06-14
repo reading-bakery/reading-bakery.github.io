@@ -318,68 +318,6 @@ footer {
     font-size: 10pt;
 }
 
-.card.result-item {
-  display: flex;
-  align-items: flex-start;
-  text-decoration: none;
-  color: inherit;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  margin-bottom: 12px;  
-  transition: box-shadow 0.3s ease;
-  gap: 15px;
-}
-
-.card.result-item:hover {
-    background-color: #e0f0f0;
-}
-
-.card-img {
-    width: 120px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px;
-    flex-shrink: 0;
-}
-
-
-.card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    flex: 1;
-}
-
-.card-title {
-    font-size: 1.2rem;
-    margin: 0 0 5px 0;
-    font-weight: 700;
-    color: #333;
-    font-family: "Julius Sans One", serif;
-}
-
-.card-description {
-    font-size: 0.9rem;
-    color: #555;
-    margin: 0;
-}
-
-.no-results-message {
-    color: #060606;
-    margin-top: 20px;
-    font-family: "Julius Sans One", serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.results-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px;
-  justify-items: stretch;
-}
 
 
 
@@ -406,15 +344,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-
-    .results-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .search-results {
-        grid-template-columns: 1fr; 
-    }
-    
+   
     .grid {
         grid-template-columns: 1fr;
     } 
