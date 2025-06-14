@@ -320,7 +320,7 @@
            gap: 10px;
         }
 
-        .box2 {
+        .box2, .box3, .box4 {
             padding: 20px;
             background: none;
             border-radius: 8px;
@@ -328,24 +328,13 @@
             border: solid;
             border-color:  rgb(111, 180, 180);
             background-color: rgb(166, 217, 217);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
         }
 
-        .box3 {
-            padding: 20px;
-            border-radius: 8px;
-            font-size: 20px;
-            border: solid;
-            border-color: rgb(111, 180, 180);
-            background-color: rgb(166, 217, 217);
-        }
-
-        .box4 {
-            padding: 20px;
-            border-radius: 8px;
-            font-size: 20px;
-            border: solid;
-            border-color: rgb(111, 180, 180);
-            background-color: rgb(166, 217, 217);
+        .box2:hover, .box3:hover, .box4:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
        
@@ -545,12 +534,7 @@
 
             </div>
 
-            
-
             <br>
-
-
-
             
             <div class="search-results" id="search-results"></div>
            
