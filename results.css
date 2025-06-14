@@ -19,7 +19,11 @@
   gap: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;             
+  box-sizing: border-box;   
+  flex-direction: row;   
 }
+
 
 .result-item:hover {
   background-color: #a0bdc4;
