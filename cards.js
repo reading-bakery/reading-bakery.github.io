@@ -290,26 +290,33 @@ const recipes = [
   {
     title: "Rhabarber Kompott",
     description: "Leicht • 20 Min.",
-    img: "",
+    img: "/images/rhababerkompott.png",
     url: "rhabarberkompott.html"
   },
   {
     title: "Apple Crumble",
     description: "Leicht • 20 Min.",
-    img: "",
+    img: "applecrumble.png",
     url: "applecrumble.html"
   },
     {
     title: "Spaghetti-Eis Dessert",
     description: "Leicht • 30 Min.",
-    img: "",
+    img: "spaghettieisdessert.png",
     url: "spaghettieisdessert.html"
   },
-    {
+  {
     title: "Raffaello-Creme",
     description: "Leicht • 30 Min.",
     img: "raffaellocreme.png",
     url: "raffaellocreme.html"
   },
+  {
+    title: "Gebackene Banane",
+    description: "Leicht • 10 Min.",
+    img: "/images/gebackenebanane.png",
+    url: "gebackenebanane.html"
+  },
 ];
  
+
