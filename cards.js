@@ -326,7 +326,7 @@ const recipes = [
   {
     title: "Donauwelle",
     description: "Mittel • 1 Std. 35 Min.",
-    img: "/images/danauwelle.png",
+    img: "/images/daunauwelle.png",
     url: "donauwelle.html"
   },
   {
