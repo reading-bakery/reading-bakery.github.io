@@ -53,6 +53,11 @@ body {
     gap: 20px;
 }
 
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+}
 
 
 .logohome {
@@ -84,7 +89,7 @@ body {
 }
 
 .card {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -276,8 +281,6 @@ p {
     background: rgb(111, 180, 180);
     border-radius: 8px;
     font-size: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
 }
 
 .box2 {
@@ -285,8 +288,6 @@ p {
     background: rgb(224, 224, 87);
     border-radius: 8px;
     font-size: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
 }
 
 .box3 {
@@ -294,8 +295,6 @@ p {
     background: rgb(234, 145, 145);
     border-radius: 8px;
     font-size: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
 }
 
 .box4 {
@@ -303,19 +302,68 @@ p {
     background: rgb(185, 128, 185);
     border-radius: 8px;
     font-size: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-}
-
-.box1:hover, .box2:hover, .box3:hover, .box4:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 footer {
     text-align: center;
     font-family: "Julius Sans One", serif;
     font-size: 10pt;
+}
+
+.card.result-item {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 12px;  
+  transition: box-shadow 0.3s ease;
+  gap: 15px;
+}
+
+.card.result-item:hover {
+    background-color: #e0f0f0;
+}
+
+.card-img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex: 1;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin: 0 0 5px 0;
+    font-weight: 700;
+    color: #333;
+    font-family: "Julius Sans One", serif;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}
+
+.no-results-message {
+    color: #060606;
+    margin-top: 20px;
+    font-family: "Julius Sans One", serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -344,7 +392,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-   
+    
     .grid {
         grid-template-columns: 1fr;
     } 
