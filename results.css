@@ -38,8 +38,8 @@ body {
 
 
 .card-img {
-    width: 90px;
-    height: 90px;
+    width: 55px;
+    height: 55px;
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
