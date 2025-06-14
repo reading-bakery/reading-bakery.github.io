@@ -1,68 +1,32 @@
-#results {
-  display: flex;
-  flex-wrap: wrap;       
-  gap: 16px;            
-  justify-content: flex-start;
+.results-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px;
+  margin-top: 16px;
+  justify-items: start;
 }
 
 .result-item {
-  display: flex;
+  display: flex;             
   align-items: center;
-  width: calc((100% / 3) - 16px);  
   background-color: #f9f9f9;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 12px;
   box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .result-item:hover {
   background-color: #eaeaea;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.result-image {
+.card-img {
   width: 80px;
   height: 80px;
   object-fit: cover;
-  border-radius: 4px;
-  margin-right: 16px;
-  flex-shrink: 0;
+  border
 }
-
-.result-text h3 {
-  margin: 0 0 6px 0;
-  font-size: 1.1rem;
-  color: #333;
-}
-
-.result-text p {
-  margin: 0;
-  color: #666;
-  font-size: 0.9rem;
-}
-
-.no-results-message {
-  color: #060606;
-  margin-top: 20px;
-  font-family: "Julius Sans One", serif;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-
-@media (max-width: 768px) {
-  .result-item {
-    width: calc((100% / 2) - 16px); 
-  }
-}
-
-@media (max-width: 480px) {
-  .result-item {
-    width: 100%;                
-  }
-}
-
-
-
