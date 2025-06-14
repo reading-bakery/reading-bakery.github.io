@@ -2,10 +2,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
-  margin: 16px auto;
-  max-width: 1200px;
-  justify-items: stretch;
-  width: 100%;
+  margin-top: 16px;
+  justify-items: start;
 }
 
 .result-item {
@@ -16,14 +14,11 @@
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 6px;
-  transition: box-shadow 0.3s ease;
+  margin-bottom: 12px;  
   gap: 10px;
   cursor: pointer;
-  width: 100%;            
-  box-sizing: border-box;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 .result-item:hover {
   background-color: #a0bdc4;
