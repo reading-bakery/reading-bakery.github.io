@@ -11,13 +11,14 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     margin-top: 16px;
-    justify-items: stretch;
 }
 
 .result-item {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     width: 100%;
+    min-width: 0;
     background-color: rgb(237, 226, 215);
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
