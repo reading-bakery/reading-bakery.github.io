@@ -1,14 +1,12 @@
 .search-results {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
   margin-top: 16px;
   justify-items: start;
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
 }
-
-
 
 .result-item {
   display: flex;
@@ -22,10 +20,8 @@
   gap: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  background-color: rgb(249, 248, 248);
+  
 }
-
-
 
 .result-item:hover {
   background-color: #84a7b0;
@@ -33,11 +29,11 @@
 }
 
 .card-img {
-  width: 120px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   border-radius: 8px;
-  margin-right: 16px;
+  margin-right: 0;
   flex-shrink: 0;
 }
 
@@ -52,7 +48,6 @@
 .card-title {
   font-size: 1rem;
   margin: 0 0 5px 0;
-  font-size: 1.1rem;
   font-weight: 700;
   color: #333;
   font-family: "Julius Sans One", serif;
@@ -77,13 +72,13 @@
 }
 
 @media (max-width: 768px) {
-  .search-results {
+  .results-container {
     grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media (max-width: 480px) {
-  .search-results {
+  .results-container {
     grid-template-columns: 1fr;
   }
 }
