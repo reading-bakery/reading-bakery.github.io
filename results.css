@@ -38,8 +38,8 @@ body {
 
 
 .card-img {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
@@ -81,6 +81,15 @@ body {
     font-family: "Julius Sans One", serif;
 }
 
-@media (max-width: 600px) {
-    
+@media (max-width: 768px) {
+  .search-results {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+}
+
+@media (max-width: 480px) {
+  .search-results {
+    grid-template-columns: 1fr;
+  }
 }
