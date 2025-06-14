@@ -1,7 +1,7 @@
 .results-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 16px 16px;
+  gap: 16px;
   margin-top: 16px;
   justify-items: start;
 }
@@ -14,13 +14,15 @@
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 6px;
-  gap: 10px;
+  margin-bottom: 12px;  
+  transition: box-shadow 0.3s ease;
+  gap: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .result-item:hover {
-  background-color: #a0bdc4;
+  background-color: #84a7b0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -29,6 +31,7 @@
   height: 100px;
   object-fit: cover;
   border-radius: 8px;
+  margin-right: 16px;
   flex-shrink: 0;
 }
 
@@ -43,6 +46,7 @@
 .card-title {
   font-size: 1rem;
   margin: 0 0 5px 0;
+  font-size: 1.1rem;
   font-weight: 700;
   color: #333;
   font-family: "Julius Sans One", serif;
@@ -53,6 +57,7 @@
   font-size: 0.9rem;
   color: #555;
   line-height: 1.3;
+  margin: 0;
 }
 
 .no-results-message {
