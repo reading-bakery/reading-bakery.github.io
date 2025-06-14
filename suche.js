@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchField = document.querySelector(".search-field");
     const resultsContainer = document.getElementById("search-results");
 
+    resultsContainer.classList.add("results-container"); 
+
+
     function renderCards(cardsArray) {
         if (cardsArray.length === 0) {
             resultsContainer.innerHTML = `

@@ -374,11 +374,13 @@ footer {
     font-size: 20px;
 }
 
-.search-results {
+.results-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 15px;
+  gap: 20px;
+  justify-items: stretch;
 }
+
 
 
 @media (max-width: 1180px) {
@@ -405,6 +407,9 @@ footer {
 
 @media (max-width: 768px) {
 
+    .results-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .search-results {
         grid-template-columns: 1fr; 
