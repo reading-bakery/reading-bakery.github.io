@@ -410,7 +410,7 @@ const recipes = [
   {
     title: "Zitronenkuchen",
     description: "Leicht • 55 Min.",
-    img: "/images/zitronenkuchen.png",
+    img: "/images/Zitronenkuchen.png",
     url: "zitronenkuchen.html"
   },
   {
@@ -432,42 +432,161 @@ const recipes = [
     url: "zimtschneckenkekse.html"
   },
   {
-    title: "",
-    description: "Schwer • 1 Std. 35 Min.",
+    title: "Saftiger Schokokuchen",
+    description: "Leicht • 55 Min.",
+    img: "/images/schokosaftig.png",
+    url: "schokokuchensaftig.html"
+  },
+  {
+    title: "Fantakuchen",
+    description: "Leicht • 1 Std. 55 Min.",
+    img: "/images/fantakuchen.png",
+    url: "fantakuchen.html"
+  },
+  {
+    title: "Erdbeer-Mascarpone Torte",
+    description: "Mittel • 1 Std. 45 Min.",
+    img: "/images/erdbeermascarpone.png",
+    url: "erdbeermascarpone.html"
+  },
+  {
+    title: "Philadelphia Torte",
+    description: "Mittel • 1 Std. 15 Min.",
+    img: "/images/philadelphia.png",
+    url: "philadelphiatorte.html"
+  },
+  {
+    title: "Zwetschgenkuchen",
+    description: "Mittel • 1 Std. 15 Min.",
+    img: "/images/zwetschgenkuchen.png",
+    url: ".zwetschgenkuchenhtml"
+  },
+  {
+    title: "Vanillekipferl",
+    description: "Mittel • 1 Std. 50 Min.",
+    img: "/images/vanillekipferl.png",
+    url: "vanillekipferl.html"
+  },
+  {
+    title: "Zitronentorte",
+    description: "Schwer • 1 Std. 55 Min.",
+    img: "/images/Zitronentorte.png",
+    url: "zitronentorte.html"
+  },
+  {
+    title: "Red Velvet Kuchen",
+    description: "Schwer • 1 Std. 15 Min.",
+    img: "/images/redvelvet.png",
+    url: "redvelvet.html"
+  },
+  {
+    title: "Mandarinen-Schmandkucheun",
+    description: "Mittel • 1 Std. 30 Min.",
+    img: "/images/mandarineschmand.png",
+    url: "schmandmandarine.html"
+  },
+  {
+    title: "Kokosmakronen",
+    description: "Mittel • 1 Std. 20 Min.",
+    img: "/images/kokosmakronen.png",
+    url: "kokosmakronen.html"
+  },
+  {
+    title: "Apfelstrudel",
+    description: "Mittel • 2 Std. 5 Min.",
+    img: "/images/apfelstrudel.png",
+    url: "apfelstrudel.html"
+  },
+  {
+    title: "Tarte au Chokolat / Schokokuchen",
+    description: "Leicht • 55 Min.",
+    img: "/images/TarteauChokolat.png",
+    url: "tarteauchocolat.html"
+  },
+  {
+    title: "Schoko-Birnen-Kuchen",
+    description: "Mittel • 2 Std. 10 Min.",
+    img: "/images/schokobirne.png",
+    url: "schokobirne.html"
+  },
+  {
+    title: "Blinis",
+    description: "Leicht • 30 Min.",
+    img: "/images/blinis.png",
+    url: "blinis.html"
+  },
+  {
+    title: "Waffeln",
+    description: "Leicht • 45 Min.",
+    img: "/images/waffeln.png",
+    url: "waffeln.html"
+  },
+  {
+    title: "Glutenfreie Waffeln",
+    description: "Leicht • 45 Min.",
+    img: "/images/waffelnglutenfrei.png",
+    url: "waffelnglutenfrei.html"
+  },
+  {
+    title: "Vegane Waffeln",
+    description: "Leicht • 45 Min.",
+    img: "/images/waffelnvegan.png",
+    url: "waffelnvegan.html"
+  },
+  {
+    title: "Feiner Apfelkuchen",
+    description: "Leicht • 55 Min.",
+    img: "/images/apfelkuchenfein.png",
+    url: "feiner_apfelkuchen.html"
+  },
+  {
+    title: "Quark-Streuselkuchen",
+    description: "Mittel • 55 Min.",
+    img: "/images/quarkstreusel.png",
+    url: "quarkstreusel.html"
+  },
+  {
+    title: "Buttermilch-Kokos Kuchen",
+    description: "Leicht • 45 Min.",
     img: "/images/.png",
     url: ".html"
   },
   {
     title: "",
     description: "Schwer • 1 Std. 35 Min.",
-    img: "/images/.png",
-    url: ".html"
+    img: "/images/kokosbuttermilch.png",
+    url: "buttermilchkokos.html"
   },
   {
-    title: "",
-    description: "Schwer • 1 Std. 35 Min.",
-    img: "/images/.png",
-    url: ".html"
+    title: "Kirsch-Schmand-KUchen",
+    description: "Mittel • 1 Std. 0 Min.",
+    img: "/images/kirschschmand.png",
+    url: "kirschschmand.html"
   },
   {
-    title: "",
-    description: "Schwer • 1 Std. 35 Min.",
-    img: "/images/.png",
-    url: ".html"
+    title: "Maulwurfkuchen",
+    description: "Mittel • 1 Std. 15 Min.",
+    img: "/images/maulwurfkuchen.png",
+    url: "maulwurfkuchen.html"
   },
   {
-    title: "",
-    description: "Schwer • 1 Std. 35 Min.",
-    img: "/images/.png",
-    url: ".html"
+    title: "Banenenbrot",
+    description: "Mittel • 1 Std. 5 Min.",
+    img: "/images/bananenbrot.png",
+    url: "bananenbrot.html"
   },
   {
-    title: "",
-    description: "Schwer • 1 Std. 35 Min.",
-    img: "/images/.png",
-    url: ".html"
+    title: "Heidesand",
+    description: "Mittel • 1 Std. 50 Min.",
+    img: "/images/heidesand.png",
+    url: "heidesand.html"
   },
-
+  {
+    title: "Engelsaugen",
+    description: "Mittel • 1 Std. 50 Min.",
+    img: "/images/engelsaugen.png",
+    url: "engelsaugen.html"
+  },
 ];
  
 
