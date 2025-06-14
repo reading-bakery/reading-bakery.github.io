@@ -3,15 +3,11 @@
   grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
   margin-top: 16px;
-  justify-items: stretch;
+  justify-items: start;
 }
 
 .result-item {
-  width: 100%;
-  min-width: 0;
-  max-width: 100%;
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   text-decoration: none;
   color: inherit;
@@ -22,8 +18,9 @@
   gap: 0;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  background-color: rgb(230, 224, 233);
+  background-color: rgb(245, 247, 247);
 }
+
 
 .result-item:hover {
   background-color: #84a7b0;
@@ -40,12 +37,11 @@
 }
 
 .card-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  flex: 1;
-  min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex: 1;
 }
 
 .card-title {
@@ -54,10 +50,6 @@
   font-weight: 700;
   color: #333;
   font-family: "Julius Sans One", serif;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  hyphens: auto;
-  white-space: normal;
 }
 
 .card-description {
@@ -78,13 +70,13 @@
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 @media (max-width: 768px) {
   .search-results {
     grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .result-item {
+    width: 100%;
   }
 }
 
@@ -93,4 +85,7 @@
     grid-template-columns: 1fr;
   }
 
+  .result-item {
+    width: 100%;
+  }
 }
