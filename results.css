@@ -3,8 +3,9 @@
   grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
   margin-top: 16px;
-  max-width: 1000px;
   justify-items: start;
+  border: 2px dashed red;
+  background: #482323;
 }
 
 .result-item {
