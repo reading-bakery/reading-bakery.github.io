@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // CSS-Regel programmatisch hinzufügen
     const style = document.createElement('style');
     style.textContent = `
         .no-results-message {
-            font-family: "Julius Sans One", serif;
-            font-weight: bold;
+            font-family: "Julius Sans One";
+            font-weight: bolder;
             font-size: 20px;
             color: #060606;
             margin-top: 20px;
