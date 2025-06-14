@@ -20,7 +20,7 @@
 }
 
 .result-item:hover {
-  background-color: #eaeaea;
+  background-color: hsl(182, 26%, 74%);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
