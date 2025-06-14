@@ -376,7 +376,7 @@ footer {
 
 .search-results {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 Spalten für Desktop + Tablet */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 15px;
 }
 
