@@ -168,7 +168,7 @@ const recipes = [
     url: "couscouspfanne.html"
   },
   {
-    title: "Borsch  / Борщ",
+    title: "Borsch",
     description: "Mittel • 35 Min.",
     img: "/images/borsch.png",
     url: "borsch.html"
