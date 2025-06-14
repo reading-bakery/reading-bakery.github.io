@@ -317,6 +317,157 @@ const recipes = [
     img: "/images/gebackenebanane.png",
     url: "gebackenebanane.html"
   },
+  {
+    title: "Käsekuchen",
+    description: "Leicht •  1 Std 30 Min.",
+    img: "/images/kasekuchen.png",
+    url: "kaesekuchen.html"
+  },
+  {
+    title: "Donauwelle",
+    description: "Mittel • 1 Std. 35 Min.",
+    img: "/images/danauwelle.png",
+    url: "donauwelle.html"
+  },
+  {
+    title: "Möhrenkuchen",
+    description: "Mittel • 1 Std. 15 Min.",
+    img: "/images/moehrenkuchen.png",
+    url: "moehrenkuchen.html"
+  },
+  {
+    title: "Bienenstich",
+    description: "Mittel • 1 Std. 5Min.",
+    img: "/images/bienenstich.png",
+    url: "bienenstich.html"
+  },
+  {
+    title: "Rhabarberkuchen",
+    description: "Mittel • 1 Srd. 20 Min.",
+    img: "/images/rhababerkuchen.png",
+    url: "rhabarberkuchen.html"
+  },
+  {
+    title: "Kirschkuchen mit Streuseln",
+    description: "Mittel • 1 Std. 30 Min.",
+    img: "/images/kirschstreusel.png",
+    url: "streuselkirschkuchen.html"
+  },
+  {
+    title: "Zimtschnecken",
+    description: "Mittel • 1 Std. 30 Min.",
+    img: "/images/zimtschnecken.png",
+    url: "zimtschnecken.html"
+  },
+  {
+    title: "Schokokuchen",
+    description: "Leicht • 50 Min.",
+    img: "/images/klassischschokokuchen.png",
+    url: "klassischschokokuchen.html"
+  },
+  {
+    title: "Apfelkuchen mit Streuseln",
+    description: "Leicht • 1 Std. 20 Min.",
+    img: "/images/apfelstreusel.png",
+    url: "apfelkuchenstreusel.html"
+  },
+  {
+    title: "",
+    description: "Leicht •  Min.",
+    img: "/images/",
+    url: ".html"
+  },
+  {
+    title: "Russischer Zufpkuchen",
+    description: "Leicht • 1 Std. 35 Min.",
+    img: "/images/zupfkuchen.png",
+    url: "zupfkuchen.html"
+  },
+  {
+    title: "Windebeutel-Torte",
+    description: "Schwer • 1 Std. 35 Min.",
+    img: "/images/windbeuteltorte.png",
+    url: "windbeuteltorte.html"
+  },
+  {
+    title: "Kürbiskuchen / Pumpkin Pie",
+    description: "Mittel • 2 Std. 30 Min.",
+    img: "/images/kuerbiskuchen.png",
+    url: "kuerbiskuchen.html"
+  },
+  {
+    title: "Saftiger Apfelkuchen",
+    description: "Leicht • 1 Std. 35 Min.",
+    img: "/images/apfelsaftig.png",
+    url: "apfelkuchen.html"
+  },
+  {
+    title: "Schwarzwälder Kirschtorte",
+    description: "Schwer • 1 Std. 35 Min.",
+    img: "/images/schwarzwaelderkirsch.png",
+    url: "schwarzwaelderkirschtorte.html"
+  },
+  {
+    title: "Zitronenkuchen",
+    description: "Leicht • 55 Min.",
+    img: "/images/zitronenkuchen.png",
+    url: "zitronenkuchen.html"
+  },
+  {
+    title: "Giotto Torte",
+    description: "Leicht • 30 Min.",
+    img: "/images/giottotorte.png",
+    url: "giottotorte.html"
+  },
+  {
+    title: "Yogurette Torte",
+    description: "Schwer • 1 Std. 0 Min.",
+    img: "/images/yogurettetorte.png",
+    url: "yogurettetorte.html"
+  },
+  {
+    title: "Zimtschnecken Kekse",
+    description: "Mittel • 1 Std. 50 Min.",
+    img: "/images/zimtkekse.png",
+    url: "zimtschneckenkekse.html"
+  },
+  {
+    title: "",
+    description: "Schwer • 1 Std. 35 Min.",
+    img: "/images/.png",
+    url: ".html"
+  },
+  {
+    title: "",
+    description: "Schwer • 1 Std. 35 Min.",
+    img: "/images/.png",
+    url: ".html"
+  },
+  {
+    title: "",
+    description: "Schwer • 1 Std. 35 Min.",
+    img: "/images/.png",
+    url: ".html"
+  },
+  {
+    title: "",
+    description: "Schwer • 1 Std. 35 Min.",
+    img: "/images/.png",
+    url: ".html"
+  },
+  {
+    title: "",
+    description: "Schwer • 1 Std. 35 Min.",
+    img: "/images/.png",
+    url: ".html"
+  },
+  {
+    title: "",
+    description: "Schwer • 1 Std. 35 Min.",
+    img: "/images/.png",
+    url: ".html"
+  },
+
 ];
  
 
