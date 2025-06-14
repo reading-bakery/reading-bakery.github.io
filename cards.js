@@ -287,5 +287,29 @@ const recipes = [
     img: "/images/tzaziki.png",
     url: "tzatziki.html"
   },
+  {
+    title: "Rhabarber Kompott",
+    description: "Leicht • 20 Min.",
+    img: "",
+    url: "rhabarberkompott.html"
+  },
+  {
+    title: "Apple Crumble",
+    description: "Leicht • 20 Min.",
+    img: "",
+    url: "applecrumble.html"
+  },
+    {
+    title: "Spaghetti-Eis Dessert",
+    description: "Leicht • 30 Min.",
+    img: "",
+    url: "spaghettieisdessert.html"
+  },
+    {
+    title: "Raffaello-Creme",
+    description: "Leicht • 30 Min.",
+    img: "raffaellocreme.png",
+    url: "raffaellocreme.html"
+  },
 ];
  
