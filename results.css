@@ -68,6 +68,10 @@
   text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
   .search-results {
     grid-template-columns: repeat(2, 1fr); 
