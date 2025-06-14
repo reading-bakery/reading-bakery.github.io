@@ -3,10 +3,11 @@
   grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
   margin-top: 16px;
-  justify-items: start;
+  justify-items: stretch;
 }
 
 .result-item {
+  width: 100%; 
   display: flex;
   align-items: flex-start;
   text-decoration: none;
