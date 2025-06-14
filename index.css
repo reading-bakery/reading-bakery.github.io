@@ -374,6 +374,13 @@ footer {
     font-size: 20px;
 }
 
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+
 
 
 
@@ -400,6 +407,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    .search-results {
+        grid-template-columns: 1fr;
+    }
     
     .grid {
         grid-template-columns: 1fr;
