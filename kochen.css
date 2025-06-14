@@ -59,7 +59,6 @@ body {
 }
 
 
-
 .divider {
     border: 1px solid grey;
     border-radius: 5px;
@@ -86,7 +85,7 @@ body {
     right: 20px;
     display: none;
     padding: 10px;
-    background-color: rgb(111, 180, 180);
+    background-color:  rgb(111, 180, 180);
     color: black;
     border: none;
     border-radius: 8px;
@@ -102,7 +101,7 @@ body {
     justify-content: center; 
     align-items: center;
     height: 100%;
-    }
+        }
 
 .box2 {
     padding: 0px;       
@@ -366,7 +365,7 @@ body {
     font-weight: bolder;
     font-size: 30pt;
     cursor: text;
-    color: rgb(111, 180, 180);
+    color:  rgb(111, 180, 180);
 }
 
 .search-field {
@@ -499,7 +498,6 @@ body {
 }
 
 
-
 @media (max-width: 1180px) {
     
     .grid {
@@ -619,16 +617,6 @@ body {
         font-weight: bolder;
         font-size: 16pt; 
         display: flex;
-        height: auto;
-    }
-
-     .card {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .card-img {
-        width: 100%;
         height: auto;
     }
 
