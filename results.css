@@ -1,20 +1,10 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fafafa;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-}
-
-.search-results {
+#search-results {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
   margin-top: 16px;
   justify-items: start;
 }
-
-
 
 .result-item {
     display: flex;
