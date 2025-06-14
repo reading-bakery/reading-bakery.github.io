@@ -16,7 +16,7 @@
   border-radius: 6px;
   margin-bottom: 12px;  
   transition: box-shadow 0.3s ease;
-  gap: 15px;
+  gap: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -31,7 +31,6 @@
   height: 100px;
   object-fit: cover;
   border-radius: 8px;
-  margin-right: 16px;
   flex-shrink: 0;
 }
 
@@ -46,7 +45,6 @@
 .card-title {
   font-size: 1rem;
   margin: 0 0 5px 0;
-  font-size: 1.1rem;
   font-weight: 700;
   color: #333;
   font-family: "Julius Sans One", serif;
@@ -57,7 +55,6 @@
   font-size: 0.9rem;
   color: #555;
   line-height: 1.3;
-  margin: 0;
 }
 
 .no-results-message {
