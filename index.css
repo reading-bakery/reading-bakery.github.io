@@ -376,12 +376,9 @@ footer {
 
 .search-results {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 Spalten für Desktop + Tablet */
   gap: 15px;
 }
-
-
-
 
 
 @media (max-width: 1180px) {
@@ -408,8 +405,9 @@ footer {
 
 @media (max-width: 768px) {
 
+
     .search-results {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
     }
     
     .grid {
