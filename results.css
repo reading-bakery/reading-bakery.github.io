@@ -3,6 +3,7 @@
   grid-template-columns: repeat(3, 1fr); 
   gap: 16px;
   margin: 16px auto;
+  max-width: 1200px;
   justify-items: stretch;
   width: 100%;
 }
@@ -16,11 +17,10 @@
   border: 1px solid #ddd;
   border-radius: 6px;
   margin-bottom: 12px;  
-  transition: box-shadow 0.3s ease;
   gap: 10px;
   cursor: pointer;
   width: 100%;
-  max-width: 360px; 
+  max-width: auto; 
   box-sizing: border-box;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
