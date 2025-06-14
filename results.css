@@ -58,7 +58,6 @@
   font-size: 0.8rem;
   color: #555;
   line-height: 1.3;
-  margin: 0;
 }
 
 .no-results-message {
@@ -74,6 +73,9 @@
 @media (max-width: 768px) {
   .search-results {
     grid-template-columns: repeat(2, 1fr); 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
 }
@@ -81,5 +83,8 @@
 @media (max-width: 480px) {
   .search-results {
     grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
