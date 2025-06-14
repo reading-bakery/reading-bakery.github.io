@@ -75,9 +75,6 @@
     grid-template-columns: repeat(2, 1fr); 
   }
 
-  .result-item {
-    width: 100%;
-  }
 }
 
 @media (max-width: 480px) {
@@ -85,7 +82,5 @@
     grid-template-columns: 1fr;
   }
 
-  .result-item {
-    width: 100%;
-  }
+
 }
