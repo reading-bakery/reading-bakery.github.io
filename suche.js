@@ -1,22 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const style = document.createElement('style');
-    style.textContent = `
-        .no-results-message {
-            font-family: "Julius Sans One";
-            font-weight: bolder;
-            font-size: 20px;
-            color: #060606;
-            margin-top: 20px;
-            width: 100%;
-            text-align: center;
-        }
-    `;
-    document.head.appendChild(style);
-
     const searchField = document.querySelector(".search-field");
     const resultsContainer = document.getElementById("search-results");
-
-    resultsContainer.classList.add("results-container"); 
 
     function renderCards(cardsArray) {
         if (cardsArray.length === 0) {
@@ -36,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </a>
     `).join('');
     }
+
     function filterRecipes() {
         const searchQuery = searchField.value.toLowerCase().trim();
 
