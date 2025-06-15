@@ -1,4 +1,3 @@
-/* Container für die Suchergebnisse */
 #search-results {
     display: flex;
     flex-direction: column;
@@ -6,59 +5,55 @@
     margin-top: 1rem;
 }
 
-/* Einzelne Karte */
 .card.result-item {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: #fff;
+    background-color: #edebeb;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     color: inherit;
-    overflow: hidden;
-    transition: transform 0.2s;
 }
 
 .card.result-item:hover {
-    transform: scale(1.02);
+    background-color: rgb(234, 216, 197);
 }
 
-/* Bild links */
 .card-img {
-    width: 150px;
-    height: 100%;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     flex-shrink: 0;
+    border-radius: 6px;
 }
 
-/* Text rechts */
 .card-content {
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-/* Titel */
 .card-title {
-    margin: 0 0 0.5rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-/* Beschreibung */
-.card-description {
     margin: 0;
     font-size: 1rem;
+    font-weight: bolder;
+    font-family: "Julius Sans One", serif;
+}
+
+.card-description {
+    margin: 0.2rem;
+    font-size: 0.8rem;
     color: #555;
 }
 
-/* Kein Ergebnis */
 .no-results-message {
     text-align: center;
-    font-size: 1.2rem;
-    color: #b33910;
+    font-size: 1.3rem;
+    color: orangered;
+    font-family: "Julius Sans One", serif;
+    font-weight: bolder;
 }
 
 
