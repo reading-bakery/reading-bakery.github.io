@@ -59,5 +59,17 @@
     font-weight: bolder;
 }
 
+@media (max-width: 768px) {
+  .search-results {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+}
+
+@media (max-width: 480px) {
+  .search-results {
+    grid-template-columns: 1fr;
+  }
+}
 
 
