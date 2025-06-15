@@ -15,6 +15,8 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     color: inherit;
+    overflow: hidden;
+    width: 100%;
 }
 
 .result-item:hover {
@@ -60,14 +62,14 @@
 }
 
 @media (max-width: 768px) {
-  .search-results {
+  #search-results {
     grid-template-columns: repeat(2, 1fr); 
   }
 
 }
 
 @media (max-width: 480px) {
-  .search-results {
+  #search-results {
     grid-template-columns: 1fr;
   }
 }
