@@ -1,77 +1,100 @@
+/* Container für alle Suchergebnisse */
 #search-results {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 16px;
-  margin-top: 16px;
-  justify-items: start;
+  grid-template-columns: repeat(3, 1fr); /* Drei Karten pro Zeile */
+  gap: 20px; /* Abstand zwischen Karten – horizontal & vertikal */
+  margin-top: 20px;
+  padding: 10px;
 }
 
+/* Einzelnes Suchergebnis als Karte */
 .result-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    background-color: #faf9f9;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    color: inherit;
-    overflow: hidden;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.2s, transform 0.2s;
+  padding: 10px;
 }
 
+/* Hover-Effekt */
 .result-item:hover {
-    background-color: rgb(234, 216, 197);
+  background-color: #f4e8da;
+  transform: scale(1.01);
 }
 
+/* Bild auf der linken Seite */
 .card-img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    flex-shrink: 0;
-    border-radius: 6px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 12px;
+  flex-shrink: 0;
 }
 
+/* Text rechts neben dem Bild */
 .card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    flex: 1;
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  overflow: hidden;
 }
 
+/* Titel des Rezepts */
 .card-title {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: bolder;
-    font-family: "Julius Sans One", serif;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Julius Sans One", sans-serif;
+  margin: 0;
 }
 
+/* Beschreibungstext */
 .card-description {
-    margin: 0.2rem;
-    font-size: 0.8rem;
-    color: #555;
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0.3rem 0 0;
+  line-height: 1.3;
+  font-family: sans-serif;
 }
 
+/* Nachricht bei keinen Ergebnissen */
 .no-results-message {
-    text-align: center;
-    font-size: 1.3rem;
-    color: orangered;
-    font-family: "Julius Sans One", serif;
-    font-weight: bolder;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.2rem;
+  color: orangered;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+  padding: 1rem;
 }
 
+/* Responsive Layout für Tablets */
 @media (max-width: 768px) {
   #search-results {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
   }
-
 }
 
+/* Responsive Layout für Smartphones */
 @media (max-width: 480px) {
   #search-results {
     grid-template-columns: 1fr;
   }
+
+  .result-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+  }
 }
-
-
