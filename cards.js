@@ -343,7 +343,7 @@ const recipes = [
   },
   {
     title: "Rhabarberkuchen",
-    description: "Mittel • 1 Srd. 20 Min.",
+    description: "Mittel • 1 Std. 20 Min.",
     img: "/images/rhababerkuchen.png",
     url: "rhabarberkuchen.html"
   },
@@ -370,12 +370,6 @@ const recipes = [
     description: "Leicht • 1 Std. 20 Min.",
     img: "/images/apfelstreusel.png",
     url: "apfelkuchenstreusel.html"
-  },
-  {
-    title: "",
-    description: "Leicht •  Min.",
-    img: "/images/",
-    url: ".html"
   },
   {
     title: "Russischer Zufpkuchen",
