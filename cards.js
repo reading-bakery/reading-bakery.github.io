@@ -564,7 +564,7 @@ const recipes = [
     url: "engelsaugen.html"
   },
   {
-    title: "Syrniki / Russische Quark-Pfannenkuchen",
+    title: "Syrniki / Russische Quark-Pfannkuchen",
     description: "Dessert • Leicht • 30 Min.",
     img: "/images/syrniki.png",
     url: "syrniki.html"
