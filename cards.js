@@ -569,6 +569,12 @@ const recipes = [
     img: "/images/syrniki.png",
     url: "syrniki.html"
   },
+  {
+    title: "Oreschki / Russische Zaubernüsse",
+    description: "Dessert • Mittel • XX Min.",
+    img: "/images/oreschki.png",
+    url: "oreschki.html"
+  },
 ];
  
 
