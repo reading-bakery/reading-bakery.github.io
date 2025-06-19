@@ -587,6 +587,12 @@ const recipes = [
     img: "/images/belugasalat.png",
     url: "belugasalat.html"
   },
+  {
+    title: "Nudelsalat",
+    description: "Veggie • Mittel • 20 Min.",
+    img: "/images/nudelsalat.png",
+    url: "nudelsalat.html"
+  },
 ];
  
 
