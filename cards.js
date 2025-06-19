@@ -581,6 +581,12 @@ const recipes = [
     img: "/images/quinoapower.png",
     url: "quinoapower.html"
   },
+  {
+    title: "Belugalinsen Salat",
+    description: "Veggie • Leicht • 20 Min.",
+    img: "/images/belugasalat.png",
+    url: "belugasalat.html"
+  },
 ];
  
 
