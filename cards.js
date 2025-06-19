@@ -575,6 +575,12 @@ const recipes = [
     img: "/images/oreschki.png",
     url: "oreschki.html"
   },
+  {
+    title: "Quinoa-Power-Salat mit Avocado",
+    description: "Veggie • Mittel • 30 Min.",
+    img: "/images/quinoapower.png",
+    url: "quinoapower.html"
+  },
 ];
  
 
