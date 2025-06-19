@@ -594,12 +594,6 @@ const recipes = [
     url: "nudelsalat.html"
   },
   {
-    title: "Nudelsalat",
-    description: "Veggie • Mittel • 20 Min.",
-    img: "/images/nudelsalat.png",
-    url: "linsenbetesalat.html"
-  },
-  {
     title: "Salat mit rote Linsen und rote Bete",
     description: "Veggie • Mittel • 35 Min.",
     img: "/images/linsenbetesalat.png",
