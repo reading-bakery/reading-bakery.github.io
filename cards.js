@@ -611,6 +611,12 @@ const recipes = [
     img: "/images/kuerbissuppe.png",
     url: "kuerbissuppe.html"
   },
+  {
+    title: "Gulaschsuppe",
+    description: "Fleisch • Schwer • 1 Std. 50 Min.",
+    img: "/images/gulaschsuppe.png",
+    url: "gulaschsuppe.html"
+  },
 ];
  
 
