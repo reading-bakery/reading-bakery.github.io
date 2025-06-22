@@ -607,7 +607,7 @@ const recipes = [
   },
   {
     title: "Kürbissuppe",
-    description: "Veggie• Mittel • 50 Min.",
+    description: "Veggie • Mittel • 50 Min.",
     img: "/images/kuerbissuppe.png",
     url: "kuerbissuppe.html"
   },
