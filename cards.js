@@ -617,6 +617,12 @@ const recipes = [
     img: "/images/gulaschsuppe.png",
     url: "gulaschsuppe.html"
   },
+  {
+    title: "Pikante Thai Suppe",
+    description: "Veggie/Fleisch • Mittel • 30 Min.",
+    img: "/images/thaisuppepikant.png",
+    url: "thaisuppepikant.html"
+  },
 ];
  
 
