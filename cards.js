@@ -599,6 +599,12 @@ const recipes = [
     img: "/images/linsenbetesalat.png",
     url: "linsenbetesalat.html"
   },
+  {
+    title: "Okroschka",
+    description: "Veggie/Fleisch • Leicht • 30 Min.",
+    img: "/images/okroschka.png",
+    url: "okroschka.html"
+  },
 ];
  
 
