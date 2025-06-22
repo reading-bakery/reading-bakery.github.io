@@ -605,6 +605,12 @@ const recipes = [
     img: "/images/okroschka.png",
     url: "okroschka.html"
   },
+  {
+    title: "Kürbissuppe",
+    description: "Veggie• Mittel • 50 Min.",
+    img: "/images/kuerbissuppe.png",
+    url: "kuerbissuppe.html"
+  },
 ];
  
 
