@@ -623,6 +623,12 @@ const recipes = [
     img: "/images/thaisuppepikant.png",
     url: "thaisuppepikant.html"
   },
+  {
+    title: "Paprika mit Bulgur",
+    description: "Veggie • Mittel • 55 Min.",
+    img: "/images/paprikabulgur.png",
+    url: "paprikabulgur.html"
+  },
 ];
  
 
