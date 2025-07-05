@@ -629,6 +629,12 @@ const recipes = [
     img: "/images/paprikabulgur.png",
     url: "paprikabulgur.html"
   },
+  {
+    title: "Fenchel überbacken",
+    description: "Veggie • Leicht • 35 Min.",
+    img: "/images/fenchelueberbacken.png",
+    url: "fenchelueberbacken.html"
+  },  
 ];
  
 
