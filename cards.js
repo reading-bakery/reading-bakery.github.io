@@ -635,6 +635,12 @@ const recipes = [
     img: "/images/fenchelueberbacken.png",
     url: "fenchelueberbacken.html"
   },  
+  {
+    title: "Gefüllte Champignons",
+    description: "Veggie/Fleisch • Leicht • 45 Min.",
+    img: "/images/gefuelltechampignons.png",
+    url: "gefuelltechampignons.html"
+  },
 ];
  
 
