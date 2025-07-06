@@ -647,6 +647,12 @@ const recipes = [
     img: "/images/lachsofen.png",
     url: "lachsofen.html"
   },
+  {
+    title: "Kabeljau mit Senfsauce",
+    description: "Fisch • Mittel • 55 Min.",
+    img: "/images/kabeljausenf.png",
+    url: "kabeljausenf.html"
+  },
 ];
  
 
