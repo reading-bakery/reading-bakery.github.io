@@ -641,6 +641,12 @@ const recipes = [
     img: "/images/gefuelltechampignons.png",
     url: "gefuelltechampignons.html"
   },
+  {
+    title: "Lachs aus dem Ofen",
+    description: "Fisch • Leicht • 45 Min.",
+    img: "/images/lachsofen.png",
+    url: "lachsofen.html"
+  },
 ];
  
 
