@@ -653,6 +653,12 @@ const recipes = [
     img: "/images/kabeljausenf.png",
     url: "kabeljausenf.html"
   },
+  {
+    title: "Gebratener Reis",
+    description: "Veggie/Fleisch • Einfach • 35 Min.",
+    img: "/images/gebratenerreis.png",
+    url: "gebratenerreis.html"
+  },
 ];
  
 
