@@ -12,6 +12,12 @@ const recipes = [
     url: "bananenbrot.html"
   },
   {
+    title: "Vegane Brownies",
+    description: "Kuchen • Mittel • 55 Min.",
+    img: "/images/browniesvegan.png",
+    url: "browniesvegan.html"
+  },
+  {
     title: "Brokkolisuppe",
     description: "Veggie • Leicht • 45 Min.",
     img: "/images/brokkolisuppe.png",
