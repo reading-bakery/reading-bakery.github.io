@@ -655,9 +655,15 @@ const recipes = [
   },
   {
     title: "Gebratener Reis",
-    description: "Veggie/Fleisch • Einfach • 35 Min.",
+    description: "Veggie/Fleisch • Leicht • 35 Min.",
     img: "/images/gebratenerreis.png",
     url: "gebratenerreis.html"
+  },
+  {
+    title: "Kohlrabieintopf mit Cabanossi",
+    description: "Fleisch • Leicht • 30 Min.",
+    img: "/images/kohlrabicabanossi.png",
+    url: "kohlrabicabanossi.html"
   },
 ];
  
