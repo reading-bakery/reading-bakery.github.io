@@ -683,6 +683,12 @@ const recipes = [
     img: "/images/currysalat.png",
     url: "currysalat.html"
   },
+  {
+    title: "Kohl mit Hackfleisch",
+    description: "Veggie/Fleisch • Mittel • 1 Std. 10 Min.",
+    img: "/images/kohlhack.png",
+    url: "kohlhack.html"
+  },
 ];
  
 
