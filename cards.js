@@ -671,6 +671,18 @@ const recipes = [
     img: "/images/kohlrabicabanossi.png",
     url: "kohlrabicabanossi.html"
   },
+  {
+    title: "Zucchinirolle mit Schafskäse",
+    description: "Veggie • Leicht • 35 Min.",
+    img: "/images/zucchinirolle.png",
+    url: "zucchinirolle.html"
+  },
+  {
+    title: "Curry-Nudelsalat",
+    description: "Veggie • Leicht • 30 Min.",
+    img: "/images/currysalat.png",
+    url: "currysalat.html"
+  },
 ];
  
 
