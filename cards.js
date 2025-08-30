@@ -689,6 +689,12 @@ const recipes = [
     img: "/images/kohlhack.png",
     url: "kohlhack.html"
   },
+  {
+    title: "Spinatlasagne",
+    description: "Veggie • Mittel • 1 Std. 15 Min.",
+    img: "/images/spinatlasagne.png",
+    url: "spinatlasagne.html"
+  },
 ];
  
 
