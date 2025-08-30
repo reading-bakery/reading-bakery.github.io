@@ -695,6 +695,12 @@ const recipes = [
     img: "/images/spinatlasagne.png",
     url: "spinatlasagne.html"
   },
+  {
+    title: "Gnocchi in Spinatkäse-Sauce",
+    description: "Veggie • Leicht • 20 Min.",
+    img: "/images/gnocchispinatsauce.png",
+    url: "gnocchispinatsauce.html"
+  },
 ];
  
 
