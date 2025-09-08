@@ -713,6 +713,12 @@ const recipes = [
     img: "/images/miesuppe.png",
     url: "miesuppe.html"
   },
+  {
+    title: "Mexikanische Gemüsesuppe",
+    description: "Veggie • Leicht • 45 Min.",
+    img: "/images/mexikosuppe.png",
+    url: "mexikosuppe.html"
+  },
 ];
  
 
