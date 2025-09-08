@@ -701,6 +701,12 @@ const recipes = [
     img: "/images/gnocchispinatsauce.png",
     url: "gnocchispinatsauce.html"
   },
+  {
+    title: "Parmigiana di Melanzane",
+    description: "Veggie • Mittel • 1 Std. 25 Min.",
+    img: "/images/parmigiana.png",
+    url: "parmigiana.html"
+  },
 ];
  
 
