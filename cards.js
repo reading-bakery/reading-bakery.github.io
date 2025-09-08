@@ -707,6 +707,12 @@ const recipes = [
     img: "/images/parmigiana.png",
     url: "parmigiana.html"
   },
+  {
+    title: "Miesuppe",
+    description: "Veggie/Fleisch • Mittel • 45 Min.",
+    img: "/images/miesuppe.png",
+    url: "miesuppe.html"
+  },
 ];
  
 
