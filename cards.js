@@ -725,6 +725,12 @@ const recipes = [
     img: "/images/gebackeneaubergine.png",
     url: "gebackeneaubergine.html"
   },
+  {
+    title: "Cannelloni mit Spinat",
+    description: "Veggie • Mittel • 1 Std. 20 Min.",
+    img: "/images/cannellonispinat.png",
+    url: "cannellonispinat.html"
+  },
 ];
  
 
