@@ -719,6 +719,12 @@ const recipes = [
     img: "/images/mexikosuppe.png",
     url: "mexikosuppe.html"
   },
+  {
+    title: "Gebackene Auberginen",
+    description: "Veggie • Leicht • 1 Std. 15 Min.",
+    img: "/images/gebackeneaubergine.png",
+    url: "gebackeneaubergine.html"
+  },
 ];
  
 
