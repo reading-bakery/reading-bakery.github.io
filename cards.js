@@ -731,6 +731,12 @@ const recipes = [
     img: "/images/cannellonispinat.png",
     url: "cannellonispinat.html"
   },
+  {
+    title: "Kartoffelsuppe",
+    description: "Veggie/Fleisch • Leicht • 30 Min.",
+    img: "/images/kartoffelsuppe.png",
+    url: "kartoffelsuppe.html"
+  },
 ];
  
 
