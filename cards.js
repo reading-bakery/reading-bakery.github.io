@@ -737,6 +737,18 @@ const recipes = [
     img: "/images/kartoffelsuppe.png",
     url: "kartoffelsuppe.html"
   },
+  {
+    title: "Ofenkürbis",
+    description: "Veggie • Leicht • 50 Min.",
+    img: "/images/ofenkuerbis.png",
+    url: "ofenkuerbis.html"
+  },
+  {
+    title: "Quiche",
+    description: "Veggie • Mittel • 1 Std. 15 Min.",
+    img: "/images/quiche.png",
+    url: "quiche.html"
+  },
 ];
  
 
