@@ -749,6 +749,13 @@ const recipes = [
     img: "/images/quiche.png",
     url: "quiche.html"
   },
+  {
+    title: "Ziegenkäse überbacken",
+    description: "Veggie • Leicht • 1 Std. 0 Min.",
+    img: "/images/ziegenkaeseueberbacken.png",
+    url: "ziegenkaeseueberbacken.html"
+  },
 ];
  
+
 
