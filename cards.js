@@ -774,7 +774,7 @@ const recipes = [
     url: "milchreis.html"
   },
   {
-    title: "Spargel in Speckmantel",
+    title: "Spargel im Speckmantel",
     description: "Veggie/Fleisch • Leicht • 30 Min.",
     img: "/images/spargelspeck.png",
     url: "spargelspeck.html"
