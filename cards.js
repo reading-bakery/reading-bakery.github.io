@@ -761,6 +761,24 @@ const recipes = [
     img: "/images/kartoffelbrokkoligratin.png",
     url: "kartoffelbrokkoligratin.html"
   },
+  {
+    title: "Red Thai Curry",
+    description: "Veggie/Fleisch • Mittel • XXXXX Min.",
+    img: "/images/redthaicurry.png",
+    url: "redthaicurry.html"
+  },
+  {
+    title: "Milchreis",
+    description: "Veggie • Leicht • 45 Min.",
+    img: "/images/milchreis.png",
+    url: "milchreis.html"
+  },
+  {
+    title: "Spargel in Speckmantel",
+    description: "Veggie/Fleisch • Leicht • 30 Min.",
+    img: "/images/spargelspeck.png",
+    url: "spargelspeck.html"
+  },
 ];
  
 
