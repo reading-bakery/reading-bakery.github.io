@@ -755,7 +755,12 @@ const recipes = [
     img: "/images/ziegenkaeseueberbacken.png",
     url: "ziegenkaeseueberbacken.html"
   },
+  {
+    title: "Brokkoli-Kartoffel-Auflauf",
+    description: "Veggie/Fleisch • Mittel • 1 Std. 10 Min.",
+    img: "/images/kartoffelbrokkoligratin.png",
+    url: "kartoffelbrokkoligratin.html"
+  },
 ];
  
-
 
