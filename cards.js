@@ -763,7 +763,7 @@ const recipes = [
   },
   {
     title: "Red Thai Curry",
-    description: "Veggie/Fleisch • Mittel • XXXXX Min.",
+    description: "Veggie/Fleisch • Mittel • 50 Min.",
     img: "/images/redthaicurry.png",
     url: "redthaicurry.html"
   },
