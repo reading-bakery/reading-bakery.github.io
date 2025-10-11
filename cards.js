@@ -803,6 +803,24 @@ const recipes = [
     img: "/images/lachsspinatauflauf.png",
     url: "lachsspinatauflauf.html"
   },
+  {
+    title: "Lasagne",
+    description: "Fleisch • Mittel • 25 Min.",
+    img: "/images/lasagne.png",
+    url: "lasagne.html"
+  },
+  {
+    title: "Cremiger Nudelauflauf",
+    description: "Veggie • Mittel • 1 Std. 0 Min.",
+    img: "/images/nudelauflaufcremig.png",
+    url: "nudelauflaufcremig.html"
+  },
+  {
+    title: "Süßkartoffel aus dem Ofen",
+    description: "Veggie • Leicht • 50 Min.",
+    img: "/images/sweetpotatoofen.png",
+    url: "sweetpotatoofen.html"
+  },
 ];
 
 
