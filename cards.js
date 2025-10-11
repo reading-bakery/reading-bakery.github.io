@@ -821,6 +821,24 @@ const recipes = [
     img: "/images/sweetpotatoofen.png",
     url: "sweetpotatoofen.html"
   },
+  {
+    title: "Palak Paneer",
+    description: "Veggie • Mittel • 35 Min.",
+    img: "/images/palakpaneer.png",
+    url: "palakpaneer.html"
+  },
+  {
+    title: "Paneer Biryani",
+    description: "Veggie • Mittel • 30 Min.",
+    img: "/images/paneerbiryani.png",
+    url: "paneerbiryani.html"
+  },
+  {
+    title: "Paneer Tikka Masala",
+    description: "Veggie • Mittel • 30 Min.",
+    img: "/images/paneertikkamasala.png",
+    url: "paneertikkamasala.html"
+  },
 ];
 
 
