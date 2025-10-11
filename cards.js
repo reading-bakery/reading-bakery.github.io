@@ -779,6 +779,32 @@ const recipes = [
     img: "/images/spargelspeck.png",
     url: "spargelspeck.html"
   },
+  {
+    title: "Kürbisrisotto",
+    description: "Veggie • Mittel • 45 Min.",
+    img: "/images/kuerbisrisotto.png",
+    url: "kuerbisrisotto.html"
+  },
+  {
+    title: "Tomatenrisotto",
+    description: "Veggie • Mittel • 1 Std. 5 Min.",
+    img: "/images/tomatenrisotto.png",
+    url: "tomatenrisotto.html"
+  },
+  {
+    title: "Chili sin Carne",
+    description: "Veggie • Mittel • 45 Min.",
+    img: "/images/chilisincarne.png",
+    url: "chilisincarne.html"
+  },
+  {
+    title: "Lachs Spinat Auflauf",
+    description: "Fisch • Mittel • 40 Min.",
+    img: "/images/lachsspinatauflauf.png",
+    url: "lachsspinatauflauf.html"
+  },
 ];
+
+
  
 
