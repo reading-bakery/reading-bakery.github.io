@@ -839,6 +839,36 @@ const recipes = [
     img: "/images/paneertikkamasala.png",
     url: "paneertikkamasala.html"
   },
+  {
+    title: "Curryreis",
+    description: "Veggie • Leicht • 35 Min.",
+    img: "/images/curryreis.png",
+    url: "curryreis.html"
+  },
+  {
+    title: "Spinat-Lachs-Lasagne",
+    description: "Fisch • Mittel • 55 Min.",
+    img: "/images/spinatlachslasagne.png",
+    url: "spinatlachslasagne.html"
+  },
+  {
+    title: "Aloo Gobi",
+    description: "Veggie • Mittel • 45 Min.",
+    img: "/images/aloogobi.png",
+    url: "aloogobi.html"
+  },
+  {
+    title: "Süßkartoffel-Chili",
+    description: "Veggie • Mittel • 55 Min.",
+    img: "/images/suesskartoffelchili.png",
+    url: "suesskartoffelchili.html"
+  },
+  {
+    title: "Pilzpfanne",
+    description: "Veggie • Leicht • 35 Min.",
+    img: "/images/pilzpfanne.png",
+    url: "pilzpfanne.html"
+  },
 ];
 
 
