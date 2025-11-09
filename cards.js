@@ -869,8 +869,25 @@ const recipes = [
     img: "/images/pilzpfanne.png",
     url: "pilzpfanne.html"
   },
+  {
+    title: "Rotes Linsen-Curry",
+    description: "Veggie • Leicht • 30 Min.",
+    img: "/images/roteslinsencurry.png",
+    url: "roteslinsencurry.html"
+  },
+  {
+    title: "Tagliatelle mit Lachs",
+    description: "Fisch • Leicht • 30 Min.",
+    img: "/images/tagliatellelachs.png",
+    url: "tagliatellelachs.html"
+  },
+  {
+    title: "Gefüllte Auberginen",
+    description: "Fleisch • Mittel • 1 Std. 30 Min.",
+    img: "/images/auberginegefuellt.png",
+    url: "auberginegefuellt.html"
+  },
 ];
 
 
  
-
