@@ -300,7 +300,7 @@ const recipes = [
     url: "rhabarberkompott.html"
   },
   {
-    title: "Apple Crumble",
+    title: "Crumble",
     description: "Dessert • Leicht • 20 Min.",
     img: "/images/applecrumble.png",
     url: "applecrumble.html"
