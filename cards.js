@@ -887,7 +887,55 @@ const recipes = [
     img: "/images/auberginegefuellt.png",
     url: "auberginegefuellt.html"
   },
+  {
+    title: "Fettuccine Alfredo",
+    description: "Veggie • Leicht • 20 Min.",
+    img: "/images/alfredo.png",
+    url: "alfredo.html"
+  },
+  {
+    title: "Linsenbolognese",
+    description: "Veggie • Mittel • 35 Min.",
+    img: "/images/linsenbolognese.png",
+    url: "linsenbolognese.html"
+  },
+  {
+    title: "Würziger Pak Choi mit Mie-Nudeln",
+    description: "Veggie • Mittel • 30 Min.",
+    img: "/images/pakchoimie.png",
+    url: "pakchoimie.html"
+  },
+  {
+    title: "Kartoffel-Curry",
+    description: "Veggie • Mittel • 35 Min.",
+    img: "/images/kartoffelcurry.png",
+    url: "kartoffelcurry.html"
+  },
+  {
+    title: "Kichererbsen-Curry",
+    description: "Veggie • Mittel • 35 Min.",
+    img: "/images/kichererbsencurry.png",
+    url: "kichererbsencurry.html"
+  },
+  {
+    title: "Gefüllter Kürbis",
+    description: "Veggie • Mittel • 35 Min.",
+    img: "/images/kuerbisgefuellt.png",
+    url: "kuerbisgefuellt.html"
+  },
+  {
+    title: "Tortellini-Pfanne",
+    description: "Veggie/Fleisch • Mittel • 35 Min.",
+    img: "/images/tortellinipfanne.png",
+    url: "tortellinipfanne.html"
+  },
 ];
 
 
  
+
+
+
+
+
+

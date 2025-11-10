@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Würziger Pak Choi mit Mie-Nudeln</title>
+    
+    <link rel="stylesheet" href="results.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="kochen.css">
+       
+    <script src="accord1.js" defer></script>
+    <script src="accord2.js" defer></script>
+    <script src="navbar.js" defer></script>
+    <script src="backtop.js" defer></script>
+    <script src="cards.js" defer></script>
+    <script src="suche.js" defer></script>
+    <script src="toggle.js" defer></script>
+
+   
+
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <header>
+            
+            <nav class="navbar"> 
+                
+                <div class="box1">
+                    <a href="index.html" class="logohome">Reading Bakery</a>
+                </div>
+
+                <ul class="nav-links" id="nav-links">
+                        
+                    
+                    <li class="dropdown"><a href="kochen.html">Kochen</a>
+
+                        <ul class="dropdown-menu">
+
+                            <li class="cook-item"><a href="suppe_eintopf.html">Suppe & Eintopf</a></li>
+                            <li class="cook-item"><a href="ofen.html">Aus dem Ofen</a></li>
+                            <li class="cook-item"><a href="pasta_reis.html">Pasta, Reis & Co.</a></li>                
+
+                        </ul>
+                        
+                    </li>
+                    
+                    <li><a href="salat.html">Salat</a></li>
+                    <li><a href="backen.html">Backen</a></li>
+                    <li><a href="dessert.html">Dessert</a></li>
+
+                </ul>
+
+                <div class="toggle-button" id="toggle-button">
+                    <span id="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                    </span>
+                    <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16" style="display: none;">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                    </svg>
+                </div>
+
+            </nav>
+                     
+            <div class="rezept-search-container">
+
+                <h1 class="rezept-name">Würziger Pak Choi mit Mie-Nudeln</h1>
+
+                <form action="/search" method="get">
+
+                    <input class="search-field" type="text" name="query" placeholder="Rezept suchen">
+
+                    <button class="search-button" type="submit">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+            <div id="search-results" style="margin-top: 20px;"></div>
+
+            <br>
+ 
+            <hr class="divider">
+            
+            <br>
+
+            
+
+        </header>
+
+       
+
+<div class="grid">
+
+    <div class="right-column">
+        
+        <div class="box2">
+            <img class="foodimg" src="/images/pakchoimie.png" alt="Pak Choi" style="border-radius: 8px; width: 100%;">               
+        </div>  
+
+    </div>
+  
+    <div class="left-column">
+
+        <div class="box3">
+            
+            <p class="foodintro">Veggie • Pasta, Reis & Co. <br> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                    <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+                </svg>  Mittel 
+                    
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                </svg> 30 Min. 
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                </svg> 2 Personen
+            </p>
+        
+        </div>
+
+        <div class="box4">
+
+            <div class="accordion-1">
+
+                <button class="accordion-button-1">
+
+                    <span class="accordionhead-1">Zutaten
+                    </span>     
+
+                    <span class="arrow-1">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></svg>
+                    
+                    </span>
+
+                </button>
+
+                <div class="accordion-content-1">
+                    
+                    <ul class="zutat-liste">
+
+                        <li class="zutat-item">200g Mie-Nudeln</li>
+                        <li class="zutat-item">400g Pak Choi</li>
+                        <li class="zutat-item">1 rote Paprika</li>
+                        <li class="zutat-item">4 Lauchzwiebeln</li>
+                        <li class="zutat-item">2 Knoblauchzehen</li>
+                        <li class="zutat-item">Kokosöl</li>
+                        <li class="zutat-item">etwas Ingwer</li>
+                        <li class="zutat-item">nach Belieben 1 Chilischote</li>
+                        <li class="zutat-item">1 EL gelbe Currypaste</li>
+                        <li class="zutat-item">½ TL Kurkumapulver</li>
+                        <li class="zutat-item">etwas Sojasauce</li>
+                        <li class="zutat-item">etwas (braune) Zucker</li>
+                        <li class="zutat-item">150ml Kokosmilch</li>
+                        <li class="zutat-item">etwas Limettensaft</li>
+                        
+                 
+
+                    </ul>
+                
+                    
+
+
+                </div>
+                
+                
+            
+            </div>
+
+        </div>
+
+        <div class="box5">
+
+            <div class="accordion-2">
+
+                <button class="accordion-button-2">
+
+                    <span class="accordionhead-2">Anleitung
+                    </span>     
+
+                    <span class="arrow-2">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></svg>
+                    
+                    </span>
+
+                </button>
+
+                <div class="accordion-content-2">
+
+                    <h3 class="zutat-head">Vorbereitung</h3>
+                    <hr class="divider">
+                    <ol class="styled-liste">
+
+                        <li>Mie-Nudeln nach Packungsanweisung garen und danach gut abtropfen lasssen.</li>
+                        <li>Pak Choi putzen, den Strunk entfernen und in Streifen schneiden.</li>
+                        <li>Stiele und Blätter vom Pak Choi trennen.</li>
+                        <li>Paprika würfeln.</li>
+                        <li>Lauchzwiebeln in Ringe schneiden.</li>
+                        <li>Knoblauchzehen fein hacken.</li>
+                        <li>Ingwer schälen und reiben.</li>
+                        <li>Chilischote fein hacken.</li>
+                       
+                                            
+                    </ol>
+
+                    <h3 class="zutat-head">Zubereitung</h3>
+                    <hr class="divider">
+                    <ol class="styled-liste">
+                        
+                        <li>Kokosöl in einer tiefen Pfanne erhitzen und darin die Stiele des Pak Choi und Paprika anbraten.</li>
+                        <li>Lauchzwiebeln, Knoblauch, Ingwer, Chili und die Gewürze zugeben und alles kurz andünsten.</li>
+                        <li>Mit Kokosmilch ablöschen.</li>
+                        <li>Alles für ca. 5 Minuten köcheln lassen.</li>
+                        <li>Die Pak Choi Blätter unterheben und kurz ziehen lassen.</li>
+                        <li>Mie-Nudeln hinzufügen und alles gut durchmischen.</li>
+                        <li>Mit Sojasauce und Limettensaft abschmecken.</li>
+                        
+                              
+                                               
+                    </ol> 
+                        
+                    
+
+                    <p class="sidenote">Wer möchte, kann vorher die gekochten Mie-Nudeln kurz in einer separaten Pfanne anbraten. </p>
+
+                    
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+       
+    <div class="top-button">
+        
+        <button id="backToTop">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"/>
+            </svg>
+
+        </button>  
+
+        
+        
+    </div>
+
+</div>
+
+ <br> <br>
+
+        <footer>
+             <b>by Katharina</b> <br>Image generated with AI Midjourney 
+        </footer>
+     
+
+    </div>
+
+</body>
+</html>
