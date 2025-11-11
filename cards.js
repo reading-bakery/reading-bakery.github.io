@@ -918,21 +918,42 @@ const recipes = [
     url: "kichererbsencurry.html"
   },
   {
-    title: "Gefüllter Kürbis",
-    description: "Veggie • Mittel • 35 Min.",
-    img: "/images/kuerbisgefuellt.png",
-    url: "kuerbisgefuellt.html"
-  },
-  {
     title: "Tortellini-Pfanne",
     description: "Veggie/Fleisch • Mittel • 35 Min.",
     img: "/images/tortellinipfanne.png",
     url: "tortellinipfanne.html"
   },
+  {
+    title: "Paprika-Sahne-Hähnchen",
+    description: "Fleisch • Mittel • 1 Std. 0 Min.",
+    img: "/images/paprikasahnehaehnchen.png",
+    url: "paprikasahnehaehnchen.html"
+  },
+  {
+    title: "Käse-Lauch-Suppe mit Hack",
+    description: "Fleisch • Mittel • 35 Min.",
+    img: "/images/kaeselauchsuppe.png",
+    url: "kaeselauchsuppe.html"
+  },
+  {
+    title: "Bauerntopf",
+    description: "Fleisch • Mittel • 55 Min.",
+    img: "/images/bauerntopf.png",
+    url: "bauerntopf.html"
+  },
+  {
+    title: "Bohneneintopf",
+    description: "Fleisch • Mittel • 40 Min.",
+    img: "/images/bohneneintopf.png",
+    url: "bohneneintopf.html"
+  },
+  {
+    title: "Gefüllter Kürbis",
+    description: "Fleisch • Mittel • 45 Min.",
+    img: "/images/kuerbisgefuellt.png",
+    url: "kuerbisgefuellt.html"
+  },
 ];
-
-
- 
 
 
 
