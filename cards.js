@@ -378,7 +378,7 @@ const recipes = [
     url: "apfelkuchenstreusel.html"
   },
   {
-    title: "Russischer Zufpkuchen",
+    title: "Russischer Zupfkuchen",
     description: "Leicht • 1 Std. 35 Min.",
     img: "/images/zupfkuchen.png",
     url: "zupfkuchen.html"

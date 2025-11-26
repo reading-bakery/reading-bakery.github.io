@@ -144,6 +144,12 @@ body {
     grid-column: 1;
 }
 
+.foodimg {
+    border-radius: 8px;
+    width: 100%;
+}
+
+
 .foodintro {
     font-family: "Roboto", serif;
     font-size: 12pt;
@@ -496,6 +502,16 @@ body {
     color: steelblue;
     font-weight: bold;
 }
+
+#close-icon {
+    display: none;
+}
+
+#search-results {
+    margin-top: 20px;
+}
+
+
 
 
 @media (max-width: 1180px) {

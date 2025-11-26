@@ -4,6 +4,10 @@
     font-style: normal;
 }
 
+#close-icon {
+    display: none;
+}
+
 .amatic-sc-bold {
     font-family: "Amatic SC", serif;
     font-weight: 700;
