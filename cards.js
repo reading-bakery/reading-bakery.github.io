@@ -953,6 +953,12 @@ const recipes = [
     img: "/images/kuerbisgefuellt.png",
     url: "kuerbisgefuellt.html"
   },
+  {
+    title: "Käsekuchen-Muffins mit Streuseln",
+    description: "Leicht • 50 Min.",
+    img: "/images/kaesekuchenmuffins.png",
+    url: "kaesekuchenmuffins.html"
+  },
 ];
 
 
