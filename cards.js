@@ -959,6 +959,12 @@ const recipes = [
     img: "/images/kaesekuchenmuffins.png",
     url: "kaesekuchenmuffins.html"
   },
+  {
+    title: "Caldo de Pollo",
+    description: "Mittel • 1 Std. 5 Min.",
+    img: "/images/caldodepollo.png",
+    url: "caldodepollo.html"
+  },
 ];
 
 

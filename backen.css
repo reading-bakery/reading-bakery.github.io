@@ -94,6 +94,11 @@
             height: auto; 
         }
 
+        .foodimg {
+            border-radius: 8px;
+            width: 100%;
+        }
+
         .box1 {
             padding: 0; 
             background: none;
