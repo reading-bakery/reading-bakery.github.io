@@ -965,6 +965,12 @@ const recipes = [
     img: "/images/caldodepollo.png",
     url: "caldodepollo.html"
   },
+  {
+    title: "Rosenkohl-Pfanne",
+    description: "Leicht • 25 Min.",
+    img: "/images/rosenkohlsahne.png",
+    url: "rosenkohlsahne.html"
+  },
 ];
 
 
