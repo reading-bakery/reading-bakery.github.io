@@ -166,6 +166,12 @@ body {
     margin-bottom: 5px; 
 }
 
+.foodimg {
+    border-radius: 8px;
+    width: 100%;
+}
+
+
 .box4 {
     padding: 0;
     margin: 0;
