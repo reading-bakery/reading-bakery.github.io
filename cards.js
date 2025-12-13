@@ -971,6 +971,12 @@ const recipes = [
     img: "/images/rosenkohlsahne.png",
     url: "rosenkohlsahne.html"
   },
+  {
+    title: "Lachs mit Mandelkruste auf Spinat",
+    description: "Mittel • 40 Min.",
+    img: "/images/lachsmandel.png",
+    url: "lachsmandel.html"
+  },
 ];
 
 
