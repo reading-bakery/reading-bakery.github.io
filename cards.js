@@ -977,6 +977,18 @@ const recipes = [
     img: "/images/lachsmandel.png",
     url: "lachsmandel.html"
   },
+  {
+   title: "Tiramisu",
+   description: "Mittel • 50 Min.",
+   img: "/images/tiramisu.png",
+   url: "tiramisu.html"
+  },
+  {
+   title: "Himbeer-Tiramisu",
+   description: "Mittel • 40 Min.",
+   img: "/images/himbeertiramisu.png",
+   url: "himbeertiramisu.html"
+  },
 ];
 
 
