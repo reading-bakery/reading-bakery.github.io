@@ -1001,6 +1001,36 @@ const recipes = [
    img: "/images/haehnchencurry.png",
    url: "haehnchencurry.html"
   },
+  {
+   title: "Wedges",
+   description: "Leicht • 50 Min.",
+   img: "/images/wedges.png",
+   url: "wedges.html"
+  },
+  {
+   title: "Gefüllte Süßkartoffel mit Ziegenkäse",
+   description: "Mittel • 1 Std. 15 Min.",
+   img: "/images/gefuelltesuesskartoffel.png",
+   url: "gefuelltesuesskartoffel.html"
+  },
+  {
+   title: "Gnocchi-Auflauf mit Spinat und Tomaten",
+   description: "Mittel • 1 Std. 15 Min.",
+   img: "/images/gnocchispinattomate.png",
+   url: "gnocchispinattomate.html"
+  },
+  {
+   title: "Apfeltaschen",
+   description: "Leicht • 45 Min.",
+   img: "/images/apfeltaschen.png",
+   url: "apfeltaschen.html"
+  },
+  {
+   title: "Rosenkohl aus dem Ofen",
+   description: "Mittel • 1 Std. 45 Min.",
+   img: "/images/rosenkohlueberbacken.png",
+   url: "rosenkohlueberbacken.html"
+  },
 ];
 
 
