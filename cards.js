@@ -906,12 +906,6 @@ const recipes = [
     url: "pakchoimie.html"
   },
   {
-    title: "Kartoffel-Curry",
-    description: "Veggie • Mittel • 35 Min.",
-    img: "/images/kartoffelcurry.png",
-    url: "kartoffelcurry.html"
-  },
-  {
     title: "Kichererbsen-Curry",
     description: "Veggie • Mittel • 35 Min.",
     img: "/images/kichererbsencurry.png",
@@ -988,6 +982,18 @@ const recipes = [
    description: "Mittel • 40 Min.",
    img: "/images/himbeertiramisu.png",
    url: "himbeertiramisu.html"
+  },
+  {
+   title: "Kartoffelcurry",
+   description: "Einfach • 55 Min.",
+   img: "/images/kartoffelcurry.png",
+   url: "kartoffelcurry.html"
+  },
+  {
+   title: "Erbseneintopf",
+   description: "Mittel • 1 Std. 30 Min.",
+   img: "/images/erbseneintopf.png",
+   url: "erbseneintopf.html"
   },
 ];
 
