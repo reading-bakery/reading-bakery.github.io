@@ -907,7 +907,7 @@ const recipes = [
   },
   {
     title: "Kichererbsen-Curry",
-    description: "Veggie • Mittel • 35 Min.",
+    description: "Veggie • Mittel • 45 Min.",
     img: "/images/kichererbsencurry.png",
     url: "kichererbsencurry.html"
   },
@@ -994,6 +994,12 @@ const recipes = [
    description: "Mittel • 1 Std. 30 Min.",
    img: "/images/erbseneintopf.png",
    url: "erbseneintopf.html"
+  },
+  {
+   title: "Hähnchencurry mit Süßkartoffeln",
+   description: "Mittel • 1 Std. 10 Min.",
+   img: "/images/haehnchencurry.png",
+   url: "haehnchencurry.html"
   },
 ];
 
