@@ -199,7 +199,7 @@ const recipes = [
   },
   {
     title: "Frikadellen",
-    description: "Veggie • Leicht • 25 Min.",
+    description: "Fleisch • Leicht • 25 Min.",
     img: "/images/frikadelle.png",
     url: "frikadellen.html"
   },
