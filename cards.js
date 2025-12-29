@@ -1031,6 +1031,12 @@ const recipes = [
    img: "/images/rosenkohlueberbacken.png",
    url: "rosenkohlueberbacken.html"
   },
+  {
+   title: "Salmorejo",
+   description: "Leicht • 20 Min.",
+   img: "/images/salmorejo.png",
+   url: "salmorejo.html"
+  },
 ];
 
 
