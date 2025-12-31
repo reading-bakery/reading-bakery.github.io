@@ -1037,6 +1037,24 @@ const recipes = [
    img: "/images/salmorejo.png",
    url: "salmorejo.html"
   },
+  {
+   title: "Sellerieschnitzel",
+   description: "Leicht • 30 Min.",
+   img: "/images/sellerieschnitzel.png",
+   url: "sellerieschnitzel.html"
+  },
+  {
+   title: "Green Goddess Salat",
+   description: "Leicht • 20 Min.",
+   img: "/images/greengoddess.png",
+   url: "greengoddess.html"
+  },
+  {
+   title: "Flammkuchen Birne",
+   description: "Leicht • 30 Min.",
+   img: "/images/flammkuchenbirne.png",
+   url: "flammkuchenbirne.html"
+  },
 ];
 
 
