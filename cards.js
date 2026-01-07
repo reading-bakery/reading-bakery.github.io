@@ -1067,6 +1067,12 @@ const recipes = [
    img: "/images/blumenkohlnuggets.png",
    url: "blumenkohlnuggets.html"
   },
+  {
+   title: "Smashed Blumenkohl",
+   description: "Leicht • 30 Min.",
+   img: "/images/smashedblumenkohl.png",
+   url: "smashedblumenkohl.html"
+  },
 ];
 
 
