@@ -1073,6 +1073,12 @@ const recipes = [
    img: "/images/smashedblumenkohl.png",
    url: "smashedblumenkohl.html"
   },
+  {
+   title: "Acılı Ezme",
+   description: "Leicht • 30 Min.",
+   img: "/images/aciliezme.png",
+   url: "aciliezme.html"
+  },
 ];
 
 
