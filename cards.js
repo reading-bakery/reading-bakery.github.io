@@ -1061,6 +1061,12 @@ const recipes = [
    img: "/images/blumenkohlbolognese.png",
    url: "blumenkohlbolognese.html"
   },
+  {
+   title: "Blumenkohl Nuggets",
+   description: "Mittel • 1 Std. 10 Min.",
+   img: "/images/blumenkohlnuggets.png",
+   url: "blumenkohlnuggets.html"
+  },
 ];
 
 
