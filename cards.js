@@ -1055,6 +1055,12 @@ const recipes = [
    img: "/images/flammkuchenbirne.png",
    url: "flammkuchenbirne.html"
   },
+  {
+   title: "Blumenkohl Bolognese",
+   description: "Leicht • 30 Min.",
+   img: "/images/blumenkohlbolognese.png",
+   url: "blumenkohlbolognese.html"
+  },
 ];
 
 
