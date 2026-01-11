@@ -1091,6 +1091,12 @@ const recipes = [
    img: "/images/rotelinsenbratlinge.png",
    url: "rotelinsenbratlinge.html"
   },
+  {
+   title: "Porridge",
+   description: "Leicht • 5 Min.",
+   img: "/images/porridge.png",
+   url: "porridge.html"
+  },
 ];
 
 
