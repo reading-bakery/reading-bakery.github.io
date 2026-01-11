@@ -1079,6 +1079,12 @@ const recipes = [
    img: "/images/aciliezme.png",
    url: "aciliezme.html"
   },
+  {
+   title: "Gemüsefrikadelle ",
+   description: "Leicht • 30 Min.",
+   img: "/images/gemuesefrikadelle.png",
+   url: "gemuesefrikadelle.html"
+  },
 ];
 
 
