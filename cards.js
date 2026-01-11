@@ -1085,6 +1085,12 @@ const recipes = [
    img: "/images/gemuesefrikadelle.png",
    url: "gemuesefrikadelle.html"
   },
+  {
+   title: "Rote Linsen Bratlinge",
+   description: "Leicht • 50 Min.",
+   img: "/images/rotelinsenbratlinge.png",
+   url: "rotelinsenbratlinge.html"
+  },
 ];
 
 
