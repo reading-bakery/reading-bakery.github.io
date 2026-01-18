@@ -1038,7 +1038,7 @@ const recipes = [
    url: "salmorejo.html"
   },
   {
-   title: "Sellerieschnitzel",
+   title: "Veggie Schnitzel",
    description: "Leicht • 30 Min.",
    img: "/images/sellerieschnitzel.png",
    url: "sellerieschnitzel.html"
@@ -1098,15 +1098,27 @@ const recipes = [
    url: "porridge.html"
   },
   {
+   title: "Auflauf mit Zucchini, Tomate & Feta",
+   description: "Leicht • 40 Min.",
+   img: "/images/zucchinitomatefeta.png",
+   url: "zucchinitomatefeta.html"
+  },
+  {
+   title: "Gnocchi-Kürbis-Auflauf",
+   description: "Mittel • 1 Std. 5 Min.",
+   img: "/images/kuerbisgnocchiauflauf.png",
+   url: "kuerbisgnocchiauflauf.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
-   img: "/images/porridge.png",
+   img: "/images/???.png",
    url: "???.html"
-  },
+  },  
 ];
 
 
 
 
 
-
+chakalaka
