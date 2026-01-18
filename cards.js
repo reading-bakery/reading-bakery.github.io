@@ -1110,6 +1110,12 @@ const recipes = [
    url: "kuerbisgnocchiauflauf.html"
   },  
   {
+   title: "Zucchini-Champignon-Pasta",
+   description: "Leicht • 20 Min.",
+   img: "/images/zucchinichampignons.png",
+   url: "zucchinichampignons.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
@@ -1121,4 +1127,3 @@ const recipes = [
 
 
 
-chakalaka
