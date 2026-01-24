@@ -1116,6 +1116,12 @@ const recipes = [
    url: "zucchinichampignons.html"
   },  
   {
+   title: "Rote Linsen-Kokos-Suppe",
+   description: "Leicht • 30 Min.",
+   img: "/images/rotelinsenkokosuppe.png",
+   url: "rotelinsenkokosuppe.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
