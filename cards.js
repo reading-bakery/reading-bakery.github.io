@@ -1128,6 +1128,12 @@ const recipes = [
    url: "kichererbsenofen.html"
   }, 
   {
+   title: "Lachs-Sahne-Gratin",
+   description: "Mittel • 40 Min.",
+   img: "/images/lachssahnegratin.png",
+   url: "lachssahnegratin.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
