@@ -1122,6 +1122,12 @@ const recipes = [
    url: "rotelinsenkokosuppe.html"
   },  
   {
+   title: "Geröstete Kichererbsen",
+   description: "Leicht • 45 Min.",
+   img: "/images/kichererbsenofen.png",
+   url: "kichererbsenofen.html"
+  }, 
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
