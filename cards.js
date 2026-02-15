@@ -1134,6 +1134,12 @@ const recipes = [
    url: "lachssahnegratin.html"
   },  
   {
+   title: "Sellerie überbacken",
+   description: "Leicht • 30 Min.",
+   img: "/images/sellerieueberbacken.png",
+   url: "sellerieueberbacken.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
