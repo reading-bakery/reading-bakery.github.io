@@ -1140,6 +1140,12 @@ const recipes = [
    url: "sellerieueberbacken.html"
   },  
   {
+   title: "One Pot Linsen und Aubergine",
+   description: "Leicht • 35 Min.",
+   img: "/images/onepotlinsenburrata.png",
+   url: "onepotlinsenburrata.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
