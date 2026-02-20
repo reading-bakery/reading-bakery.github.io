@@ -1164,6 +1164,18 @@ const recipes = [
    url: "mediterranehackbaellchen.html"
   },  
   {
+   title: "Curry Pasta mit Garnelen",
+   description: "Leicht • 30 Min.",
+   img: "/images/currypastagarnelen.png",
+   url: "currypastagarnelen.html"
+  },  
+  {
+   title: "Quesadilla",
+   description: "Leicht • 15 Min.",
+   img: "/images/quesadilla.png",
+   url: "quesadilla.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
