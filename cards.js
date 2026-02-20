@@ -1188,6 +1188,12 @@ const recipes = [
    url: "salatkartoffelkicherbsen.html"
   },  
   {
+   title: "Quinoa-Lachs Bowl mit Grünkohl",
+   description: "Mittel • 35 Min.",
+   img: "/images/quinoalachsgruenkohl.png",
+   url: "quinoalachsgruenkohl.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
