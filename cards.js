@@ -1158,6 +1158,12 @@ const recipes = [
    url: "weißebohnentomaten.html"
   }, 
   {
+   title: "Mediterrane Hackbällchen",
+   description: "Leicht • 35 Min.",
+   img: "/images/mediterranehackbaellchen.png",
+   url: "mediterranehackbaellchen.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
