@@ -1194,6 +1194,12 @@ const recipes = [
    url: "quinoalachsgruenkohl.html"
   },  
   {
+   title: "Pasta mit karamellisierten Zwiebeln",
+   description: "Leicht • 30 Min.",
+   img: "/images/pastazwiebelnkaramelisiert.png",
+   url: "pastazwiebelnkaramelisiert.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
