@@ -1175,6 +1175,18 @@ const recipes = [
    img: "/images/quesadilla.png",
    url: "quesadilla.html"
   },  
+  { 
+   title: "Crispy Kartoffelsalat",
+   description: "Mittel • 1 Std. 15 Min.",
+   img: "/images/crispykartoffelsalat.png",
+   url: "crispykartoffelsalat.html"
+  },  
+  {
+   title: "Kartoffel-Kichererbsen-Salat",
+   description: "Mittel • 45 Min.",
+   img: "/images/salatkartoffelkicherbsen.png",
+   url: "salatkartoffelkicherbsen.html"
+  },  
   {
    title: "???",
    description: "Leicht • 5 Min.",
