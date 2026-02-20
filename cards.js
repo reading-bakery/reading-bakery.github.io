@@ -1200,6 +1200,12 @@ const recipes = [
    url: "pastazwiebelnkaramelisiert.html"
   },  
   {
+   title: "Pasta in Pfifferling-Parmesansauce",
+   description: "Leicht • 30 Min.",
+   img: "/images/pastapfifferling.png",
+   url: "pastapfifferling.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
