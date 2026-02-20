@@ -1146,6 +1146,12 @@ const recipes = [
    url: "onepotlinsenburrata.html"
   },  
   {
+   title: "Weiße Bohnen mit Spinat",
+   description: "Leicht • 30 Min.",
+   img: "/images/weißbohnenspinat.png",
+   url: "weißbohnenspinat.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
