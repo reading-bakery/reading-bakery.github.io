@@ -1152,6 +1152,12 @@ const recipes = [
    url: "weißbohnenspinat.html"
   },  
   {
+   title: "Weiße Bohnen in Tomatensauce",
+   description: "Leicht • 30 Min.",
+   img: "/images/weißebohnentomaten.png",
+   url: "weißebohnentomaten.html"
+  }, 
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",
