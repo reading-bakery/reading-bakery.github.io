@@ -10,6 +10,7 @@
     font-style: normal;
 }
 
+
 .roboto-sc-regular {
     font-family: "Roboto", serif;
     font-weight: 400;
@@ -21,6 +22,14 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 body {
     font-family: "Roboto", serif;
@@ -386,9 +395,9 @@ p {
 }
 
 .intro-zufall {
-    font-family: "Amatic SC", serif;
-    font-size: 3.5rem;
-    font-weight: bold;
+    font-family: Caveat Brush, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 200;
     margin-top: -20px;
     margin-bottom: 20px;
     padding-top: 0;
@@ -519,9 +528,9 @@ footer {
     }
 
     .intro-zufall   {
-        font-family: "Amatic SC", serif;
-        font-size: 2.5rem;
-        font-weight: bold;
+        font-family: Caveat Brush, sans-serif;
+        font-size: 2rem;
+        font-weight: normal;
         margin-top: -20px;
         margin-bottom: 10px;
     }
