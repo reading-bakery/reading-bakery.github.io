@@ -558,6 +558,16 @@ footer {
         gap: 0.25rem;          /* Abstand zwischen Buttons verringert */
     }
 
+
+    .explanation {
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-size: 8pt;
+        color: darkslategray;
+        text-align: right;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 }
     
 
