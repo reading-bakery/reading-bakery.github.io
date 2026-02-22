@@ -87,6 +87,9 @@ body {
     font-size: 1.5rem;
     color: black;                   /* Textfarbe */
     margin-bottom: 15px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
 }
 
 
@@ -295,37 +298,44 @@ p {
     padding: 20px;
     background: rgb(111, 180, 180);
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-
+    font-family: Julius Sans One, serif;
+    font-weight: bolder;
 }
 
 .box2 {
     padding: 20px;
     background: rgb(224, 224, 87);
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    font-family: Julius Sans One, serif;
+    font-weight: bolder;
 }
 
 .box3 {
     padding: 20px;
     background: rgb(234, 145, 145);
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    font-family: Julius Sans One, serif;
+    font-weight: bolder;
 }
 
 .box4 {
     padding: 20px;
     background: rgb(185, 128, 185);
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    font-family: Julius Sans One, serif;
+    font-weight: bolder;
 }
  
  
@@ -340,6 +350,7 @@ p {
     font-size: 3.5rem;
     font-weight: bold;
     margin-top: -20px;
+    margin-bottom: 20px;
     padding-top: 0;
 }
 
@@ -463,7 +474,7 @@ footer {
     }
 
     .h1 {
-        font-size: 50px;
+        font-size: 50pt;
     }
 
     .intro-zufall   {
