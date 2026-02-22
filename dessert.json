@@ -1,0 +1,142 @@
+[
+{
+  "title": "Raffaello-Creme",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "30 Min.",
+  "servings": "4 Personen",
+  "href": "raffaellocreme.html",
+  "img": "/images/raffaellocreme.png",
+  "alt": "Raffaello-Creme"
+},
+{
+  "title": "Rhabarber Kompott",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "20 Min.",
+  "servings": "4 Personen",
+  "href": "rhabarberkompott.html",
+  "img": "/images/rhababerkompott.png",
+  "alt": "Rhabarberkompott"
+},
+{
+  "title": "Gebackene Banane",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "10 Min.",
+  "servings": "2 Personen",
+  "href": "gebackenebanane.html",
+  "img": "/images/gebackenebanane.png",
+  "alt": "Gebackene Banane"
+},
+{
+  "title": "Crumble",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "20 Min.",
+  "servings": "4 Personen",
+  "href": "applecrumble.html",
+  "img": "/images/applecrumble.png",
+  "alt": "Apple Crumble"
+},
+{
+  "title": "Spaghetti-Eis-Dessert",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "30 Min.",
+  "servings": "8 Personen",
+  "href": "spaghettieisdessert.html",
+  "img": "/images/spaghettieisdessert.png",
+  "alt": "Spaghetti-Eis-Dessert"
+},
+{
+  "title": "Apfelstrudel",
+  "category": "Dessert",
+  "tags": "Mittel",
+  "time": "2 Std. 5 Min.",
+  "servings": "4 Personen",
+  "href": "apfelstrudel.html",
+  "img": "/images/apfelstrudel.png",
+  "alt": "Apfelstrudel"
+},
+{
+  "title": "Blinis",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "30 Min.",
+  "servings": "3 Personen",
+  "href": "blinis.html",
+  "img": "/images/blinis.png",
+  "alt": "Blinis"
+},
+{
+  "title": "Waffeln",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "45 Min.",
+  "servings": "3 Personen",
+  "href": "waffeln.html",
+  "img": "/images/waffeln.png",
+  "alt": "Waffeln"
+},
+{
+  "title": "Glutenfreie Waffeln",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "45 Min.",
+  "servings": "3 Personen",
+  "href": "waffelnglutenfrei.html",
+  "img": "/images/waffelnglutenfrei.png",
+  "alt": "Glutenfreie Waffeln"
+},
+{
+  "title": "Himbeer-Tiramisu",
+  "category": "Dessert",
+  "tags": "Mittel",
+  "time": "40 Min.",
+  "servings": "6 Personen",
+  "href": "himbeertiramisu.html",
+  "img": "/images/himbeertiramisu.png",
+  "alt": "Himbeer-Tiramisu"
+},
+{
+  "title": "Vegane Waffeln",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "45 Min.",
+  "servings": "3 Personen",
+  "href": "waffelnvegan.html",
+  "img": "/images/waffelnvegan.png",
+  "alt": "Vegane Waffeln"
+},
+{
+  "title": "Syrniki",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "30 Min.",
+  "servings": "4 Personen",
+  "href": "syrniki.html",
+  "img": "/images/syrniki.png",
+  "alt": "Syrniki"
+},
+{
+  "title": "Tiramisu",
+  "category": "Dessert",
+  "tags": "Mittel",
+  "time": "2 Std. 30 Min.",
+  "servings": "6 Personen",
+  "href": "tiramisu.html",
+  "img": "/images/tiramisu.png",
+  "alt": "Tiramisu"
+},
+{
+  "title": "Apfeltaschen",
+  "category": "Dessert",
+  "tags": "Leicht",
+  "time": "45 Min.",
+  "servings": "10 Personen",
+  "href": "apfeltaschen.html",
+  "img": "/images/apfeltaschen.png",
+  "alt": "Apfeltaschen"
+}
+]

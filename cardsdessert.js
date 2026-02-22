@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const grid = document.querySelector(".grid");
 
     // Pfad zur JSON-Datei
-    const jsonPath = "salat.json";
+    const jsonPath = "dessert.json";
 
     fetch(jsonPath)
         .then(response => {

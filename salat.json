@@ -1,7 +1,6 @@
 [
 {
 "title": "Würziger Couscoussalat",
-"category": "Salate",
 "tags": "Veggie • Leicht",
 "time": "35 Min.",
 "servings": "4 Personen",
@@ -11,7 +10,6 @@
 },
 {
 "title": "Inkasalat mit Avocado und Quinoa",
-"category": "Salate",
 "tags": "Veggie • Mittel",
 "time": "35 Min.",
 "servings": "4 Personen",
@@ -21,7 +19,6 @@
 },
 {
 "title": "Mediterraner Kichererbsensalat",
-"category": "Salate",
 "tags": "Veggie • Mittel",
 "time": "20 Min.",
 "servings": "2 Personen",
@@ -31,7 +28,6 @@
 },
 {
   "title": "Tortellinisalat",
-  "category": "Salate",
   "tags": "Veggie/Fleisch • Mittel",
   "time": "30 Min.",
   "servings": "4 Personen",
@@ -41,7 +37,6 @@
 },
 {
   "title": "Bulgursalat",
-  "category": "Salate",
   "tags": "Veggie • Leicht",
   "time": "1 Std. 30 Min.",
   "servings": "3 Personen",
@@ -51,7 +46,6 @@
 },
 {
   "title": "Guacamole",
-  "category": "Salate",
   "tags": "Veggie • Leicht",
   "time": "15 Min.",
   "servings": "4 Personen",
@@ -61,7 +55,6 @@
 },
 {
   "title": "Rote Bete mit Schafskäse",
-  "category": "Salate",
   "tags": "Veggie • Leicht",
   "time": "15 Min.",
   "servings": "4 Personen",
@@ -71,7 +64,6 @@
 },
 {
   "title": "Kartoffelsalat",
-  "category": "Salate",
   "tags": "Veggie • Mittel",
   "time": "40 Min.",
   "servings": "4 Personen",
@@ -81,7 +73,6 @@
 },
 {
   "title": "Tzatziki",
-  "category": "Salate",
   "tags": "Veggie • Leicht",
   "time": "10 Min.",
   "servings": "4 Personen",
@@ -91,7 +82,6 @@
 },
 {
   "title": "Quinoa-Power-Salat mit Avocado",
-  "category": "Salate",
   "tags": "Veggie • Mittel",
   "time": "30 Min.",
   "servings": "4 Personen",
@@ -101,7 +91,6 @@
 },
 {
   "title": "Belugalinsen Salat",
-  "category": "Salate",
   "tags": "Veggie • Leicht",
   "time": "20 Min.",
   "servings": "4 Personen",
@@ -111,7 +100,6 @@
 },
 {
   "title": "Nudelsalat",
-  "category": "Salate",
   "tags": "Veggie • Mittel",
   "time": "20 Min.",
   "servings": "4 Personen",
@@ -121,7 +109,6 @@
 },
 {
   "title": "Salat mit rote Linsen und rote Bete",
-  "category": "Salate",
   "tags": "Veggie • Mittel",
   "time": "35 Min.",
   "servings": "4 Personen",
@@ -131,7 +118,6 @@
 },
 {
   "title": "Curry-Nudelsalat",
-  "category": "Salate",
   "tags": "Veggie • Leicht",
   "time": "30 Min.",
   "servings": "3 Personen",
@@ -141,7 +127,6 @@
 },
 {
   "title": "Green Goddess Salat",
-  "category": "Salate",
   "tags": "Veggie • Leicht",
   "time": "20 Min.",
   "servings": "6 Personen",
@@ -151,7 +136,6 @@
 },
 {
   "title": "Acılı Ezme",
-  "category": "Salate",
   "tags": "Veggie • Mittel",
   "time": "30 Min.",
   "servings": "4 Personen",
@@ -161,7 +145,6 @@
 },
 {
   "title": "Crispy Kartoffelsalat",
-  "category": "Salate",
   "tags": "Veggie • Mittel",
   "time": "1 Std. 15 Min.",
   "servings": "2 Personen",
@@ -171,7 +154,6 @@
 },
 {
   "title": "Kartoffel-Kichererbsen-Salat",
-  "category": "Salate",
   "tags": "Veggie • Mittel",
   "time": "45 Min.",
   "servings": "4 Personen",
@@ -181,7 +163,6 @@
 },
 {
     "title": "Rezept???",
-    "category": "",
     "tags": "Veggie?? • Mittel????",
     "time": "??? Min.",
     "servings": "?? Personen",
