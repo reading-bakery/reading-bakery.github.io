@@ -20,6 +20,16 @@
 "servings": "4 Personen"
 },
 {
+  "title": "Weiße Bohnen mit Spinat",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "weißbohnenspinat.html",
+  "img": "/images/weißbohnenspinat.png",
+  "alt": "Weiße Bohnen mit Spinat"
+},
+{
 "href": "rotelinsenkokosuppe.html",
 "img": "/images/rotelinsenkokosuppe.png",
 "alt": "Rote Linsen-Kokos-Suppe",
@@ -110,6 +120,16 @@
     "servings": "4 Personen"
 },
 {
+  "title": "Mediterrane Hackbällchen",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie/Fleisch • Leicht",
+  "time": "35 Min.",
+  "servings": "2 Personen",
+  "href": "mediterranehackbaellchen.html",
+  "img": "/images/mediterranehackbaellchen.png",
+  "alt": "Mediterrane Hackbällchen"
+},
+{
     "href": "brokkolisuppe.html",
     "img": "images/brokkolisuppe.png",
     "alt": "Brokkolisuppe",
@@ -128,6 +148,36 @@
     "tags": "Veggie/Fleisch • Leicht",
     "time": "30 Min.",
     "servings": "4 Personen"
+},
+{
+  "title": "Rotes Linsen-Curry",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "4 Personen",
+  "href": "roteslinsencurry.html",
+  "img": "/images/roteslinsencurry.png",
+  "alt": "Rotes Linsen-Curry"
+},
+{
+  "title": "Kartoffelgulasch mit Würstchen",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "25 Min.",
+  "servings": "2 Personen",
+  "href": "kartoffelgulasch_mit_wuerstchen.html",
+  "img": "/images/kartoffelgulasch.png",
+  "alt": "Kartoffelgulasch mit Würstchen"
+},
+{
+  "title": "Weiße Bohnen in Tomatensauce",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "weißebohnentomaten.html",
+  "img": "/images/weißebohnentomaten.png",
+  "alt": "Weiße Bohnen in Tomatensauce"
 },
 {
     "href": "chilisincarne.html",
@@ -150,6 +200,16 @@
     "servings": "4 Personen"
 },
 {
+  "title": "Würstchengulasch",
+  "category": "Suppe & Eintopf",
+  "tags": "Fleisch • Leicht",
+  "time": "20 Min.",
+  "servings": "3 Personen",
+  "href": "wuerstchengulasch.html",
+  "img": "/images/wuerstchengulasch.png",
+  "alt": "Würstchengulasch"
+},
+{
     "href": "tomatensuppe.html",
     "img": "/images/tomatensuppe.png",
     "alt": "Tomatensuppe",
@@ -158,6 +218,16 @@
     "tags": "Veggie • Leicht",
     "time": "20 Min.",
     "servings": "2 Personen"
+},
+{
+  "title": "One Pot Linsen und Aubergine",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie • Leicht",
+  "time": "35 Min.",
+  "servings": "2 Personen",
+  "href": "onepotlinsenburrata.html",
+  "img": "/images/onepotlinsenburrata.png",
+  "alt": "One Pot Linsen und Aubergine"
 },
 {
     "href": "linsensuppe.html",
