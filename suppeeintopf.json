@@ -1,0 +1,252 @@
+[
+{
+"href": "thaisuppe.html",
+"img": "/images/thaicurrysuppe.png",
+"alt": "Thaisuppe",
+"title": "Thai Curry Suppe",
+"category": "Suppe & Eintopf",
+"tags": "Veggie • Leicht",
+"time": "30 Min.",
+"servings": "4 Personen"
+},
+{
+"href": "kohlrabicabanossi.html",
+"img": "/images/kohlrabicabanossi.png",
+"alt": "Kohlrabi Cabanossi",
+"title": "Kohlrabieintopf mit Cabanossi",
+"category": "Suppe & Eintopf",
+"tags": "Fleisch • Leicht",
+"time": "30 Min.",
+"servings": "4 Personen"
+},
+{
+"href": "rotelinsenkokosuppe.html",
+"img": "/images/rotelinsenkokosuppe.png",
+"alt": "Rote Linsen-Kokos-Suppe",
+"title": "Rote Linsen-Kokos-Suppe",
+"category": "Suppe & Eintopf",
+"tags": "Veggie • Leicht",
+"time": "30 Min.",
+"servings": "4 Personen"
+},
+{
+"href": "bohneneintopf.html",
+"img": "/images/bohneneintopf.png",
+"alt": "Bohneneintopf",
+"title": "Bohneneintopf",
+"category": "Suppe & Eintopf",
+"tags": "Fleisch • Mittel",
+"time": "40 Min.",
+"servings": "4 Personen"
+},
+{
+"href": "Erbseneintopf.html",
+"img": "/images/erbseneintopf.png",
+"alt": "Erbseneintopf",
+"title": "Erbseneintopf",
+"category": "Suppe & Eintopf",
+"tags": "Veggie/Fleisch • Mittel",
+"time": "1 Std. 30 Min.",
+"servings": "4 Personen"
+},
+{
+    "href": "miesuppe.html",
+    "img": "/images/miesuppe.png",
+    "alt": "Miesuppe",
+    "title": "Miesuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "45 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "caldodepollo.html",
+    "img": "/images/caldodepollo.png",
+    "alt": "Caldo de Pollo",
+    "title": "Caldo de Pollo",
+    "category": "Suppe & Eintopf",
+    "tags": "Fleisch • Mittel",
+    "time": "1 Std. 5 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "bauerntopf.html",
+    "img": "/images/bauerntopf.png",
+    "alt": "Bauerntopf",
+    "title": "Bauerntopf",
+    "category": "Suppe & Eintopf",
+    "tags": "Fleisch • Mittel",
+    "time": "55 Min.",
+    "servings": "3 Personen"
+},
+{
+    "href": "mexikosuppe.html",
+    "img": "/images/mexikosuppe.png",
+    "alt": "Mexikosuppe",
+    "title": "Mexikanische Gemüsesuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "45 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "suesskartoffelchili.html",
+    "img": "/images/suesskartoffelchili.png",
+    "alt": "Süßkartoffel-Chili",
+    "title": "Süßkartoffel-Chili",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "55 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "kaeselauchsuppe.html",
+    "img": "/images/kaeselauchsuppe.png",
+    "alt": "Käse-Lauch-Suppe",
+    "title": "Käse-Lauch-Suppe mit Hack",
+    "category": "Suppe & Eintopf",
+    "tags": "Fleisch • Mittel",
+    "time": "35 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "brokkolisuppe.html",
+    "img": "images/brokkolisuppe.png",
+    "alt": "Brokkolisuppe",
+    "title": "Brokkolisuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "45 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "kartoffelsuppe.html",
+    "img": "/images/kartoffelsuppe.png",
+    "alt": "Kartoffelsuppe",
+    "title": "Kartoffelsuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "chilisincarne.html",
+    "img": "/images/chilisincarne.png",
+    "alt": "Chili sin Carne",
+    "title": "Chili sin Carne",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "45 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "borsch.html",
+    "img": "/images/borsch.png",
+    "alt": "Borsch",
+    "title": "Borsch",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "35 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "tomatensuppe.html",
+    "img": "/images/tomatensuppe.png",
+    "alt": "Tomatensuppe",
+    "title": "Tomatensuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "20 Min.",
+    "servings": "2 Personen"
+},
+{
+    "href": "linsensuppe.html",
+    "img": "/images/linsensuppe.png",
+    "alt": "Linsensuppe",
+    "title": "Feine Linsensuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Fleisch • Mittel",
+    "time": "50 Min.",
+    "servings": "2 Personen"
+},
+{
+    "href": "spargelcremesuppe.html",
+    "img": "/images/spargelcremesuppe.png",
+    "alt": "Spargelcremesuppe",
+    "title": "Spargelcremesuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "30 Min.",
+    "servings": "6 Personen"
+},
+{
+    "href": "currysuppe.html",
+    "img": "/images/currysuppe.png",
+    "alt": "Currysuppe",
+    "title": "Currysuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "15 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "okroschka.html",
+    "img": "/images/okroschka.png",
+    "alt": "Okroschka",
+    "title": "Okroschka",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "thaisuppepikant.html",
+    "img": "/images/thaisuppepikant.png",
+    "alt": "Pikante Thai Suppe",
+    "title": "Pikante Thai Suppe",
+    "category": "Suppe/Eintopf",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "30 Min.",
+    "servings": "4 Personen"
+},
+{
+    "href": "kuerbissuppe.html",
+    "img": "/images/kuerbissuppe.png",
+    "alt": "Kürbissupppe",
+    "title": "Kürbissupppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "50 Min.",
+    "servings": "6 Personen"
+},
+{
+    "href": "gulaschsuppe.html",
+    "img": "/images/gulaschsuppe.png",
+    "alt": "Gulaschsuppe",
+    "title": "Gulaschsuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Fleisch • Schwer",
+    "time": "1 Std. 50 Min.",
+    "servings": "6 Personen"
+},
+{
+    "href": "salmorejo.html",
+    "img": "/images/salmorejo.png",
+    "alt": "Salmorejo",
+    "title": "Salmorejo",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "20 Min.",
+    "servings": "2 Personen"
+},
+{
+    "title": "Rezept???",
+    "category": "",
+    "tags": "Veggie?? • Mittel????",
+    "time": "??? Min.",
+    "servings": "?? Personen",
+    "href": "???.html",
+    "img": "/images/???.png",
+    "alt": "Rezept???"
+}
+]
