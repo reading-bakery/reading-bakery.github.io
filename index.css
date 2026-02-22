@@ -77,7 +77,6 @@ body {
     right: 20px;                   
     padding: 0.5rem 0.5rem;           /* Kombiniert beide Padding-Angaben */
     height: auto;                   
-    background-color: rgb(173, 190, 201);  /* helles Grau-Blau */
     border: none;
     border-radius: 8px;             
     cursor: pointer;
