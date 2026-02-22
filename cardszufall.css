@@ -1,0 +1,78 @@
+
+
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+}
+
+
+.subtitle {
+    font-family: "Julius Sans One", serif;
+    text-align: left;
+    padding: 3px;
+    padding-top: 0;
+    font-weight: bolder;
+    font-size: 12pt;
+    border-radius: 8px;       
+    margin-top: 5px;
+}
+
+
+.card-rezept {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-rezept:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card-text {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 9pt;
+    color: darkslategray;
+    text-align: left;
+    margin: 0.1px;
+    padding-left: 2px;
+    padding-top: 0;
+    padding-bottom: 3px;
+    line-height: 135%;
+}
+
+.cardimg {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.subfood {
+    display: flex;
+    gap: 10px;
+}
+
+
+    
+    
+
