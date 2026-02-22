@@ -12,24 +12,38 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Zuerst alle Karten verstecken / normalisieren
+        // Alle Karten zurücksetzen
         rezepte.forEach(card => {
-            card.style.display = "none";        // Karte ausblenden
-            card.style.transform = "scale(1)";  // Skalierung zurücksetzen
-            card.style.boxShadow = "none";      // Shadow zurücksetzen
+            card.style.display = "none";
+            card.style.transform = "scale(1)";
+            card.style.boxShadow = "none";
+
+            // Entferne ggf. vorherige Hover-Events
+            card.onmouseenter = null;
+            card.onmouseleave = null;
         });
 
-        // Zufälligen Index wählen
+        // Zufällige Karte auswählen
         const zufallsIndex = Math.floor(Math.random() * rezepte.length);
-
-        // Zufälliges Rezept anzeigen
         const zufallsRezept = rezepte[zufallsIndex];
-        zufallsRezept.style.display = "block";
-        zufallsRezept.style.transform = "scale(1.05)";
-        zufallsRezept.style.boxShadow = "0 10px 20px rgba(0,0,0,0.3)";
 
-        // Optional: Scrollen, damit die Karte sichtbar ist
+        // Karte sichtbar machen
+        zufallsRezept.style.display = "block";
+
+        // Scrollen, damit die Karte sichtbar ist
         zufallsRezept.scrollIntoView({ behavior: "smooth", block: "center" });
+
+        // Hervorhebung beim Hover
+        zufallsRezept.onmouseenter = () => {
+            zufallsRezept.style.transition = "transform 0.3s, box-shadow 0.3s";
+            zufallsRezept.style.transform = "scale(1.05)";
+            zufallsRezept.style.boxShadow = "0 10px 20px rgba(0,0,0,0.3)";
+        };
+
+        zufallsRezept.onmouseleave = () => {
+            zufallsRezept.style.transform = "scale(1)";
+            zufallsRezept.style.boxShadow = "none";
+        };
 
     });
 
