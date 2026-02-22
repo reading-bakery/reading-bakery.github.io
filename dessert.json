@@ -1,7 +1,6 @@
 [
 {
   "title": "Raffaello-Creme",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "30 Min.",
   "servings": "4 Personen",
@@ -11,7 +10,6 @@
 },
 {
   "title": "Rhabarber Kompott",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "20 Min.",
   "servings": "4 Personen",
@@ -21,7 +19,6 @@
 },
 {
   "title": "Gebackene Banane",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "10 Min.",
   "servings": "2 Personen",
@@ -31,7 +28,6 @@
 },
 {
   "title": "Crumble",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "20 Min.",
   "servings": "4 Personen",
@@ -41,7 +37,6 @@
 },
 {
   "title": "Spaghetti-Eis-Dessert",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "30 Min.",
   "servings": "8 Personen",
@@ -51,7 +46,6 @@
 },
 {
   "title": "Apfelstrudel",
-  "category": "Dessert",
   "tags": "Mittel",
   "time": "2 Std. 5 Min.",
   "servings": "4 Personen",
@@ -61,7 +55,6 @@
 },
 {
   "title": "Blinis",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "30 Min.",
   "servings": "3 Personen",
@@ -71,7 +64,6 @@
 },
 {
   "title": "Waffeln",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "45 Min.",
   "servings": "3 Personen",
@@ -81,7 +73,6 @@
 },
 {
   "title": "Glutenfreie Waffeln",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "45 Min.",
   "servings": "3 Personen",
@@ -91,7 +82,6 @@
 },
 {
   "title": "Himbeer-Tiramisu",
-  "category": "Dessert",
   "tags": "Mittel",
   "time": "40 Min.",
   "servings": "6 Personen",
@@ -101,7 +91,6 @@
 },
 {
   "title": "Vegane Waffeln",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "45 Min.",
   "servings": "3 Personen",
@@ -111,7 +100,6 @@
 },
 {
   "title": "Syrniki",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "30 Min.",
   "servings": "4 Personen",
@@ -121,7 +109,6 @@
 },
 {
   "title": "Tiramisu",
-  "category": "Dessert",
   "tags": "Mittel",
   "time": "2 Std. 30 Min.",
   "servings": "6 Personen",
@@ -131,7 +118,6 @@
 },
 {
   "title": "Apfeltaschen",
-  "category": "Dessert",
   "tags": "Leicht",
   "time": "45 Min.",
   "servings": "10 Personen",

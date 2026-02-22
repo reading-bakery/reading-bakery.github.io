@@ -43,9 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img class="cardimg" src="${img}" alt="${alt}">
                 <div class="card-content">
                     <h3 class="subtitle">${title}</h3>
-                    <p class="category card-text">${category}</p>
-                    <p class="tags card-text">${tags}</p>
-                    <p class="time-servings card-text">${time} • ${servings}</p>
+                    <p class="category card-text">${tags} • ${time}</p>
                 </div>
             `;
 

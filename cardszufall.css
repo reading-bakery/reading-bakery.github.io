@@ -82,6 +82,10 @@ a {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
+    .card-rezept {
+        width: 100%;
+    }
 }
     
 @media (max-width: 1024px) {

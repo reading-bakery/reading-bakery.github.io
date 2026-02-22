@@ -1,7 +1,6 @@
 [
 {
   "title": "Käsekuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Leicht",
   "time": "1 Std. 30 Min.",
   "servings": "",
@@ -11,7 +10,6 @@
 },
 {
   "title": "Donauwelle",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 35 Min.",
   "servings": "",
@@ -21,7 +19,6 @@
 },
 {
   "title": "Möhrenkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Mittel",
   "time": "1 Std. 15 Min.",
   "servings": "",
@@ -31,7 +28,6 @@
 },
 {
   "title": "Bienenstich",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Mittel",
   "time": "1 Std. 5 Min.",
   "servings": "",
@@ -41,7 +37,6 @@
 },
 {
   "title": "Rhababerkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Mittel",
   "time": "1 Std. 20 Min.",
   "servings": "",
@@ -51,7 +46,6 @@
 },
 {
   "title": "Kirschkuchen mit Streuseln",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Mittel",
   "time": "1 Std. 30 Min.",
   "servings": "",
@@ -61,7 +55,6 @@
 },
 {
   "title": "Zimtschnecken",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 30 Min.",
   "servings": "",
@@ -71,7 +64,6 @@
 },
 {
   "title": "Schokokuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Leicht",
   "time": "50 Min.",
   "servings": "",
@@ -81,7 +73,6 @@
 },
 {
   "title": "Apfelkuchen mit Streuseln",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Leicht",
   "time": "1 Std. 25 Min.",
   "servings": "",
@@ -91,7 +82,6 @@
 },
 {
   "title": "Russischer Zupfkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Leicht",
   "time": "1 Std. 35 Min.",
   "servings": "",
@@ -101,7 +91,6 @@
 },
 {
   "title": "Windbeutel-Torte",
-  "category": "Dessert",
   "tags": "Modern • Rund • Schwer",
   "time": "1 Std. 35 Min.",
   "servings": "",
@@ -111,7 +100,6 @@
 },
 {
   "title": "Kürbiskuchen / Pumpkin Pie",
-  "category": "Dessert",
   "tags": "Modern • Rund • Mittel",
   "time": "2 Std. 30 Min.",
   "servings": "",
@@ -121,7 +109,6 @@
 },
 {
   "title": "Saftiger Apfelkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Leicht",
   "time": "1 Std. 35 Min.",
   "servings": "",
@@ -131,7 +118,6 @@
 },
 {
   "title": "Schwarzwälder Kirschtorte",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Schwer",
   "time": "1 Std. 35 Min.",
   "servings": "",
@@ -141,7 +127,6 @@
 },
 {
   "title": "Zitronenkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Mittel",
   "time": "?? Min.",
   "servings": "",
@@ -151,7 +136,6 @@
 },
 {
   "title": "Giotto Torte",
-  "category": "Dessert",
   "tags": "Modern • Rund • Leicht",
   "time": "0 Std. 30 Min.",
   "servings": "",
@@ -161,7 +145,6 @@
 },
 {
   "title": "Yogurette Torte",
-  "category": "Dessert",
   "tags": "Modern • Rund • Schwer",
   "time": "1 Std. 0 Min.",
   "servings": "",
@@ -171,7 +154,6 @@
 },
 {
   "title": "Zimtschnecken Kekse",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 50 Min.",
   "servings": "",
@@ -181,7 +163,6 @@
 },
 {
   "title": "Saftiger Schokokuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Leicht",
   "time": "0 Std. 55 Min.",
   "servings": "",
@@ -191,7 +172,6 @@
 },
 {
   "title": "Fantakuchen",
-  "category": "Dessert",
   "tags": "Modern • Blech • Leicht",
   "time": "1 Std. 55 Min.",
   "href": "fantakuchen.html",
@@ -200,7 +180,6 @@
 },
 {
   "title": "Erdbeer-Mascarpone Torte",
-  "category": "Dessert",
   "tags": "Modern • Rund • Mittel",
   "time": "1 Std. 45 Min.",
   "href": "erdbeermascarpone.html",
@@ -209,7 +188,6 @@
 },
 {
   "title": "Philadelphia Torte",
-  "category": "Dessert",
   "tags": "Modern • Rund • Mittel",
   "time": "1 Std. 15 Min.",
   "href": "philadelphiatorte.html",
@@ -218,7 +196,6 @@
 },
 {
   "title": "Zwetschgenkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Mittel",
   "time": "1 Std. 15 Min.",
   "href": "zwetschgenkuchen.html",
@@ -227,7 +204,6 @@
 },
 {
   "title": "Vanillekipferl",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 50 Min.",
   "href": "vanillekipferl.html",
@@ -236,7 +212,6 @@
 },
 {
   "title": "Zitronentorte",
-  "category": "Dessert",
   "tags": "Modern • Rund • Schwer",
   "time": "1 Std. 55 Min.",
   "href": "zitronentorte.html",
@@ -245,7 +220,6 @@
 },
 {
   "title": "Red Velvet Kuchen",
-  "category": "Dessert",
   "tags": "Modern • Rund • Schwer",
   "time": "1 Std. 15 Min.",
   "href": "redvelvet.html",
@@ -254,7 +228,6 @@
 },
 {
   "title": "Mandarinen-Schmandkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 30 Min.",
   "href": "schmandmandarine.html",
@@ -263,7 +236,6 @@
 },
 {
   "title": "Kokosmakronen",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 20 Min.",
   "href": "kokosmakronen.html",
@@ -272,7 +244,6 @@
 },
 {
   "title": "Tarte au Chokolat / Schokokuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Leicht",
   "time": "0 Std. 55 Min.",
   "href": "tarteauchocolat.html",
@@ -281,7 +252,6 @@
 },
 {
   "title": "Schoko-Birnen-Kuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Rund • Mittel",
   "time": "2 Std. 10 Min.",
   "href": "schokobirne.html",
@@ -290,7 +260,6 @@
 },
 {
   "title": "Feiner Apfelkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Leicht",
   "time": "0 Std. 55 Min.",
   "href": "feiner_apfelkuchen.html",
@@ -299,7 +268,6 @@
 },
 {
   "title": "Quark-Streuselkuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "0 Std. 55 Min.",
   "href": "quarkstreusel.html",
@@ -308,7 +276,6 @@
 },
 {
   "title": "Buttermilch-Kokos Kuchen",
-  "category": "Dessert",
   "tags": "Modern • Blech • Leicht",
   "time": "0 Std. 45 Min.",
   "href": "buttermilchkokos.html",
@@ -317,7 +284,6 @@
 },
 {
   "title": "Kirsch-Schmand-Kuchen",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 0 Min.",
   "href": "kirschschmand.html",
@@ -326,7 +292,6 @@
 },
 {
   "title": "Maulwurfkuchen",
-  "category": "Dessert",
   "tags": "Modern • Rund • Mittel",
   "time": "1 Std. 15 Min.",
   "href": "maulwurfkuchen.html",
@@ -335,7 +300,6 @@
 },
 {
   "title": "Bananenbrot",
-  "category": "Dessert",
   "tags": "Klassiker • Kasten • Mittel",
   "time": "1 Std. 5 Min.",
   "href": "bananenbrot.html",
@@ -344,7 +308,6 @@
 },
 {
   "title": "Heidesand",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 50 Min.",
   "href": "heidesand.html",
@@ -353,7 +316,6 @@
 },
 {
   "title": "Engelsaugen",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "1 Std. 50 Min.",
   "href": "engelsaugen.html",
@@ -362,7 +324,6 @@
 },
 {
   "title": "Vegane Brownies",
-  "category": "Dessert",
   "tags": "Klassiker • Blech • Mittel",
   "time": "55 Min.",
   "href": "browniesvegan.html",
@@ -371,7 +332,6 @@
 },
 {
   "title": "Käsekuchen-Muffins mit Streuseln",
-  "category": "Dessert",
   "tags": "Modern • Blech • Leicht",
   "time": "50 Min.",
   "href": "kaesekuchenmuffins.html",
