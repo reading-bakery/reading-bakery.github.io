@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const salatBtn = document.getElementById("salat-button");
-    const gridContainer = document.querySelector(".grid5");
+    const gridContainer = document.querySelector(".grid2");
 
     async function loadRandomSalatCard() {
         try {
