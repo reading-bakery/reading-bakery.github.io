@@ -112,9 +112,9 @@ body {
 
 #backToTop {
     position: fixed;       /* bleibt beim Scrollen an der Stelle */
-    bottom: 100px;           /* Abstand vom unteren Bildschirmrand */
+    bottom: 20px;           /* Abstand vom unteren Bildschirmrand */
     right: 20px;            /* Abstand vom rechten Rand */
-    background-color: rosybrown;
+    background-color: rgb(148, 55, 83);
     cursor: pointer;
     border-radius: 8px;
     border: none;
@@ -336,10 +336,10 @@ p {
 }
 
 .intro-zufall {
-    font-family: "Julius Sans One", serif;
-    font-size: 1.7rem;
-    font-weight: bolder;
-    margin-top: 0;
+    font-family: "Amatic SC", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: -20px;
     padding-top: 0;
 }
 
@@ -460,6 +460,31 @@ footer {
     .break-mobile {
         display: block; /* Zeilenumbruch erzwingen */
         margin-top: 0.2rem; /* optional, Abstand nach oben */
+    }
+
+    .h1 {
+        font-size: 50px;
+    }
+
+    .intro-zufall   {
+        font-family: "Amatic SC", serif;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+
+    .buttonzufall {
+        width: 150px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0.5px;                
+    }
+
+    .zufallcontainer {  
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;          /* Abstand zwischen Buttons verringert */
     }
 
 }
