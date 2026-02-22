@@ -1,0 +1,433 @@
+[
+{
+  "title": "Gefüllte Paprika mit Hack",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "1 Std. 15 Min.",
+  "servings": "4 Personen",
+  "href": "gefuelltepaprikahack.html",
+  "img": "/images/gefülltepaprika.png",
+  "alt": "Gefüllte Paprika mit Hack"
+},
+{
+  "title": "Enchiladas",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "1 Std. 15. Min.",
+  "servings": "4 Personen",
+  "href": "enchiladas.html",
+  "img": "/images/enchiladas.png",
+  "alt": "Enchiladas"
+},
+{
+  "title": "Fleischbällchen Toskana",
+  "category": "Aus dem Ofen ",
+  "tags": "Veggie/Fleisch • Leicht ",
+  "time": "55 Min.",
+  "servings": "3 Personen",
+  "href": "toskana.html",
+  "img": "/images/toskana.png",
+  "alt": "Fleischbällchen Toscana"
+},
+{
+  "title": "Gefüllte Champignons",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Leicht",
+  "time": "45 Min.",
+  "servings": "2 Personen",
+  "href": "gefuelltechampignons.html",
+  "img": "/images/gefuelltechampignons.png",
+  "alt": "Gefüllte Champignons"
+},
+{
+  "title": "Kabeljau in Senfsauce",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Mittel",
+  "time": "55 Min.",
+  "servings": "2 Personen",
+  "href": "kabeljausenf.html",
+  "img": "/images/kabeljausenf.png",
+  "alt": "Kabeljau"
+},
+{
+  "title": "Lachs aus dem Ofen",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Leicht",
+  "time": "45 Min.",
+  "servings": "2 Personen",
+  "href": "lachsofen.html",
+  "img": "/images/lachsofen.png",
+  "alt": "Lachs aus dem Ofen"
+},
+{
+  "title": "Gnocchi Auflauf",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "35 Min.",
+  "servings": "4 Personen",
+  "href": "gnocchiauflauf.html",
+  "img": "/images/gnocchiauflauf.png",
+  "alt": "Gnocchi Auflauf"
+},
+{
+  "title": "Portobello Caprese",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "20 Min.",
+  "servings": "2 Personen",
+  "href": "portobello.html",
+  "img": "/images/portobello.png",
+  "alt": "Portobello-Caprese"
+},
+{
+  "title": "Buntes Ofengemüse",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "55 Min.",
+  "servings": "4 Personen",
+  "href": "buntesofengemuese.html",
+  "img": "/images/ofengemuese.png",
+  "alt": "Buntes Ofengemüse"
+},
+{
+  "title": "Cannelloni mit Spargel",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "cannellonispargel.html",
+  "img": "/images/cannellonispargel.png",
+  "alt": "Cannelloni Spargel"
+},
+{
+  "title": "Paprika mit Bulgur",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "55 Min.",
+  "servings": "2 Personen",
+  "href": "paprikabulgur.html",
+  "img": "/images/paprikabulgur.png",
+  "alt": "Paprika mit Bulgur"
+},
+{
+  "title": "Fenchel überbacken",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "35 Min.",
+  "servings": "2 Personen",
+  "href": "fenchelueberbacken.html",
+  "img": "/images/fenchelueberbacken.png",
+  "alt": "Fenchel"
+},
+{
+  "title": "Tortellini Auflauf",
+  "category": "Aus dem Ofen",
+  "subCategory": "Pasta, Reis & Co.",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "50 Min.",
+  "servings": "4 Personen",
+  "href": "tortelliniauflauf.html",
+  "img": "/images/tortelliniauflauf.png",
+  "alt": "Tortellini Auflauf"
+},
+{
+  "title": "Sellerie überbacken",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "sellerieueberbacken.html",
+  "img": "/images/sellerieueberbacken.png",
+  "alt": "Sellerie überbacken"
+},
+{
+  "title": "Lachs-Sahne-Gratin",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Mittel",
+  "time": "40 Min.",
+  "servings": "2 Personen",
+  "href": "lachssahnegratin.html",
+  "img": "/images/lachssahnegratin.png",
+  "alt": "Lachs-Sahne-Gratin"
+},
+{
+  "title": "Geröstete Kichererbsen",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "45 Min.",
+  "servings": "2 Personen",
+  "href": "kichererbsenofen.html",
+  "img": "/images/kichererbsenofen.png",
+  "alt": "Geröstete Kichererbsen"
+},
+{
+  "title": "Gebackene Aubergine",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "1 Std. 15 Min.",
+  "servings": "2 Personen",
+  "href": "gebackeneaubergine.html",
+  "img": "/images/gebackeneaubergine.png",
+  "alt": "Gebackene Aubergine"
+},
+{
+  "title": "Gnocchi-Auflauf mit Spinat und Tomaten",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 10 Min.",
+  "servings": "4 Personen",
+  "href": "gnocchispinattomate.html",
+  "img": "/images/gnocchispinattomate.png",
+  "alt": "Gnocchi-Auflauf mit Spinat und Tomaten"
+},
+{
+  "title": "Wedges",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "50 Min.",
+  "servings": "2 Personen",
+  "href": "wedges.html",
+  "img": "/images/wedges.png",
+  "alt": "Wedges"
+},
+{
+  "title": "Gefüllter Kürbis",
+  "category": "Aus dem Ofen",
+  "tags": "Fleisch • Mittel",
+  "time": "45 Min.",
+  "servings": "2 Personen",
+  "href": "kuerbisgefuellt.html",
+  "img": "/images/kuerbisgefuellt.png",
+  "alt": "Gefüllter Kürbis"
+},
+{
+  "title": "Auflauf mit Zucchini, Tomate & Feta",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "40 Min.",
+  "servings": "2 Personen",
+  "href": "zucchinitomatefeta.html",
+  "img": "/images/zucchinitomatefeta.png",
+  "alt": "Auflauf mit Zucchini, Tomate & Feta"
+},
+{
+  "title": "Gefüllter Kürbis",
+  "category": "Aus dem Ofen",
+  "tags": "Fleisch • Mittel",
+  "time": "45 Min.",
+  "servings": "2 Personen",
+  "href": "kuerbisgefuellt.html",
+  "img": "/images/kuerbisgefuellt.png",
+  "alt": "Gefüllter Kürbis"
+},
+{
+  "title": "Paprika-Sahne-Hähnchen",
+  "category": "Aus dem Ofen",
+  "tags": "Fleisch • Mittel",
+  "time": "1 Std. 0 Min.",
+  "servings": "4 Personen",
+  "href": "paprikasahnehaehnchen.html",
+  "img": "/images/paprikasahnehaehnchen.png",
+  "alt": "Paprika-Sahne-Hähnchen"
+},
+{
+  "title": "Gnocchi-Kürbis-Auflauf",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "1 Std. 5 Min.",
+  "servings": "2 Personen",
+  "href": "kuerbisgnocchiauflauf.html",
+  "img": "/images/kuerbisgnocchiauflauf.png",
+  "alt": "Gnocchi-Kürbis-Auflauf"
+},
+{
+  "title": "Gefüllte Aubergine",
+  "category": "Aus dem Ofen",
+  "tags": "Fleisch • Mittel",
+  "time": "1 Std. 30 Min.",
+  "servings": "2 Personen",
+  "href": "auberginegefuellt.html",
+  "img": "/images/auberginegefuellt.png",
+  "alt": "Aubergine gefüllt"
+},
+{
+  "title": "Spinat-Lachs-Lasagne",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Mittel",
+  "time": "55 Min.",
+  "servings": "3 Personen",
+  "href": "spinatlachslasagne.html",
+  "img": "/images/spinatlachslasagne.png",
+  "alt": "Spinat-Lachs-Lasagne"
+},
+{
+  "title": "Lachs mit Mandelkruste auf Spinat",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Mittel",
+  "time": "40 Min.",
+  "servings": "2 Personen",
+  "href": "lachsmandel.html",
+  "img": "/images/lachsmandel.png",
+  "alt": "Lachs mit Mandelkruste auf Spinat"
+},
+{
+  "title": "Süßkartoffel aus dem Ofen",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "50 Min.",
+  "servings": "2 Personen",
+  "href": "sweetpotatoofen.html",
+  "img": "/images/sweetpotatoofen.png",
+  "alt": "Süßkartoffel aus dem Ofen"
+},
+{
+  "title": "Blumenkohl Nuggets",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 10 Min.",
+  "servings": "3 Personen",
+  "href": "blumenkohlnuggets.html",
+  "img": "/images/blumenkohlnuggets.png",
+  "alt": "Blumenkohl Nuggets"
+},
+{
+  "title": "Cannelloni mit Spinat",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 20 Min.",
+  "servings": "5 Personen",
+  "href": "cannellinispinat.html",
+  "img": "/images/cannellonispinat.png",
+  "alt": "Cannelloni Spinat"
+},
+{
+  "title": "Ofenkürbis",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "50 Min.",
+  "servings": "3 Personen",
+  "href": "ofenkuerbis.html",
+  "img": "/images/ofenkuerbis.png",
+  "alt": "Ofenkürbis"
+},
+{
+  "title": "Quiche",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 15 Min.",
+  "servings": "4 Personen",
+  "href": "quiche.html",
+  "img": "/images/quiche.png",
+  "alt": "Quiche"
+},
+{
+  "title": "Rosenkohl aus dem Ofen",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "1 Std. 40 Min.",
+  "servings": "4 Personen",
+  "href": "rosenkohlueberbacken.html",
+  "img": "/images/rosenkohlueberbacken.png",
+  "alt": "Rosenkohl aus dem Ofen"
+},
+{
+  "title": "Gefüllte Süßkartoffel mit Ziegenkäse",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 15 Min.",
+  "servings": "4 Personen",
+  "href": "gefuelltesuesskartoffel.html",
+  "img": "/images/gefuelltesuesskartoffel.png",
+  "alt": "Gefüllte Süßkartoffel mit Ziegenkäse"
+},
+{
+  "title": "Lasagne",
+  "category": "Aus dem Ofen",
+  "tags": "Fleisch • Mittel",
+  "time": "25 Min.",
+  "servings": "4 Personen",
+  "href": "lasagne.html",
+  "img": "/images/lasagne.png",
+  "alt": "Lasagne"
+},
+{
+  "title": "Cremiger Nudelauflauf",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 0 Min.",
+  "servings": "4 Personen",
+  "href": "nudelauflaufcremig.html",
+  "img": "/images/nudelauflaufcremig.png",
+  "alt": "Cremiger Nudelauflauf"
+},
+{
+  "title": "Lachs Spinat Auflauf",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Mittel",
+  "time": "40 Min.",
+  "servings": "2 Personen",
+  "href": "lachsspinatauflauf.html",
+  "img": "/images/lachsspinatauflauf.png",
+  "alt": "Lachs Spinat Auflauf"
+},
+{
+  "title": "Kartoffel-Brokkoli-Auflauf",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 10 Min.",
+  "servings": "4 Personen",
+  "href": "kartoffelbrokkoligratin.html",
+  "img": "/images/kartoffelbrokkoligratin.png",
+  "alt": "Kartoffel-Brokkoli-Auflauf"
+},
+{
+  "title": "Parmigiana di Melanzane",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 25 Min.",
+  "servings": "4 Personen",
+  "href": "parmigiana.html",
+  "img": "images/parmigiana.png",
+  "alt": "Parmigiana"
+},
+{
+  "title": "Ziegenkäse überbacken",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "1 Std. 0 Min.",
+  "servings": "4 Personen",
+  "href": "ziegenkaeseueberbacken.html",
+  "img": "/images/ziegenkaeseueberbacken.png",
+  "alt": "Ziegenkäse überbacken"
+},
+{
+  "title": "Spinatlasagne",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 15 Min.",
+  "servings": "2 Personen",
+  "href": "spinatlasagne.html",
+  "img": "/images/spinatlasagne.png",
+  "alt": "Spinatlasagne"
+},
+{
+  "title": "Flammkuchen Birne",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "flammkuchenbirne.html",
+  "img": "/images/flammkuchenbirne.png",
+  "alt": "Flammkuchen Birne"
+},
+{
+    "title": "Rezept???",
+    "category": "",
+    "tags": "Veggie?? • Mittel????",
+    "time": "??? Min.",
+    "servings": "?? Personen",
+    "href": "???.html",
+    "img": "/images/???.png",
+    "alt": "Rezept???"
+}
+]
