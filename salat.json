@@ -1,0 +1,192 @@
+[
+{
+"title": "Würziger Couscoussalat",
+"category": "Salate",
+"tags": "Veggie • Leicht",
+"time": "35 Min.",
+"servings": "4 Personen",
+"href": "couscoussalat.html",
+"img": "/images/couscoussalat.png",
+"alt": "Würziger Couscoussalat"
+},
+{
+"title": "Inkasalat mit Avocado und Quinoa",
+"category": "Salate",
+"tags": "Veggie • Mittel",
+"time": "35 Min.",
+"servings": "4 Personen",
+"href": "inkasalat.html",
+"img": "/images/inkasalat.png",
+"alt": "Quinoasalat"
+},
+{
+"title": "Mediterraner Kichererbsensalat",
+"category": "Salate",
+"tags": "Veggie • Mittel",
+"time": "20 Min.",
+"servings": "2 Personen",
+"href": "kichererbsensalat.html",
+"img": "/images/kichererbsensalat.png",
+"alt": "Kichererbsensalat"
+},
+{
+  "title": "Tortellinisalat",
+  "category": "Salate",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "30 Min.",
+  "servings": "4 Personen",
+  "href": "tortellinisalat.html",
+  "img": "/images/tortelonisalat.png",
+  "alt": "Tortellinisalat"
+},
+{
+  "title": "Bulgursalat",
+  "category": "Salate",
+  "tags": "Veggie • Leicht",
+  "time": "1 Std. 30 Min.",
+  "servings": "3 Personen",
+  "href": "bulgursalat.html",
+  "img": "/images/bulgursalat.png",
+  "alt": "Bulgursalat"
+},
+{
+  "title": "Guacamole",
+  "category": "Salate",
+  "tags": "Veggie • Leicht",
+  "time": "15 Min.",
+  "servings": "4 Personen",
+  "href": "guacamole.html",
+  "img": "/images/guacamole.png",
+  "alt": "Guacamole"
+},
+{
+  "title": "Rote Bete mit Schafskäse",
+  "category": "Salate",
+  "tags": "Veggie • Leicht",
+  "time": "15 Min.",
+  "servings": "4 Personen",
+  "href": "rotebeteschafskaese.html",
+  "img": "/images/rotebeteschafskaese.png",
+  "alt": "Rote Bete"
+},
+{
+  "title": "Kartoffelsalat",
+  "category": "Salate",
+  "tags": "Veggie • Mittel",
+  "time": "40 Min.",
+  "servings": "4 Personen",
+  "href": "kartoffelsalat.html",
+  "img": "/images/kartoffelsalat.png",
+  "alt": "Kartoffelsalat"
+},
+{
+  "title": "Tzatziki",
+  "category": "Salate",
+  "tags": "Veggie • Leicht",
+  "time": "10 Min.",
+  "servings": "4 Personen",
+  "href": "tzatziki.html",
+  "img": "/images/tzaziki.png",
+  "alt": "Tzatziki"
+},
+{
+  "title": "Quinoa-Power-Salat mit Avocado",
+  "category": "Salate",
+  "tags": "Veggie • Mittel",
+  "time": "30 Min.",
+  "servings": "4 Personen",
+  "href": "quinoapower.html",
+  "img": "/images/quinoapower.png",
+  "alt": "Quinoasalat"
+},
+{
+  "title": "Belugalinsen Salat",
+  "category": "Salate",
+  "tags": "Veggie • Leicht",
+  "time": "20 Min.",
+  "servings": "4 Personen",
+  "href": "belugasalat.html",
+  "img": "/images/belugasalat.png",
+  "alt": "Belugalinsensalat"
+},
+{
+  "title": "Nudelsalat",
+  "category": "Salate",
+  "tags": "Veggie • Mittel",
+  "time": "20 Min.",
+  "servings": "4 Personen",
+  "href": "nudelsalat.html",
+  "img": "/images/nudelsalat.png",
+  "alt": "Nudelsalat"
+},
+{
+  "title": "Salat mit rote Linsen und rote Bete",
+  "category": "Salate",
+  "tags": "Veggie • Mittel",
+  "time": "35 Min.",
+  "servings": "4 Personen",
+  "href": "linsenbetesalat.html",
+  "img": "/images/linsenbetesalat.png",
+  "alt": "Salat Linsen Bete"
+},
+{
+  "title": "Curry-Nudelsalat",
+  "category": "Salate",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "3 Personen",
+  "href": "currysalat.html",
+  "img": "/images/currysalat.png",
+  "alt": "Currysalat"
+},
+{
+  "title": "Green Goddess Salat",
+  "category": "Salate",
+  "tags": "Veggie • Leicht",
+  "time": "20 Min.",
+  "servings": "6 Personen",
+  "href": "greengoddess.html",
+  "img": "/images/greengoddess.png",
+  "alt": "Green Goddess Salat"
+},
+{
+  "title": "Acılı Ezme",
+  "category": "Salate",
+  "tags": "Veggie • Mittel",
+  "time": "30 Min.",
+  "servings": "4 Personen",
+  "href": "aciliezme.html",
+  "img": "/images/aciliezme.png",
+  "alt": "Acılı Ezme"
+},
+{
+  "title": "Crispy Kartoffelsalat",
+  "category": "Salate",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 15 Min.",
+  "servings": "2 Personen",
+  "href": "crispykartoffelsalat.html",
+  "img": "/images/crispykartoffelsalat.png",
+  "alt": "Crispy Kartoffelsalat"
+},
+{
+  "title": "Kartoffel-Kichererbsen-Salat",
+  "category": "Salate",
+  "tags": "Veggie • Mittel",
+  "time": "45 Min.",
+  "servings": "4 Personen",
+  "href": "salatkartoffelkicherbsen.html",
+  "img": "/images/salatkartoffelkicherbsen.png",
+  "alt": "Kartoffel-Kichererbsen-Salat"
+},
+{
+    "title": "Rezept???",
+    "category": "",
+    "tags": "Veggie?? • Mittel????",
+    "time": "??? Min.",
+    "servings": "?? Personen",
+    "href": "???.html",
+    "img": "/images/???.png",
+    "alt": "Rezept???"
+}
+]
