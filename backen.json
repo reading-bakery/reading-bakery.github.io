@@ -1,0 +1,381 @@
+[
+{
+  "title": "Käsekuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Leicht",
+  "time": "1 Std. 30 Min.",
+  "servings": "",
+  "href": "kaesekuchen.html",
+  "img": "/images/kasekuchen.png",
+  "alt": "Käsekuchen"
+},
+{
+  "title": "Donauwelle",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 35 Min.",
+  "servings": "",
+  "href": "donauwelle.html",
+  "img": "/images/daunauwelle.png",
+  "alt": "Donauwelle"
+},
+{
+  "title": "Möhrenkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Mittel",
+  "time": "1 Std. 15 Min.",
+  "servings": "",
+  "href": "moehrenkuchen.html",
+  "img": "/images/moehrenkuchen.png",
+  "alt": "Möhrenkuchen"
+},
+{
+  "title": "Bienenstich",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Mittel",
+  "time": "1 Std. 5 Min.",
+  "servings": "",
+  "href": "bienenstich.html",
+  "img": "/images/bienenstich.png",
+  "alt": "Bienenstich"
+},
+{
+  "title": "Rhababerkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Mittel",
+  "time": "1 Std. 20 Min.",
+  "servings": "",
+  "href": "rhababerkuchen.html",
+  "img": "/images/rhababerkuchen.png",
+  "alt": "Rhababerkuchen"
+},
+{
+  "title": "Kirschkuchen mit Streuseln",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Mittel",
+  "time": "1 Std. 30 Min.",
+  "servings": "",
+  "href": "streuselkirschkuchen.html",
+  "img": "/images/kirschstreusel.png",
+  "alt": "Streuselkirschkuchen"
+},
+{
+  "title": "Zimtschnecken",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 30 Min.",
+  "servings": "",
+  "href": "zimtschnecken.html",
+  "img": "/images/zimtschnecken.png",
+  "alt": "Zimtschnecken"
+},
+{
+  "title": "Schokokuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Leicht",
+  "time": "50 Min.",
+  "servings": "",
+  "href": "klassischschokokuchen.html",
+  "img": "/images/klassischschokokuchen.png",
+  "alt": "Klassischer Schokokuchen"
+},
+{
+  "title": "Apfelkuchen mit Streuseln",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Leicht",
+  "time": "1 Std. 25 Min.",
+  "servings": "",
+  "href": "apfelkuchenstreusel.html",
+  "img": "/images/apfelstreusel.png",
+  "alt": "Apfelkuchen mit Streuseln"
+},
+{
+  "title": "Russischer Zupfkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Leicht",
+  "time": "1 Std. 35 Min.",
+  "servings": "",
+  "href": "zupfkuchen.html",
+  "img": "/images/zupfkuchen.png",
+  "alt": "Russischer Zupfkuchen"
+},
+{
+  "title": "Windbeutel-Torte",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Schwer",
+  "time": "1 Std. 35 Min.",
+  "servings": "",
+  "href": "windbeuteltorte.html",
+  "img": "/images/windbeuteltorte.png",
+  "alt": "Windbeuteltorte"
+},
+{
+  "title": "Kürbiskuchen / Pumpkin Pie",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Mittel",
+  "time": "2 Std. 30 Min.",
+  "servings": "",
+  "href": "kuerbiskuchen.html",
+  "img": "/images/kuerbiskuchen.png",
+  "alt": "Kürbiskuchen"
+},
+{
+  "title": "Saftiger Apfelkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Leicht",
+  "time": "1 Std. 35 Min.",
+  "servings": "",
+  "href": "apfelkuchen.html",
+  "img": "/images/apfelsaftig.png",
+  "alt": "Saftiger Apfelkuchen"
+},
+{
+  "title": "Schwarzwälder Kirschtorte",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Schwer",
+  "time": "1 Std. 35 Min.",
+  "servings": "",
+  "href": "schwarzwaelderkirschtorte.html",
+  "img": "/images/schwarzwaelderkirsch.png",
+  "alt": "Schwarzwälder Kirschtorte"
+},
+{
+  "title": "Zitronenkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Mittel",
+  "time": "?? Min.",
+  "servings": "",
+  "href": "zitronenkuchen.html",
+  "img": "/images/Zitronenkuchen.png",
+  "alt": "Zitronenkuchen"
+},
+{
+  "title": "Giotto Torte",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Leicht",
+  "time": "0 Std. 30 Min.",
+  "servings": "",
+  "href": "giottotorte.html",
+  "img": "images/giottotorte.png",
+  "alt": "Giotto Torte"
+},
+{
+  "title": "Yogurette Torte",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Schwer",
+  "time": "1 Std. 0 Min.",
+  "servings": "",
+  "href": "yogurettetorte.html",
+  "img": "/images/yogurettetorte.png",
+  "alt": "Yogurette Torte"
+},
+{
+  "title": "Zimtschnecken Kekse",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 50 Min.",
+  "servings": "",
+  "href": "zimtschneckenkekse.html",
+  "img": "/images/zimtkekse.png",
+  "alt": "Zimtschnecken Kekse"
+},
+{
+  "title": "Saftiger Schokokuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Leicht",
+  "time": "0 Std. 55 Min.",
+  "servings": "",
+  "href": "schokokuchensaftig.html",
+  "img": "/images/schokosaftig.png",
+  "alt": "Saftiger Schokokuchen"
+},
+{
+  "title": "Fantakuchen",
+  "category": "Dessert",
+  "tags": "Modern • Blech • Leicht",
+  "time": "1 Std. 55 Min.",
+  "href": "fantakuchen.html",
+  "img": "/images/fantakuchen.png",
+  "alt": "Fantakuchen"
+},
+{
+  "title": "Erdbeer-Mascarpone Torte",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Mittel",
+  "time": "1 Std. 45 Min.",
+  "href": "erdbeermascarpone.html",
+  "img": "/images/erdbeermascarpone.png",
+  "alt": "Erdbeer-Mascarpone Torte"
+},
+{
+  "title": "Philadelphia Torte",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Mittel",
+  "time": "1 Std. 15 Min.",
+  "href": "philadelphiatorte.html",
+  "img": "/images/philadelphia.png",
+  "alt": "Philadelphia Torte"
+},
+{
+  "title": "Zwetschgenkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Mittel",
+  "time": "1 Std. 15 Min.",
+  "href": "zwetschgenkuchen.html",
+  "img": "/images/zwetschgenkuchen.png",
+  "alt": "Zwetschgenkuchen"
+},
+{
+  "title": "Vanillekipferl",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 50 Min.",
+  "href": "vanillekipferl.html",
+  "img": "/images/vanillekipferl.png",
+  "alt": "Vanillekipferl"
+},
+{
+  "title": "Zitronentorte",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Schwer",
+  "time": "1 Std. 55 Min.",
+  "href": "zitronentorte.html",
+  "img": "/images/Zitronentorte.png",
+  "alt": "Zitronentorte"
+},
+{
+  "title": "Red Velvet Kuchen",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Schwer",
+  "time": "1 Std. 15 Min.",
+  "href": "redvelvet.html",
+  "img": "/images/redvelvet.png",
+  "alt": "Red Velvet"
+},
+{
+  "title": "Mandarinen-Schmandkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 30 Min.",
+  "href": "schmandmandarine.html",
+  "img": "/images/mandarineschmand.png",
+  "alt": "Schmandkuchen mit Mandarinen"
+},
+{
+  "title": "Kokosmakronen",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 20 Min.",
+  "href": "kokosmakronen.html",
+  "img": "/images/kokosmakronen.png",
+  "alt": "Kokosmakronen"
+},
+{
+  "title": "Tarte au Chokolat / Schokokuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Leicht",
+  "time": "0 Std. 55 Min.",
+  "href": "tarteauchocolat.html",
+  "img": "/images/TarteauChokolat.png",
+  "alt": "Tarte au Chocolat"
+},
+{
+  "title": "Schoko-Birnen-Kuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Rund • Mittel",
+  "time": "2 Std. 10 Min.",
+  "href": "schokobirne.html",
+  "img": "/images/schokobirne.png",
+  "alt": "Schoko-Birnen-Kuchen"
+},
+{
+  "title": "Feiner Apfelkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Leicht",
+  "time": "0 Std. 55 Min.",
+  "href": "feiner_apfelkuchen.html",
+  "img": "/images/apfelkuchenfein.png",
+  "alt": "Feiner Apfelkuchen"
+},
+{
+  "title": "Quark-Streuselkuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "0 Std. 55 Min.",
+  "href": "quarkstreusel.html",
+  "img": "/images/quarkstreusel.png",
+  "alt": "Quark Streuselkuchen"
+},
+{
+  "title": "Buttermilch-Kokos Kuchen",
+  "category": "Dessert",
+  "tags": "Modern • Blech • Leicht",
+  "time": "0 Std. 45 Min.",
+  "href": "buttermilchkokos.html",
+  "img": "/images/kokosbuttermilch.png",
+  "alt": "Buttermilch-Kokos"
+},
+{
+  "title": "Kirsch-Schmand-Kuchen",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 0 Min.",
+  "href": "kirschschmand.html",
+  "img": "/images/kirschschmand.png",
+  "alt": "Kirsch-Schmand-Kuchen"
+},
+{
+  "title": "Maulwurfkuchen",
+  "category": "Dessert",
+  "tags": "Modern • Rund • Mittel",
+  "time": "1 Std. 15 Min.",
+  "href": "maulwurfkuchen.html",
+  "img": "/images/maulwurfkuchen.png",
+  "alt": "Maulwurfkuchen"
+},
+{
+  "title": "Bananenbrot",
+  "category": "Dessert",
+  "tags": "Klassiker • Kasten • Mittel",
+  "time": "1 Std. 5 Min.",
+  "href": "bananenbrot.html",
+  "img": "/images/bananenbrot.png",
+  "alt": "Bananenbrot"
+},
+{
+  "title": "Heidesand",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 50 Min.",
+  "href": "heidesand.html",
+  "img": "/images/heidesand.png",
+  "alt": "Heidesand"
+},
+{
+  "title": "Engelsaugen",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "1 Std. 50 Min.",
+  "href": "engelsaugen.html",
+  "img": "/images/engelsaugen.png",
+  "alt": "Engelsaugen"
+},
+{
+  "title": "Vegane Brownies",
+  "category": "Dessert",
+  "tags": "Klassiker • Blech • Mittel",
+  "time": "55 Min.",
+  "href": "browniesvegan.html",
+  "img": "/images/browniesvegan.png",
+  "alt": "Brownies"
+},
+{
+  "title": "Käsekuchen-Muffins mit Streuseln",
+  "category": "Dessert",
+  "tags": "Modern • Blech • Leicht",
+  "time": "50 Min.",
+  "href": "kaesekuchenmuffins.html",
+  "img": "/images/kaesekuchenmuffins.png",
+  "alt": "Käsekuchen Muffins mit Streuseln"
+}
+]
