@@ -82,5 +82,13 @@ a {
     }
 }
     
+@media (max-width: 1024px) {
+    .grid2 {
+        grid-template-columns: repeat(2, 1fr); 
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+    
     
 
