@@ -68,6 +68,34 @@ body {
     display: flex;
 }
 
+
+.buttonzufall {
+    display: inline-flex;           /* Text + Icon auf gleicher Höhe */
+    align-items: center;            
+    gap: 0.1rem;                   /* Abstand zwischen Text und Icon */
+    bottom: 20px;                   
+    right: 20px;                   
+    padding: 0.5rem 0.5rem;           /* Kombiniert beide Padding-Angaben */
+    height: auto;                   
+    background-color: rgb(173, 190, 201);  /* helles Grau-Blau */
+    border: none;
+    border-radius: 8px;             
+    cursor: pointer;
+    z-index: 1000;                  /* über allen Elementen */
+    font-family: 'Julius Sans One', serif; 
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;                   /* Textfarbe */
+    margin-bottom: 15px;
+}
+
+
+
+.buttonzufall svg {
+    vertical-align: middle;  /* Icons mittig zum Text */
+    margin-left: 0.1rem;     /* optional, Abstand zwischen Text und Icon */
+}
+
 #luckyZufall-2 {
     position: fixed;       /* bleibt beim Scrollen an der Stelle */
     bottom: 20px;           /* Abstand vom unteren Bildschirmrand */
@@ -232,7 +260,7 @@ h1 {
     padding: 0em;
     font-family: "Amatic SC", serif;
     font-weight: bolder;
-    font-size: 50pt;
+    font-size: 7rem;
 }
 
 
@@ -305,6 +333,23 @@ p {
     transform: scale(1.03);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+}
+
+.intro-zufall {
+    font-family: "Julius Sans One", serif;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.zufallcontainer {
+    justify-content: center;    /* horizontal zentrieren */
+    align-items: center;        /* vertikal zentrieren */
+}
+
+.break-mobile {
+    display: inline; /* Standard */
 }
 
 footer {
@@ -410,6 +455,11 @@ footer {
         font-size: 16pt; 
         display: flex;
         height: auto;
+    }
+
+    .break-mobile {
+        display: block; /* Zeilenumbruch erzwingen */
+        margin-top: 0.2rem; /* optional, Abstand nach oben */
     }
 
 }
