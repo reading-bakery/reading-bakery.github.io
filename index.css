@@ -470,11 +470,12 @@ footer {
 
     .break-mobile {
         display: block; /* Zeilenumbruch erzwingen */
-        margin-top: 0.2rem; /* optional, Abstand nach oben */
+        margin-top: 0.2rem; /* optiona
+        l, Abstand nach oben */
     }
 
-    .h1 {
-        font-size: 10pt;
+    h1 {
+        font-size: 50pt;
     }
 
     .intro-zufall   {
