@@ -1,0 +1,1282 @@
+[
+{
+    "title": "Thai Curry Suppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "thaisuppe.html",
+    "img": "images/thaicurrysuppe.png",
+    "alt": "Thaisuppe"
+},
+{
+    "title": "Pilzpfanne",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "35 Min.",
+    "servings": "2 Personen",
+    "href": "pilzpfanne.html",
+    "img": "/images/pilzpfanne.png",
+    "alt": "Pilzpfanne"
+},
+{
+    "title": "Fleischbällchen Toskana",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "55 Min.",
+    "servings": "3 Personen",
+    "href": "toskana.html",
+    "img": "/images/toskana.png",
+    "alt": "Fleischbällchen Toskana"
+},
+{
+    "title": "Kohl mit Hackfleisch",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "1 Std. 10 Min.",
+    "servings": "2 Personen",
+    "href": "kohlhack.html",
+    "img": "images/kohlhack.png",
+    "alt": "Kohlhack"
+},
+{
+    "title": "Gefüllte Paprika mit Hack",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "1 Std. 15 Min.",
+    "servings": "4 Personen",
+    "href": "gefuelltepaprikahack.html",
+    "img": "/images/gefülltepaprika.png",
+    "alt": "Gefüllte Paprika mit Hack"
+},
+{
+    "title": "Tortellini Auflauf",
+    "category": "Pasta, Reis & Co. • Aus dem Ofen",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "50 Min.",
+    "servings": "4 Personen",
+    "href": "tortelliniauflauf.html",
+    "img": "/images/tortelliniauflauf.png",
+    "alt": "Tortellini Auflauf"
+},
+{
+    "title": "Kartoffelgulasch mit Würstchen",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "25 Min.",
+    "servings": "2 Personen",
+    "href": "kartoffelgulasch_mit_wuerstchen.html",
+    "img": "/images/kartoffelgulasch.png",
+    "alt": "Kartoffelgulasch mit Würstchen"
+},
+{
+    "title": "Würstchengulasch",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Fleisch • Leicht",
+    "time": "20 Min.",
+    "servings": "3 Personen",
+    "href": "wuerstchengulasch.html",
+    "img": "/images/wuerstchengulasch.png",
+    "alt": "Würstchengulasch"
+},
+{
+    "title": "Paprika-Reispfanne mit Joghurtsauce",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "45 Min.",
+    "servings": "4 Personen",
+    "href": "reispfanne.html",
+    "img": "/images/reispfanne.png",
+    "alt": "Reispfanne"
+},
+{
+    "title": "Currysuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "15 Min.",
+    "servings": "4 Personen",
+    "href": "currysuppe.html",
+    "img": "/images/currysuppe.png",
+    "alt": "Currysuppe"
+},
+{
+    "title": "Zitronenrisotto",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "20 Min.",
+    "servings": "4 Personen",
+    "href": "zitronenrisotto.html",
+    "img": "/images/zitronenrisotto.png",
+    "alt": "Zitronenrisotto"
+},
+{
+    "title": "Gnocchi Auflauf",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "35 Min.",
+    "servings": "4 Personen",
+    "href": "gnocchiauflauf.html",
+    "img": "/images/gnocchiauflauf.png",
+    "alt": "Gnocchi Auflauf"
+},
+{
+    "title": "Portobello Caprese",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "20 Min.",
+    "servings": "2 Personen",
+    "href": "portobello.html",
+    "img": "/images/portobello.png",
+    "alt": "Portobello-Caprese"
+},
+{
+    "title": "Bandnudeln mit Spinat und Lachs",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Fisch • Leicht",
+    "time": "20 Min.",
+    "servings": "3 Personen",
+    "href": "bandnudelnlachsspinat.html",
+    "img": "/images/pastalachsspinat.png",
+    "alt": "Bandnudeln mit frischem Spinat und Lachs"
+},
+{
+    "title": "Spaghetti mit Kirschtomaten und Garnelen",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Fisch • Leicht",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "spaghettigarnelen.html",
+    "img": "/images/pastagarnelen.png",
+    "alt": "Spaghetti mit Kirschtomaten und Garnelen"
+},
+{
+    "title": "Wirsingrouladen mit Bulgur",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "55 Min.",
+    "servings": "3 Personen",
+    "href": "wirsingroulade.html",
+    "img": "/images/wirsingroulade.png",
+    "alt": "Wirsingroulade mit Bulgur"
+},
+{
+    "title": "Spitzkohlcurry",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "25 Min.",
+    "servings": "4 Personen",
+    "href": "spitzkohlcurry.html",
+    "img": "/images/spitzkohlcurry.png",
+    "alt": "Spitzkohlcurry"
+},
+{
+    "title": "Cannelloni mit Spargel",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "cannellonispargel.html",
+    "img": "/images/cannellonispargel.png",
+    "alt": "Cannelloni Spargel"
+},
+{
+    "title": "Pasta mit Wirsing",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "30 Min.",
+    "servings": "3 Personen",
+    "href": "wirsingpasta.html",
+    "img": "/images/wirsingpasta.png",
+    "alt": "Wirsing Pasta"
+},
+{
+    "title": "Tomatensuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "20 Min.",
+    "servings": "2 Personen",
+    "href": "tomatensuppe.html",
+    "img": "/images/tomatensuppe.png",
+    "alt": "Tomatensuppe"
+},
+{
+    "title": "Albondigas",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Fleisch/Veggie • Leicht",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "albondigas.html",
+    "img": "/images/albondigas.png",
+    "alt": "Albondigas"
+},
+{
+    "title": "Pilzrisotto",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "20 Min.",
+    "servings": "2 Personen",
+    "href": "pilzrisotto.html",
+    "img": "/images/pilzrisotto.png",
+    "alt": "Pilzrisotto"
+},
+{
+    "title": "Tomate Mozzarella Gnocchi",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "20 Min.",
+    "servings": "3 Personen",
+    "href": "gnocchitomatemozarella.html",
+    "img": "/images/gnocchimozzarella.png",
+    "alt": "Gnocchi Tomate Mozzarella"
+},
+{
+    "title": "Fenchel Nepalesisch",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "20 Min.",
+    "servings": "2 Personen",
+    "href": "fenchelnepalesisch.html",
+    "img": "/images/fenchelnepalesisch.png",
+    "alt": "Fenchel Nepalesisch"
+},
+{
+    "title": "Spargel in rosa Basilikum-Käsesauce",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "spargelkaesesauce.html",
+    "img": "/images/spargelkaesebasilikum.png",
+    "alt": "Spargel Käsesauce"
+},
+{
+    "title": "Auberginen-Curry mit Joghurtsauce",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "20 Min.",
+    "servings": "2 Personen",
+    "href": "auberginencurry.html",
+    "img": "/images/aubergerinencurry.png",
+    "alt": "Auberginencurry"
+},
+{
+    "title": "Couscouspfanne",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "25 Min.",
+    "servings": "2 Personen",
+    "href": "couscouspfanne.html",
+    "img": "/images/couscouspfanne.png",
+    "alt": "Couscouspfanne"
+},
+{
+    "title": "Borsch",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "35 Min.",
+    "servings": "4 Personen",
+    "href": "borsch.html",
+    "img": "/images/borsch.png",
+    "alt": "Borsch"
+},
+{
+    "title": "Kohlrabi mit Sahnesauce",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "40 Min.",
+    "servings": "4 Personen",
+    "href": "kohlgemuese.html",
+    "img": "/images/kohlrabigemuese.png",
+    "alt": "Kohlrabi"
+},
+{
+    "title": "Ratatouille",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "ratatouille.html",
+    "img": "/images/ratatouille.png",
+    "alt": "Ratatouille"
+},
+{
+    "title": "Reibekuchen / Kartoffelpuffer",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "reibekuchen.html",
+    "img": "/images/kartoffelpuffer.png",
+    "alt": "Reibekuchen"
+},
+{
+    "title": "Frikadellen",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Fleisch • Leicht",
+    "time": "25 Min.",
+    "servings": "4 Personen",
+    "href": "frikadellen.html",
+    "img": "/images/frikadelle.png",
+    "alt": "Frikadelle"
+},
+{
+    "title": "Spargelcremesuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "30 Min.",
+    "servings": "6 Personen",
+    "href": "spargelcremesuppe.html",
+    "img": "/images/spargelcremesuppe.png",
+    "alt": "Spargelcremesuppe"
+},
+{
+    "title": "Feine Linsensuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Fleisch • Mittel",
+    "time": "50 Min.",
+    "servings": "2 Personen",
+    "href": "linsensuppe.html",
+    "img": "/images/linsensuppe.png",
+    "alt": "Linsensuppe"
+},
+{
+    "title": "Enchiladas",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "1 Std. 15. Min.",
+    "servings": "4 Personen",
+    "href": "enchiladas.html",
+    "img": "images/enchiladas.png",
+    "alt": "Enchiladas"
+},
+{
+    "title": "Spargelrisotto",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "55 Min.",
+    "servings": "4 Personen",
+    "href": "spargelrisotto.html",
+    "img": "/images/spargelrisotto.png",
+    "alt": "Spargelrisotto"
+},
+{
+    "title": "Buntes Ofengemüse",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "55 Min.",
+    "servings": "4 Personen",
+    "href": "buntesofengemuese.html",
+    "img": "/images/ofengemuese.png",
+    "alt": "Buntes Ofengemüse"
+},
+{
+    "title": "Pasta Spargel",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "25 Min.",
+    "servings": "2 Personen",
+    "href": "spargelpasta.html",
+    "img": "/images/pastaspargel.png",
+    "alt": "Pasta Spargel"
+},
+{
+    "title": "Okroschka",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "okroschka.html",
+    "img": "/images/okroschka.png",
+    "alt": "Okroschka"
+},
+{
+    "title": "Kürbissupppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "50 Min.",
+    "servings": "6 Personen",
+    "href": "kuerbissuppe.html",
+    "img": "/images/kuerbissuppe.png",
+    "alt": "Kürbissupppe"
+},
+{
+    "title": "Gulaschsuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Fleisch • Schwer",
+    "time": "1 Std. 50 Min.",
+    "servings": "6 Personen",
+    "href": "gulaschsuppe.html",
+    "img": "/images/gulaschsuppe.png",
+    "alt": "Gulaschsuppe"
+},
+{
+    "title": "Pikante Thai Suppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "thaisuppepikant.html",
+    "img": "/images/thaisuppepikant.png",
+    "alt": "Pikante Thai Suppe"
+},
+{
+    "title": "Paprika mit Bulgur",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Mittel",
+    "time": "55 Min.",
+    "servings": "2 Personen",
+    "href": "paprikabulgur.html",
+    "img": "/images/paprikabulgur.png",
+    "alt": "Paprika mit Bulgur"
+},
+{
+    "title": "Fenchel überbacken",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "35 Min.",
+    "servings": "2 Personen",
+    "href": "fenchelueberbacken.html",
+    "img": "/images/fenchelueberbacken.png",
+    "alt": "Fenchel"
+},
+{
+    "title": "Gefüllte Champignons",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "45 Min.",
+    "servings": "2 Personen",
+    "href": "gefuelltechampignons.html",
+    "img": "/images/gefuelltechampignons.png",
+    "alt": "Gefüllte Champignons"
+},
+{
+    "title": "Lachs aus dem Ofen",
+    "category": "Aus dem Ofen",
+    "tags": "Fisch • Leicht",
+    "time": "45 Min.",
+    "servings": "2 Personen",
+    "href": "lachsofen.html",
+    "img": "/images/lachsofen.png",
+    "alt": "Lachs aus dem Ofen"
+},
+{
+    "title": "Kabeljau in Senfsauce",
+    "category": "Aus dem Ofen",
+    "tags": "Fisch • Mittel",
+    "time": "55 Min.",
+    "servings": "2 Personen",
+    "href": "kabeljausenf.html",
+    "img": "/images/kabeljausenf.png",
+    "alt": "Kabeljau"
+},
+{
+    "title": "Gebratener Reis",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "35 Min.",
+    "servings": "2 Personen",
+    "href": "gebratenerreis.html",
+    "img": "/images/gebratenerreis.png",
+    "alt": "Gebratener Reis"
+},
+{
+    "title": "Zucchinirolle mit Schafskäse",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "35 Min.",
+    "servings": "2 Personen",
+    "href": "zucchinirolle.html",
+    "img": "/images/zucchinirolle.png",
+    "alt": "Zucchinirrolle"
+},
+{
+    "title": "Kohlrabieintopf mit Cabanossi",
+    "category": "Suppe & Eintopf",
+    "tags": "Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "kohlrabicabanossi.html",
+    "img": "/images/kohlrabicabanossi.png",
+    "alt": "Kohrabi Cabanossi"
+},
+{
+    "title": "Spinatlasagne",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Mittel",
+    "time": "1 Std. 15 Min.",
+    "servings": "2 Personen",
+    "href": "spinatlasagne.html",
+    "img": "/images/spinatlasagne.png",
+    "alt": "Spinatlasagne"
+},
+{
+    "title": "Gnocchi mit Spinatkäse-Sauce",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "20 Min.",
+    "servings": "3 Personen",
+    "href": "gnocchispinatsauce.html",
+    "img": "/images/gnocchispinatsauce.png",
+    "alt": "Gnocchi Spinat"
+},
+{
+    "title": "Parmigiana di Melanzane",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Mittel",
+    "time": "1 Std. 25 Min.",
+    "servings": "4 Personen",
+    "href": "parmigiana.html",
+    "img": "images/parmigiana.png",
+    "alt": "Parmigiana"
+},
+{
+    "title": "Miesuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "45 Min.",
+    "servings": "4 Personen",
+    "href": "miesuppe.html",
+    "img": "/images/miesuppe.png",
+    "alt": "Miesuppe"
+},
+{
+    "title": "Mexikanische Gemüsesuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "45 Min.",
+    "servings": "4 Personen",
+    "href": "mexikosuppe.html",
+    "img": "/images/mexikosuppe.png",
+    "alt": "Mexikosuppe"
+},
+{
+    "title": "Gebackene Aubergine",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "1 Std. 15 Min.",
+    "servings": "2 Personen",
+    "href": "gebackeneaubergine.html",
+    "img": "/images/gebackeneaubergine.png",
+    "alt": "Gebackene Aubergine"
+},
+{
+    "title": "Cannelloni mit Spinat",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Mittel",
+    "time": "1 Std. 20 Min.",
+    "servings": "5 Personen",
+    "href": "cannellinispinat.html",
+    "img": "/images/cannellonispinat.png",
+    "alt": "Cannelloni Spinat"
+},
+{
+    "title": "Kartoffelsuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "kartoffelsuppe.html",
+    "img": "/images/kartoffelsuppe.png",
+    "alt": "Kartoffelsuppe"
+},
+{
+    "title": "Ofenkürbis",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "50 Min.",
+    "servings": "3 Personen",
+    "href": "ofenkuerbis.html",
+    "img": "/images/ofenkuerbis.png",
+    "alt": "Ofenkürbis"
+},
+{
+    "title": "Quiche",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Mittel",
+    "time": "1 Std. 15 Min.",
+    "servings": "4 Personen",
+    "href": "quiche.html",
+    "img": "/images/quiche.png",
+    "alt": "Quiche"
+},
+{
+    "title": "Ziegenkäse überbacken",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "1 Std. 0 Min.",
+    "servings": "4 Personen",
+    "href": "ziegenkaeseueberbacken.html",
+    "img": "/images/ziegenkaeseueberbacken.png",
+    "alt": "Ziegenkäse überbacken"
+},
+{
+    "title": "Kartoffel-Brokkoli-Auflauf",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie/Leicht • Mittel",
+    "time": "1 Std. 10 Min.",
+    "servings": "4 Personen",
+    "href": "kartoffelbrokkoligratin.html",
+    "img": "/images/kartoffelbrokkoligratin.png",
+    "alt": "Kartoffel-Brokkoli-Auflauf"
+},
+{
+    "title": "Milchreis",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "45 Min.",
+    "servings": "2 Personen",
+    "href": "milchreis.html",
+    "img": "/images/milchreis.png",
+    "alt": "Milchreis"
+},
+{
+    "title": "Spargel im Speckmantel",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "spargelspeck.html",
+    "img": "/images/spargelspeck.png",
+    "alt": "Spargel im Speckmantel"
+},
+{
+    "title": "Red Thai Curry",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "50 Min.",
+    "servings": "4 Personen",
+    "href": "redthaicurry.html",
+    "img": "/images/redthaicurry.png",
+    "alt": "Red Thai Curry"
+},
+{
+    "title": "Kürbisrisotto",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "45 Min.",
+    "servings": "4 Personen",
+    "href": "kuerbisrisotto.html.html",
+    "img": "/images/kuerbisrisotto.png",
+    "alt": "Kürbisrisotto"
+},
+{
+    "title": "Tomatenrisotto",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "1 Std. 5 Min.",
+    "servings": "4 Personen",
+    "href": "tomatenrisotto.html",
+    "img": "/images/tomatenrisotto.png",
+    "alt": "tomatenrisotto"
+},
+{
+    "title": "Chili sin Carne",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "45 Min.",
+    "servings": "4 Personen",
+    "href": "chilisincarne.html",
+    "img": "/images/chilisincarne.png",
+    "alt": "Chili sin Carne"
+},
+{
+    "title": "Paneer Tikka Masala",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "paneertikkamasala.html",
+    "img": "/images/paneertikkamasala.png",
+    "alt": "Paneer Tikka Masala"
+},
+{
+    "title": "Palak Paneer",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "35 Min.",
+    "servings": "4 Personen",
+    "href": "palakpaneer.html",
+    "img": "/images/palakpaneer.png",
+    "alt": "Palak Paneer"
+},
+{
+    "title": "Rotes Linsen-Curry",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "30 Min.",
+    "servings": "4 Personen",
+    "href": "roteslinsencurry.html",
+    "img": "/images/roteslinsencurry.png",
+    "alt": "Rotes Linsen-Curry"
+},
+{
+    "title": "Lachs Spinat Auflauf",
+    "category": "Aus dem Ofen",
+    "tags": "Fisch • Mittel",
+    "time": "40 Min.",
+    "servings": "2 Personen",
+    "href": "lachsspinatauflauf.html",
+    "img": "/images/lachsspinatauflauf.png",
+    "alt": "Lachs Spinat Auflauf"
+},
+{
+"title": "Lasagne",
+"category": "Aus dem Ofen",
+"tags": "Fleisch • Mittel",
+"time": "25 Min.",
+"servings": "4 Personen",
+"href": "lasagne.html",
+"img": "/images/lasagne.png",
+"alt": "Lasagne"
+},
+{
+"title": "Cremiger Nudelauflauf",
+"category": "Aus dem Ofen",
+"tags": "Veggie • Mittel",
+"time": "1 Std. 0 Min.",
+"servings": "4 Personen",
+"href": "nudelauflaufcremig.html",
+"img": "/images/nudelauflaufcremig.png",
+"alt": "Cremiger Nudelauflauf"
+},
+{
+"title": "Süßkartoffel aus dem Ofen",
+"category": "Aus dem Ofen",
+"tags": "Veggie • Leicht",
+"time": "50 Min.",
+"servings": "2 Personen",
+"href": "sweetpotatoofen.html",
+"img": "/images/sweetpotatoofen.png",
+"alt": "Süßkartoffel aus dem Ofen"
+},
+{
+"title": "Paneer Biryani",
+"category": "Pasta, Reis & Co.",
+"tags": "Veggie • Mittel",
+"time": "30 Min.",
+"servings": "4 Personen",
+"href": "paneerbiryani.html",
+"img": "/images/paneerbiryani.png",
+"alt": "Paneer Biryani"
+},
+{
+  "title": "Linsenbolognese",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Mittel",
+  "time": "35 Min.",
+  "servings": "3 Personen",
+  "href": "linsenbolognese.html",
+  "img": "/images/linsenbolognese.png",
+  "alt": "Linsenbolognese"
+},
+{
+  "title": "Curryreis",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "35 Min.",
+  "servings": "2 Personen",
+  "href": "curryreis.html",
+  "img": "/images/curryreis.png",
+  "alt": "Curryreis"
+},
+{
+  "title": "Gefüllte Aubergine",
+  "category": "Aus dem Ofen",
+  "tags": "Fleisch • Mittel",
+  "time": "1 Std. 30 Min.",
+  "servings": "2 Personen",
+  "href": "auberginegefuellt.html",
+  "img": "/images/auberginegefuellt.png",
+  "alt": "Aubergine gefüllt"
+},
+{
+  "title": "Tortellini-Pfanne",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "35 Min.",
+  "servings": "3 Personen",
+  "href": "tortellinipfanne.html",
+  "img": "/images/tortellinipfanne.png",
+  "alt": "Tortellini-Pfanne"
+},
+{
+  "title": "Spinat-Lachs-Lasagne",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Mittel",
+  "time": "55 Min.",
+  "servings": "3 Personen",
+  "href": "spinatlachslasagne.html",
+  "img": "/images/spinatlachslasagne.png",
+  "alt": "Spinat-Lachs-Lasagne"
+},
+{
+  "title": "Aloo Gobi",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Mittel",
+  "time": "45 Min.",
+  "servings": "4 Personen",
+  "href": "aloogobi.html",
+  "img": "/images/aloogobi.png",
+  "alt": "Aloo Gobi"
+},
+{
+  "title": "Süßkartoffel-Chili",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie • Mittel",
+  "time": "55 Min.",
+  "servings": "4 Personen",
+  "href": "suesskartoffelchili.html",
+  "img": "/images/suesskartoffelchili.png",
+  "alt": "Süßkartoffel-Chili"
+},
+{
+  "title": "Tagliatelle mit Lachs",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Fisch • Leicht",
+  "time": "30 Min.",
+  "servings": "4 Personen",
+  "href": "tagliatellelachs.html",
+  "img": "/images/tagliatellelachs.png",
+  "alt": "Tagliatelle mit Lachs"
+},
+{
+  "title": "Fettuccine Alfredo",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "20 Min.",
+  "servings": "4 Personen",
+  "href": "alfredo.html",
+  "img": "/images/alfredo.png",
+  "alt": "Alfredo"
+},
+{
+  "title": "Würziger Pak Choi mit Mie-Nudeln",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Mittel",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "pakchoimie.html",
+  "img": "/images/pakchoimie.png",
+  "alt": "Pak Choi"
+},
+{
+  "title": "Paprika-Sahne-Hähnchen",
+  "category": "Aus dem Ofen",
+  "tags": "Fleisch • Mittel",
+  "time": "1 Std. 0 Min.",
+  "servings": "4 Personen",
+  "href": "paprikasahnehaehnchen.html",
+  "img": "/images/paprikasahnehaehnchen.png",
+  "alt": "Paprika-Sahne-Hähnchen"
+},
+{
+  "title": "Käse-Lauch-Suppe mit Hack",
+  "category": "Suppe & Eintopf",
+  "tags": "Fleisch • Mittel",
+  "time": "35 Min.",
+  "servings": "4 Personen",
+  "href": "kaeselauchsuppe.html",
+  "img": "/images/kaeselauchsuppe.png",
+  "alt": "Käse-Lauch-Suppe"
+},
+{
+  "title": "Bauerntopf",
+  "category": "Suppe & Eintopf",
+  "tags": "Fleisch • Mittel",
+  "time": "55 Min.",
+  "servings": "3 Personen",
+  "href": "bauerntopf.html",
+  "img": "/images/bauerntopf.png",
+  "alt": "Bauerntopf"
+},
+{
+  "title": "Bohneneintopf",
+  "category": "Suppe & Eintopf",
+  "tags": "Fleisch • Mittel",
+  "time": "40 Min.",
+  "servings": "4 Personen",
+  "href": "bohneneintopf.html",
+  "img": "/images/bohneneintopf.png",
+  "alt": "Bohneneintopf"
+},
+{
+  "title": "Smashed Blumenkohl",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "smashedblumenkohl.html",
+  "img": "/images/smashedblumenkohl.png",
+  "alt": "Smashed Blumenkohl"
+},
+{
+  "title": "Gefüllter Kürbis",
+  "category": "Aus dem Ofen",
+  "tags": "Fleisch • Mittel",
+  "time": "45 Min.",
+  "servings": "2 Personen",
+  "href": "kuerbisgefuellt.html",
+  "img": "/images/kuerbisgefuellt.png",
+  "alt": "Gefüllter Kürbis"
+},
+{
+  "title": "Caldo de Pollo",
+  "category": "Suppe & Eintopf",
+  "tags": "Fleisch • Mittel",
+  "time": "1 Std. 5 Min.",
+  "servings": "4 Personen",
+  "href": "caldodepollo.html",
+  "img": "/images/caldodepollo.png",
+  "alt": "Caldo de Pollo"
+},
+{
+  "title": "Rosenkohl-Pfanne",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie/Fleisch • Leicht",
+  "time": "25 Min.",
+  "servings": "4 Personen",
+  "href": "rosenkohlsahne.html",
+  "img": "/images/rosenkohlsahne.png",
+  "alt": "Rosenkohl"
+},
+{
+  "title": "Lachs mit Mandelkruste auf Spinat",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Mittel",
+  "time": "40 Min.",
+  "servings": "2 Personen",
+  "href": "lachsmandel.html",
+  "img": "/images/lachsmandel.png",
+  "alt": "Lachs mit Mandelkruste auf Spinat"
+},
+{
+  "title": "kartoffelcurry",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "55 Min.",
+  "servings": "3 Personen",
+  "href": "kartoffelcurry.html",
+  "img": "/images/kartoffelcurry.png",
+  "alt": "kartoffelcurry"
+},
+{
+  "title": "Erbseneintopf",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "1 Std. 30 Min.",
+  "servings": "4 Personen",
+  "href": "Erbseneintopf",
+  "img": "/images/erbseneintopf.png",
+  "alt": "Erbseneintopf"
+},
+{
+  "title": "Rote Linsen Bratlinge",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "50 Min.",
+  "servings": "4 Personen",
+  "href": "rotelinsenbratlinge.html",
+  "img": "/images/rotelinsenbratlinge.png",
+  "alt": "Rote Linsen Bratlinge"
+},
+{
+  "title": "Kichererbsen-Curry",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "45 Min.",
+  "servings": "2 Personen",
+  "href": "kichererbsencurry.html",
+  "img": "/images/kichererbsencurry.png",
+  "alt": "Kichererbsen-Curry"
+},
+{
+  "title": "Hähnchencurry mit Süßkartoffeln",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Fleisch • Mittel",
+  "time": "1 Std. 10 Min.",
+  "servings": "4 Personen",
+  "href": "haehnchencurry.html",
+  "img": "/images/haehnchencurry.png",
+  "alt": "Hähnchencurry mit Süßkartoffeln"
+},
+{
+  "title": "Wedges",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "50 Min.",
+  "servings": "2 Personen",
+  "href": "wedges.html",
+  "img": "/images/wedges.png",
+  "alt": "Wedges"
+},
+{
+  "title": "Blumenkohl Nuggets",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 10 Min.",
+  "servings": "3 Personen",
+  "href": "blumenkohlnuggets.html",
+  "img": "/images/blumenkohlnuggets.png",
+  "alt": "Blumenkohl Nuggets"
+},
+{
+  "title": "Gnocchi-Auflauf mit Spinat und Tomaten",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 10 Min.",
+  "servings": "4 Personen",
+  "href": "gnocchispinattomate.html",
+  "img": "/images/gnocchispinattomate.png",
+  "alt": "Gnocchi-Auflauf mit Spinat und Tomaten"
+},
+{
+  "title": "Gefüllte Süßkartoffel mit Ziegenkäse",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 15 Min.",
+  "servings": "4 Personen",
+  "href": "gefuelltesuesskartoffel.html",
+  "img": "/images/gefuelltesuesskartoffel.png",
+  "alt": "Gefüllte Süßkartoffel mit Ziegenkäse"
+},
+{
+  "title": "Salmorejo",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie/Fleisch • Leicht",
+  "time": "20 Min.",
+  "servings": "2 Personen",
+  "href": "salmorejo.html",
+  "img": "/images/salmorejo.png",
+  "alt": "Salmorejo"
+},
+{
+  "title": "Rosenkohl aus dem Ofen",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "1 Std. 40 Min.",
+  "servings": "4 Personen",
+  "href": "rosenkohlueberbacken.html",
+  "img": "/images/rosenkohlueberbacken.png",
+  "alt": "Rosenkohl aus dem Ofen"
+},
+{
+  "title": "Veggie Schnitzel",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "3 Personen",
+  "href": "sellerieschnitzel.html",
+  "img": "/images/sellerieschnitzel.png",
+  "alt": "Veggie Schnitzel"
+},
+{
+  "title": "Flammkuchen Birne",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "flammkuchenbirne.html",
+  "img": "/images/flammkuchenbirne.png",
+  "alt": "Flammkuchen Birne"
+},
+{
+  "title": "Blumenkohl Bolognese",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "blumenkohlbolognese.html",
+  "img": "/images/blumenkohlbolognese.png",
+  "alt": "Blumenkohl Bolognese"
+},
+{
+  "title": "Gemüsefrikadelle",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "gemuesefrikadelle.html",
+  "img": "/images/gemuesefrikadelle.png",
+  "alt": "Gemüsefrikadelle"
+},
+{
+  "title": "Porridge",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "5 Min.",
+  "servings": "1 Person",
+  "href": "porridge.html",
+  "img": "/images/porridge.png",
+  "alt": "Porridge"
+},
+{
+  "title": "Auflauf mit Zucchini, Tomate & Feta",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "40 Min.",
+  "servings": "2 Personen",
+  "href": "zucchinitomatefeta.html",
+  "img": "/images/zucchinitomatefeta.png",
+  "alt": "Auflauf mit Zucchini, Tomate & Feta"
+},
+{
+  "title": "Gnocchi-Kürbis-Auflauf",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie/Fleisch • Mittel",
+  "time": "1 Std. 5 Min.",
+  "servings": "2 Personen",
+  "href": "kuerbisgnocchiauflauf.html",
+  "img": "/images/kuerbisgnocchiauflauf.png",
+  "alt": "Gnocchi-Kürbis-Auflauf"
+},
+{
+  "title": "Zucchini-Champignon-Pasta",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "20 Min.",
+  "servings": "2 Personen",
+  "href": "zucchinichampignons.html",
+  "img": "/images/zucchinichampignons.png",
+  "alt": "Zucchini-Champignon-Pasta"
+},
+{
+  "title": "Rote Linsen-Kokos-Suppe",
+  "category": "Suppe & Eintopf",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "4 Personen",
+  "href": "rotelinsenkokosuppe.html",
+  "img": "/images/rotelinsenkokosuppe.png",
+  "alt": "Rote Linsen-Kokos-Suppe"
+},
+{
+  "title": "Geröstete Kichererbsen",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "45 Min.",
+  "servings": "2 Personen",
+  "href": "kichererbsenofen.html",
+  "img": "/images/kichererbsenofen.png",
+  "alt": "Geröstete Kichererbsen"
+},
+{
+  "title": "Lachs-Sahne-Gratin",
+  "category": "Aus dem Ofen",
+  "tags": "Fisch • Mittel",
+  "time": "40 Min.",
+  "servings": "2 Personen",
+  "href": "lachssahnegratin.html",
+  "img": "/images/lachssahnegratin.png",
+  "alt": "Lachs-Sahne-Gratin"
+},
+{
+  "title": "Sellerie überbacken",
+  "category": "Aus dem Ofen",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "sellerieueberbacken.html",
+  "img": "/images/sellerieueberbacken.png",
+  "alt": "Sellerie überbacken"
+},
+{
+  "title": "One Pot Linsen und Aubergine",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "35 Min.",
+  "servings": "2 Personen",
+  "href": "onepotlinsenburrata.html",
+  "img": "/images/onepotlinsenburrata.png",
+  "alt": "One Pot Linsen und Aubergine"
+},
+{
+  "title": "Weiße Bohnen mit Spinat",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "weißbohnenspinat.html",
+  "img": "/images/weißbohnenspinat.png",
+  "alt": "Weiße Bohnen mit Spinat"
+},
+{
+  "title": "Weiße Bohnen in Tomatensauce",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "weißebohnentomaten.html",
+  "img": "/images/weißebohnentomaten.png",
+  "alt": "Weiße Bohnen in Tomatensauce"
+},
+{
+  "title": "Mediterrane Hackbällchen",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie/Fleisch • Leicht",
+  "time": "35 Min.",
+  "servings": "2 Personen",
+  "href": "mediterranehackbaellchen.html",
+  "img": "/images/mediterranehackbaellchen.png",
+  "alt": "Mediterrane Hackbällchen"
+},
+{
+  "title": "Curry Pasta mit Garnelen",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Fisch • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "currypastagarnelen.html",
+  "img": "/images/currypastagarnelen.png",
+  "alt": "Curry Pasta mit Garnelen"
+},
+{
+  "title": "Quesadilla",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "15 Min.",
+  "servings": "2 Personen",
+  "href": "quesadilla.html",
+  "img": "/images/quesadilla.png",
+  "alt": "Quesadilla"
+},
+{
+  "title": "Quinoa-Lachs Bowl mit Grünkohl",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Fisch • Leicht",
+  "time": "35 Min.",
+  "servings": "2 Personen",
+  "href": "quinoalachsgruenkohl.html",
+  "img": "/images/quinoalachsgruenkohl.png",
+  "alt": "Quinoa-Lachs Bowl mit Grünkohl"
+},
+{
+  "title": "Pasta mit karamellisierten Zwiebeln",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "pastazwiebelnkaramelisiert.html",
+  "img": "/images/pastazwiebelnkaramelisiert.png",
+  "alt": "Pasta mit karamellisierten Zwiebeln"
+},
+{
+  "title": "Pasta in Pfifferling-Parmensansauce",
+  "category": "Pasta, Reis & Co.",
+  "tags": "Veggie • Leicht",
+  "time": "30 Min.",
+  "servings": "2 Personen",
+  "href": "pastapfifferling.html",
+  "img": "/images/pastapfifferling.png",
+  "alt": "Pasta in Pfifferling-Parmensansauce"
+},
+{
+    "title": "Rezept???",
+    "category": "",
+    "tags": "Veggie?? • Mittel????",
+    "time": "??? Min.",
+    "servings": "?? Personen",
+    "href": "???.html",
+    "img": "/images/???.png",
+    "alt": "Rezept???"
+}
+]
