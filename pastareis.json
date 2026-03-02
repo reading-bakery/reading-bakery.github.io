@@ -10,6 +10,16 @@
   "alt": "Spargel im Speckmantel"
 },
 {
+    "title": "Cannelloni mit Spargel",
+    "category": "Aus dem Ofen • Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "cannellonispargel.html",
+    "img": "/images/cannellonispargel.png",
+    "alt": "Cannelloni Spargel"
+},
+{
   "title": "Spinatlasagne",
   "category": "Aus dem Ofen • Pasta, Reis & Co.",
   "tags": "Veggie • Mittel",
@@ -188,6 +198,16 @@
   "href": "reispfanne.html",
   "img": "/images/reispfanne.png",
   "alt": "Reispfanne"
+},
+{
+    "title": "Cannelloni mit Spinat",
+    "category": "Aus dem Ofen • Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "1 Std. 20 Min.",
+    "servings": "5 Personen",
+    "href": "cannellinispinat.html",
+    "img": "/images/cannellonispinat.png",
+    "alt": "Cannelloni Spinat"
 },
 {
   "title": "Hähnchencurry mit Süßkartoffeln",
@@ -370,6 +390,16 @@
   "alt": "Gnocchi Tomate Mozzarella"
 },
 {
+"title": "Lasagne",
+"category": "Aus dem Ofen • Pasta, Reis & Co.",
+"tags": "Fleisch • Mittel",
+"time": "25 Min.",
+"servings": "4 Personen",
+"href": "lasagne.html",
+"img": "/images/lasagne.png",
+"alt": "Lasagne"
+},
+{
   "title": "Spaghetti mit Kirschtomaten und Garnelen",
   "category": "Pasta, Reis & Co.",
   "tags": "Fisch • Leicht",
@@ -388,6 +418,16 @@
   "href": "spargelpasta.html",
   "img": "/images/pastaspargel.png",
   "alt": "Pasta Spargel"
+},
+{
+  "title": "Spinat-Lachs-Lasagne",
+  "category": "Aus dem Ofen • Pasta, Reis & Co.",
+  "tags": "Fisch • Mittel",
+  "time": "55 Min.",
+  "servings": "3 Personen",
+  "href": "spinatlachslasagne.html",
+  "img": "/images/spinatlachslasagne.png",
+  "alt": "Spinat-Lachs-Lasagne"
 },
 {
   "title": "Pilzrisotto",
