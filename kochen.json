@@ -1280,6 +1280,36 @@
     "alt": "Räuchertofu Bolognese"
 },
 {
+    "title": "Goldene Linsensuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "25 Min.",
+    "servings": "4 Personen",
+    "href": "goldenlinsensuppe.html",
+    "img": "/images/goldenlinsensuppe.png",
+    "alt": "Goldene Linsensuppe"
+},
+{
+    "title": "Feta Blumenkohl überbacken",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "40 Min.",
+    "servings": "3 Personen",
+    "href": "fetablumenkohl.html",
+    "img": "/images/fetablumenkohl.png",
+    "alt": "Feta Blumenkohl überbacken"
+},
+{
+    "title": "Kürbis Feta Pasta",
+    "category": "Pasta, Reis & Co. • Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "45 Min.",
+    "servings": "2 Personen",
+    "href": "pastakuerbisfeta.html",
+    "img": "/images/pastakuerbisfeta.png",
+    "alt": "Kürbis Feta Pasta"
+},
+{
     "title": "Rezept???",
     "category": "",
     "tags": "Veggie?? • Mittel????",

@@ -1212,6 +1212,24 @@ const recipes = [
    url: "tofubolognese.html"
   },  
   {
+   title: "Goldene Linsensuppe",
+   description: "Veggie • Leicht • 25 Min.",
+   img: "/images/goldenlinsensuppe.png",
+   url: "goldenlinsensuppe.html"
+  },  
+  {
+   title: "Feta Blumenkohl überbacken",
+   description: "Veggie • Leicht • 40 Min.",
+   img: "/images/fetablumenkohl.png",
+   url: "fetablumenkohl.html"
+  },  
+  {
+   title: "Kürbis Feta Pasta",
+   description: "Veggie • Leicht • 45 Min.",
+   img: "/images/pastakuerbisfeta.png",
+   url: "pastakuerbisfeta.html"
+  }, 
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",

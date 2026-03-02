@@ -200,6 +200,16 @@
     "servings": "4 Personen"
 },
 {
+    "title": "Goldene Linsensuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Leicht",
+    "time": "25 Min.",
+    "servings": "4 Personen",
+    "href": "goldenlinsensuppe.html",
+    "img": "/images/goldenlinsensuppe.png",
+    "alt": "Goldene Linsensuppe"
+},
+{
   "title": "Würstchengulasch",
   "category": "Suppe & Eintopf",
   "tags": "Fleisch • Leicht",
