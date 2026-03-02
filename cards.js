@@ -1206,6 +1206,12 @@ const recipes = [
    url: "pastapfifferling.html"
   },  
   {
+   title: "Räuchertofu Bolognese",
+   description: "Leicht • 30 Min.",
+   img: "/images/tofubolognese.png",
+   url: "tofubolognese.html"
+  },  
+  {
    title: "???",
    description: "Leicht • 5 Min.",
    img: "/images/???.png",

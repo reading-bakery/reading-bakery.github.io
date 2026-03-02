@@ -10,6 +10,26 @@
   "alt": "Spargel im Speckmantel"
 },
 {
+  "title": "Spinatlasagne",
+  "category": "Aus dem Ofen • Pasta, Reis & Co.",
+  "tags": "Veggie • Mittel",
+  "time": "1 Std. 15 Min.",
+  "servings": "2 Personen",
+  "href": "spinatlasagne.html",
+  "img": "/images/spinatlasagne.png",
+  "alt": "Spinatlasagne"
+},
+{
+    "title": "Räuchertofu Bolognese",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "tofubolognese.html",
+    "img": "/images/tofubolognese.png",
+    "alt": "Räuchertofu Bolognese"
+},
+{
   "title": "Tortellini Auflauf",
   "category": "Pasta, Reis & Co. • Aus dem Ofen",
   "tags": "Veggie/Fleisch • Mittel",

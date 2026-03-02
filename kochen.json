@@ -61,7 +61,7 @@
 },
 {
     "title": "Kartoffelgulasch mit Würstchen",
-    "category": "Pasta, Reis & Co.",
+    "category": "Suppe & Eintopf",
     "tags": "Veggie/Fleisch • Mittel",
     "time": "25 Min.",
     "servings": "2 Personen",
@@ -71,7 +71,7 @@
 },
 {
     "title": "Würstchengulasch",
-    "category": "Pasta, Reis & Co.",
+    "category": "Suppe & Eintopf",
     "tags": "Fleisch • Leicht",
     "time": "20 Min.",
     "servings": "3 Personen",
@@ -171,7 +171,7 @@
 },
 {
     "title": "Cannelloni mit Spargel",
-    "category": "Aus dem Ofen",
+    "category": "Aus dem Ofen • Pasta, Reis & Co.",
     "tags": "Veggie/Fleisch • Leicht",
     "time": "30 Min.",
     "servings": "2 Personen",
@@ -501,7 +501,7 @@
 },
 {
     "title": "Spinatlasagne",
-    "category": "Aus dem Ofen",
+    "category": "Aus dem Ofen • Pasta, Reis & Co.",
     "tags": "Veggie • Mittel",
     "time": "1 Std. 15 Min.",
     "servings": "2 Personen",
@@ -561,7 +561,7 @@
 },
 {
     "title": "Cannelloni mit Spinat",
-    "category": "Aus dem Ofen",
+    "category": "Aus dem Ofen • Pasta, Reis & Co.",
     "tags": "Veggie • Mittel",
     "time": "1 Std. 20 Min.",
     "servings": "5 Personen",
@@ -721,7 +721,7 @@
 },
 {
 "title": "Lasagne",
-"category": "Aus dem Ofen",
+"category": "Aus dem Ofen • Pasta, Reis & Co.",
 "tags": "Fleisch • Mittel",
 "time": "25 Min.",
 "servings": "4 Personen",
@@ -801,7 +801,7 @@
 },
 {
   "title": "Spinat-Lachs-Lasagne",
-  "category": "Aus dem Ofen",
+  "category": "Aus dem Ofen • Pasta, Reis & Co.",
   "tags": "Fisch • Mittel",
   "time": "55 Min.",
   "servings": "3 Personen",
@@ -1268,6 +1268,16 @@
   "href": "pastapfifferling.html",
   "img": "/images/pastapfifferling.png",
   "alt": "Pasta in Pfifferling-Parmensansauce"
+},
+{
+    "title": "Räuchertofu Bolognese",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "tofubolognese.html",
+    "img": "/images/tofubolognese.png",
+    "alt": "Räuchertofu Bolognese"
 },
 {
     "title": "Rezept???",
