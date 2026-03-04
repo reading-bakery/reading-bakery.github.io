@@ -882,7 +882,7 @@
 {
   "title": "Bauerntopf",
   "category": "Suppe & Eintopf",
-  "tags": "Fleisch • Mittel",
+  "tags": "Veggie/Fleisch • Mittel",
   "time": "55 Min.",
   "servings": "3 Personen",
   "href": "bauerntopf.html",
@@ -1308,6 +1308,16 @@
     "href": "pastakuerbisfeta.html",
     "img": "/images/pastakuerbisfeta.png",
     "alt": "Kürbis Feta Pasta"
+},
+{
+    "title": "Cremige Tortelloni-Pfanne",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Leicht",
+    "time": "30 Min.",
+    "servings": "2 Personen",
+    "href": "cremigtortelloni.html",
+    "img": "/images/cremigtortelloni.png",
+    "alt": "Cremige Tortelloni-Pfanne"
 },
 {
     "title": "Rezept???",

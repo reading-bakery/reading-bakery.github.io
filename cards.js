@@ -931,7 +931,7 @@ const recipes = [
   },
   {
     title: "Bauerntopf",
-    description: "Fleisch • Mittel • 55 Min.",
+    description: "Veggie/Fleisch • Mittel • 55 Min.",
     img: "/images/bauerntopf.png",
     url: "bauerntopf.html"
   },
@@ -1229,6 +1229,12 @@ const recipes = [
    img: "/images/pastakuerbisfeta.png",
    url: "pastakuerbisfeta.html"
   }, 
+  {
+   title: "Cremige Tortelloni-Pfanne",
+   description: "Veggie • Leicht • 30 Min.",
+   img: "/images/cremigtortelloni.png",
+   url: "cremigtortelloni.html"
+  },  
   {
    title: "???",
    description: "Leicht • 5 Min.",
