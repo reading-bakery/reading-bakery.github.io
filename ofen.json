@@ -270,6 +270,26 @@
     "alt": "Feta Blumenkohl überbacken"
 },
 {
+    "title": "Wirsing aus dem Ofen mit Linsen",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie • Mittel",
+    "time": "40 Min.",
+    "servings": "3 Personen",
+    "href": "wirsinglinsen.html",
+    "img": "/images/wirsinglinsen.png",
+    "alt": "Wirsing aus dem Ofen mit Linsen"
+},
+{
+    "title": "Tagliatelle mit Lauch",
+    "category": "Pasta, Reis & Co. • Aus dem Ofen",
+    "tags": "Veggie • Leicht",
+    "time": "45 Min.",
+    "servings": "2 Personen",
+    "href": "pastalauch.html",
+    "img": "/images/pastalauch.png",
+    "alt": "Tagliatelle mit Lauch"
+},
+{
   "title": "Spinat-Lachs-Lasagne",
   "category": "Aus dem Ofen • Pasta, Reis & Co.",
   "tags": "Fisch • Mittel",

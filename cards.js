@@ -1236,8 +1236,26 @@ const recipes = [
    url: "cremigtortelloni.html"
   },  
   {
+   title: "Curry mit Spargel und Kichererbsen",
+   description: "Veggie • Leicht • 35 Min.",
+   img: "/images/spargelcurry.png",
+   url: "spargelcurry.html"
+  },  
+  {
+   title: "Tagliatelle mit Lauch",
+   description: "Veggie • Leicht • 45 Min.",
+   img: "/images/pastalauch.png",
+   url: "pastalauch.html"
+  },  
+  {
+   title: "Wirsing aus dem Ofen mit Linsen",
+   description: "Veggie • Leicht • 40 Min.",
+   img: "/images/wirsinglinsen.png",
+   url: "wirsinglinsen.html"
+  },  
+  {
    title: "???",
-   description: "Leicht • 5 Min.",
+   description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",
    url: "???.html"
   },  
