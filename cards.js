@@ -1254,6 +1254,12 @@ const recipes = [
    url: "wirsinglinsen.html"
   },  
   {
+   title: "Patatas Bravas",
+   description: "Veggie • Leicht • 20 Min.",
+   img: "/images/patatasbravas.png",
+   url: "patatasbravas.html"
+  },
+  {
    title: "???",
    description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",
