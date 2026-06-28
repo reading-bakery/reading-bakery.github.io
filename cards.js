@@ -1266,6 +1266,12 @@ const recipes = [
    url: "pastaallimone.html"
   },  
   {
+   title: "Tabbouleh",
+   description: "Veggie • Leicht • 15 Min.",
+   img: "/images/tabouleh.png",
+   url: "tabouleh.html"
+  },  
+  {
    title: "???",
    description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",
