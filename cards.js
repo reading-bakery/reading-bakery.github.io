@@ -1260,6 +1260,12 @@ const recipes = [
    url: "patatasbravas.html"
   },
   {
+   title: "Pasta al Limone",
+   description: "Veggie • Leicht • 5 Min.",
+   img: "/images/pastaallimone.png",
+   url: "pastaallimone.html"
+  },  
+  {
    title: "???",
    description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",
