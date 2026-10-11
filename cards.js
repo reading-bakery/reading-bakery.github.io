@@ -1248,7 +1248,7 @@ const recipes = [
    url: "pastalauch.html"
   },  
   {
-   title: "Wirsing aus dem Ofen mit Linsen",
+   title: "Wirsing/Rosenkohl aus dem Ofen mit Linsen",
    description: "Veggie • Leicht • 40 Min.",
    img: "/images/wirsinglinsen.png",
    url: "wirsinglinsen.html"
