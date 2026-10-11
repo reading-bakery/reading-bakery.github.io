@@ -882,7 +882,7 @@ const recipes = [
     url: "tagliatellelachs.html"
   },
   {
-    title: "Gefüllte Auberginen",
+    title: "Gefüllte Auberginen/Zucchini",
     description: "Fleisch • Mittel • 1 Std. 30 Min.",
     img: "/images/auberginegefuellt.png",
     url: "auberginegefuellt.html"
