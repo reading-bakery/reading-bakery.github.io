@@ -330,6 +330,16 @@
     "servings": "2 Personen"
 },
 {
+    "title": "Belugalinsen Curry",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "45 Min.",
+    "servings": "4 Personen",
+    "href": "beluga-curry.html",
+    "img": "/images/beluga-curry.png",
+    "alt": "Belugalinsen Curry"
+},
+{
     "title": "Wikingertopf",
     "category": "Suppe & Eintopf",
     "tags": "Veggie/Fleisch • Leicht",

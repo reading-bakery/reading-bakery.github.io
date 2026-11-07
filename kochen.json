@@ -1400,6 +1400,46 @@
     "alt": "Hähnchen-Paprika"
 },
 {
+    "title": "Spaghetti Carbonara",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "20 Min.",
+    "servings": "2 Personen",
+    "href": "carbonara.html",
+    "img": "/images/carbonara.png",
+    "alt": "Carbonara"
+},
+{
+    "title": "Belugalinsen Curry",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie • Mittel",
+    "time": "45 Min.",
+    "servings": "4 Personen",
+    "href": "beluga-curry.html",
+    "img": "/images/beluga-curry.png",
+    "alt": "Belugalinsen Curry"
+},
+{
+    "title": "Quiche mit Lachs und Schinken",
+    "category": "Aus dem Ofen",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "60 Min.",
+    "servings": "4 Personen",
+    "href": "quiche-lachs.html",
+    "img": "/images/quiche-lachs.png",
+    "alt": "Quiche mit Lauch und Schinken"
+},
+{
+    "title": "Spinatknödel mit Gorgonzolasauce",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "50 Min.",
+    "servings": "2 Personen",
+    "href": "spinatknoedel.html",
+    "img": "/images/spinatknoedel.png",
+    "alt": "Spinatknödel"
+},
+{
     "title": "Rezept???",
     "category": "",
     "tags": "Veggie?? • Mittel????",

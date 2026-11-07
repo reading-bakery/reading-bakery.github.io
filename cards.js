@@ -1290,6 +1290,30 @@ const recipes = [
    url: "haehnchen-paprika.html"
   },  
   {
+   title: "Spaghetti Carbonara",
+   description: "Veggie/Fleisch • Leicht • 20 Min.",
+   img: "/images/carbonara.png",
+   url: "carbonara.html"
+  },  
+  {
+   title: "Belugalinsen Curry",
+   description: "Veggie • Mittel • 45 Min.",
+   img: "/images/beluga-curry.png",
+   url: "beluga-curry.html"
+  },  
+  {
+   title: "Quiche mit Lauch und Schinken",
+   description: "Veggie/Fleisch • Leicht • 60 Min.",
+   img: "/images/quiche-lachs.png",
+   url: "quiche-lachs.html"
+  },  
+  {
+   title: "Spinatknödel mit Gorgonzolasauce",
+   description: "Veggie • Mittel • 50 Min.",
+   img: "/images/spinatknoedel.png",
+   url: "spinatknoedel.html"
+  }, 
+  {
    title: "???",
    description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",

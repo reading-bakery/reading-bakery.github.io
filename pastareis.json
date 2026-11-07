@@ -660,6 +660,26 @@
     "alt": "Tagliatelle mit Lauch"
 },
 {
+    "title": "Spaghetti Carbonara",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "20 Min.",
+    "servings": "2 Personen",
+    "href": "carbonara.html",
+    "img": "/images/carbonara.png",
+    "alt": "Carbonara"
+},
+{
+    "title": "Spinatknödel mit Gorgonzolasauce",
+    "category": "Pasta, Reis & Co.",
+    "tags": "Veggie • Mittel",
+    "time": "50 Min.",
+    "servings": "2 Personen",
+    "href": "spinatknoedel.html",
+    "img": "/images/spinatknoedel.png",
+    "alt": "Spinatknödel"
+},
+{
     "title": "Rezept???",
     "category": "",
     "tags": "Veggie?? • Mittel????",
