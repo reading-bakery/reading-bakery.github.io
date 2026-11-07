@@ -90,6 +90,16 @@
     "servings": "3 Personen"
 },
 {
+    "title": "Pizzasuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "30 Min.",
+    "servings": "06 Personen",
+    "href": "pizzasuppe.html",
+    "img": "/images/pizzasuppe.png",
+    "alt": "Pizzasuppe"
+},
+{
     "href": "mexikosuppe.html",
     "img": "/images/mexikosuppe.png",
     "alt": "Mexikosuppe",
@@ -318,6 +328,16 @@
     "tags": "Veggie/Fleisch • Leicht",
     "time": "20 Min.",
     "servings": "2 Personen"
+},
+{
+    "title": "Wikingertopf",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "20 Min.",
+    "servings": "4 Personen",
+    "href": "wikingertopf.html",
+    "img": "/images/wikingertopf.png",
+    "alt": "Wikingertopf"
 },
 {
     "title": "Rezept???",

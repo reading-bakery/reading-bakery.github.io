@@ -1370,6 +1370,36 @@
     "alt": "Pasta al Limone"
 },
 {
+    "title": "Wikingertopf",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Leicht",
+    "time": "20 Min.",
+    "servings": "4 Personen",
+    "href": "wikingertopf.html",
+    "img": "/images/wikingertopf.png",
+    "alt": "Wikingertopf"
+},
+{
+    "title": "Pizzasuppe",
+    "category": "Suppe & Eintopf",
+    "tags": "Veggie/Fleisch • Mittel",
+    "time": "30 Min.",
+    "servings": "06 Personen",
+    "href": "pizzasuppe.html",
+    "img": "/images/pizzasuppe.png",
+    "alt": "Pizzasuppe"
+},
+{
+    "title": "Hähnchen-Paprika-Auflauf",
+    "category": "Aus dem Ofen",
+    "tags": "Fleisch • Mittel",
+    "time": "65 Min.",
+    "servings": "4 Personen",
+    "href": "haehnchen-paprika.html",
+    "img": "/images/toskanischer-haehnchen-auflauf.png",
+    "alt": "Hähnchen-Paprika"
+},
+{
     "title": "Rezept???",
     "category": "",
     "tags": "Veggie?? • Mittel????",

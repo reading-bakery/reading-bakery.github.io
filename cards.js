@@ -1272,6 +1272,24 @@ const recipes = [
    url: "tabouleh.html"
   },  
   {
+   title: "Pizzasuppe",
+   description: "Veggie/Fleisch • Mittel • 30 Min.",
+   img: "/images/pizzasuppe.png",
+   url: "pizzasuppe.html"
+  },  
+  {
+   title: "Wikingertopf",
+   description: "Veggie/Fleisch • Leicht • 20 Min.",
+   img: "/images/wikingertopf.png",
+   url: "wikingertopf.html"
+  },  
+  {
+   title: "Hähnchen-Paprika-Auflauf",
+   description: "Fleisch • Mittel • 65 Min.",
+   img: "/images/toskanischer-haehnchen-auflauf.png",
+   url: "haehnchen-paprika.html"
+  },  
+  {
    title: "???",
    description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",
