@@ -1314,6 +1314,12 @@ const recipes = [
    url: "spinatknoedel.html"
   }, 
   {
+   title: "Zwiebelsuppe",
+   description: "Veggie • Leicht • 45 Min.",
+   img: "/images/zwiebelsuppe.png",
+   url: "zwiebelsuppe.html"
+  },  
+  {
    title: "???",
    description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",
