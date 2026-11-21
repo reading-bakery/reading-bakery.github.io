@@ -1326,6 +1326,12 @@ const recipes = [
    url: "gruenkohlcremesuppe.html"
   },  
   {
+   title: "Blumenkohl Steak",
+   description: "Veggie • Leicht • 50 Min.",
+   img: "/images/blumenkohl-steak.png",
+   url: "blumenkohl-steak.html"
+  },  
+  {
    title: "???",
    description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",
