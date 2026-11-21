@@ -1320,6 +1320,12 @@ const recipes = [
    url: "zwiebelsuppe.html"
   },  
   {
+   title: "Grünkohlsuppe",
+   description: "Veggie • Leicht • 30 Min.",
+   img: "/images/gruenkohlcremesuppe.png",
+   url: "gruenkohlcremesuppe.html"
+  },  
+  {
    title: "???",
    description: "Veggie • Leicht • 5 Min.",
    img: "/images/???.png",
